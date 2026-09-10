@@ -1,0 +1,9 @@
+# Starter configuration; verify schema and split dates before training.
+task: demand
+target: pickup_count
+random_seed: 42
+output_dir: models/demand
+split_strategy: chronological
+train_end: null
+validation_end: null
+horizons_hours: [24, 48, 72]

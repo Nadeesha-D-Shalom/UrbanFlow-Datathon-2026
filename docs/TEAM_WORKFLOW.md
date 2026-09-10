@@ -2,10 +2,10 @@
 
 | Owner | Primary folders | First deliverable |
 |---|---|---|
-| Member 1: data and EDA | `src/urbanflow/preprocessing`, `src/urbanflow/features`, notebooks 01-02 | Schema, reproducible sample, anomaly audit, cleaned partitions |
-| Member 2: fare and duration | `src/urbanflow/models`, notebooks 03-04 | Baselines, chronological evaluation, saved prediction pipelines |
-| Member 3: demand and spatial | `src/urbanflow/forecasting`, `src/urbanflow/spatial`, notebooks 05-06 | Hourly counts, seasonal baseline, hotspot clusters and flows |
-| Member 4: integration | `dashboard`, `docs/architecture`, `reports`, notebook 07 | Dashboard skeleton, architecture, integrated demonstration |
+| Member 1: data and EDA | `src/data_cleaning.py`, `src/feature_engineering.py`, notebooks 01-02 | Schema, reproducible sample, anomaly audit, cleaned partitions |
+| Member 2: fare and duration | `scripts/train_fare.py and scripts/train_eta.py`, notebooks 03-04 | Baselines, chronological evaluation, saved prediction pipelines |
+| Member 3: demand and spatial | `scripts/train_demand.py`, `notebooks/06_spatial_analysis.ipynb`, notebooks 05-06 | Hourly counts, seasonal baseline, hotspot clusters and flows |
+| Member 4: integration | `dashboard`, `docs/architecture`, `reports`, docs/research/07_business_insights.ipynb | Dashboard skeleton, architecture, integrated demonstration |
 
 Each member owns a branch and writes their report section. Review changes before
 merging. Coordinate shared schema and feature code with Member 1. Everyone helps

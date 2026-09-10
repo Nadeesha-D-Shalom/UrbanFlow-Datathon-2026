@@ -1,0 +1,9 @@
+# Starter configuration; verify schema and split dates before training.
+task: fare
+target: base_fare
+random_seed: 42
+output_dir: models/fare
+split_strategy: chronological
+train_end: null
+validation_end: null
+metrics: [mae, rmse, r2]

@@ -31,3 +31,13 @@ __pycache__/
 __MACOSX/
 Urban_Flow_Analytics_Dataset_csv/
 Urban_Flow_Analytics_Dataset_csv.zip
+
+# IDE state and nested artifact folders
+.idea/
+!/models/**/
+!/models/**/.gitkeep
+!/submission/TeamName_FinalNotebook.ipynb
+/reports/figures/*
+!/reports/figures/.gitkeep
+/reports/final_report/*
+!/reports/final_report/.gitkeep
