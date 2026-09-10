@@ -1,0 +1,160 @@
+Up to the point **before creating `train_fare_ridge.py`**, we completed the entire data-preparation pipeline for your Fare Prediction part.
+
+1. We created `scripts/preprocess.py` and confirmed all **12 monthly taxi CSV files** were detected.
+
+2. We installed **Polars** in your `.venv`.
+
+3. We checked the schemas of all 12 files and confirmed they all had the same 20 columns.
+
+4. We standardized data types:
+
+   * timestamps → `Datetime`
+   * rider count / IDs → integer types where appropriate
+
+5. We checked missing values across all **48,601,782 original rows**.
+
+6. We found systematic missingness in:
+
+   * `rider_count`
+   * `rate_class_id`
+   * `offline_record_flag`
+   * `zone_congestion_fee`
+   * `Airport_fee`
+
+   All five were missing together on **12,405,268 rows (25.5243%)**.
+
+7. We checked missing values by month and by `provider_code`.
+
+8. We analyzed the main anomalies required by the challenge:
+
+   * Negative base fare: **2,400,031**
+   * Zero distance + non-zero fare: **1,471,746**
+   * Zero rider count: **231,578**
+   * Drop-off before pickup: **1,942**
+   * Non-positive trip duration: **651,610**
+
+9. We analyzed fare, distance, duration, and speed distributions to identify extreme outliers.
+
+10. We evaluated several speed thresholds and selected **80 mph** as a conservative unrealistic-speed threshold:
+
+* Speed > 80 mph: **13,589 rows (0.0280%)**
+
+11. We created:
+
+```text
+data/interim/anomaly_summary.csv
+```
+
+12. We checked anomaly overlap and found:
+
+* Rows with at least one anomaly: **4,537,187**
+* Percentage affected: **9.3354%**
+
+13. We defined cleaning rules. We removed rows with:
+
+* negative fare
+* zero distance + non-zero fare
+* invalid timestamp order
+* non-positive duration
+* speed > 80 mph
+
+We did **not automatically delete zero rider-count rows**.
+
+14. After cleaning:
+
+* Rows removed: **4,315,093**
+* Rows retained: **44,286,689**
+
+15. We created the shared cleaned dataset:
+
+```text
+data/processed/trips_clean.parquet
+```
+
+16. We verified that file successfully contained:
+
+```text
+44,286,689 rows
+```
+
+17. We then moved specifically to **your Member 1 Fare Prediction part** and created:
+
+```text
+data/processed/fare_features.parquet
+```
+
+The initial fare features were:
+
+```text
+pickup_timestamp
+provider_code
+origin_loc_id
+dest_loc_id
+rider_count
+rate_class_id
+pickup_hour
+pickup_day_of_week
+pickup_month
+is_weekend
+base_fare
+```
+
+We deliberately excluded post-trip leakage features such as:
+
+```text
+dropoff_timestamp
+trip_duration_minutes
+speed_mph
+charge_total
+driver_tip_payment
+toll_total
+```
+
+18. We checked the fare feature dataset and found that `rider_count` and `rate_class_id` still had **9,861,892 missing values**.
+
+19. Instead of throwing away those rows, we encoded missing values as:
+
+```text
+rider_count   → -1
+rate_class_id → -1
+```
+
+and saved:
+
+```text
+data/processed/fare_features_imputed.parquet
+```
+
+20. We created an initial chronological **70/15/15 train/validation/test split**, but discovered abnormal dates going back to 2008.
+
+21. We investigated those timestamps and found only **11 records before 2025-04-01**.
+
+22. We restricted the Fare dataset to the valid challenge period:
+
+```text
+2025-04-01 00:00:00
+to
+2026-03-31 23:59:59
+```
+
+23. Finally, we recreated the chronological splits:
+
+```text
+data/splits/fare_train.parquet
+data/splits/fare_validation.parquet
+data/splits/fare_test.parquet
+```
+
+with:
+
+```text
+Total valid rows : 44,286,676
+
+Train            : 31,000,673
+Validation       : 6,643,001
+Test             : 6,643,002
+```
+
+So at this point, **data cleaning, fare feature preparation, imputation, and chronological splitting are done**.
+
+We have **not started model training yet**. The next stage would be to review the feature design carefully before training Ridge, Decision Tree, HistGradientBoosting, and LightGBM.
