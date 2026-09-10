@@ -1,3 +1,8 @@
+> **Workspace setup:** The folder scaffold and starter notebooks are now available.
+> Start with [Project structure and setup](docs/PROJECT_STRUCTURE.md),
+> [Four-member workflow](docs/TEAM_WORKFLOW.md), and [Data locations](data/README.md).
+> The sections below describe the planned solution; model development has not started.
+
 # UrbanFlow Datathon 2026
 
 An end-to-end data science and machine learning solution developed for the **SLIIT Codefest Datathon 2026 — Urban Flow Analytics Data Challenge**.

@@ -1,0 +1,9 @@
+{
+  "taxi_data": "Urban_Flow_Analytics_Dataset_csv/Urban_Flow_Analytics_Dataset_csv",
+  "taxi_glob": "Urban_Flow_Analytics_Taxi_Dataset_*.csv",
+  "zone_data": "data/raw/zones/Urban_Flow_Analytics_Zone_Dataset.csv",
+  "processed_data": "data/processed",
+  "split_data": "data/splits",
+  "models": "models",
+  "results": "results"
+}

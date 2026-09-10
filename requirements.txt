@@ -1,0 +1,10 @@
+# Starter dependencies; pin versions after the team validates its environment.
+numpy
+pandas
+pyarrow
+scikit-learn
+matplotlib
+seaborn
+jupyterlab
+plotly
+streamlit
