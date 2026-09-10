@@ -1,0 +1,33 @@
+# Private competition data and generated artifacts
+/data/**
+!/data/**/
+!/data/**/.gitkeep
+!/data/README.md
+/Urban_Flow_Analytics_Dataset_csv/
+*.csv
+*.parquet
+*.zip
+*.pkl
+*.joblib
+/models/**
+!/models/.gitkeep
+/results/**
+!/results/**/
+!/results/**/.gitkeep
+/submission/**
+!/submission/.gitkeep
+# Local environments and credentials
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+*.egg-info/
+.DS_Store
+__MACOSX/
+Urban_Flow_Analytics_Dataset_csv/
+Urban_Flow_Analytics_Dataset_csv.zip
