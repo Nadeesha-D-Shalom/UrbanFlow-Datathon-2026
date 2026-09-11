@@ -3,15 +3,18 @@ import { AnalyticsCard } from "../cards/AnalyticsCard";
 import { api } from "../../services/api";
 import zonesData from "../../data/generated/zone_activity.json";
 import options from "../../data/generated/fare_metadata.json";
-import modelInfo from "../../data/generated/duration_model_info.json";
 
 const zones = zonesData.filter(zone => zone.reference_matched)
   .map(zone => ({ id: zone.zone_id, name: `${zone.zone_name} — ${zone.area}` }))
   .sort((a,b) => a.name.localeCompare(b.name, "en"));
 const nameOf = id => zones.find(zone => zone.id === id)?.name;
+const zoneParts = id => nameOf(id)?.split(" — ") || ["Unknown zone", "Unknown area"];
+const formatPickup = value => new Intl.DateTimeFormat("en-GB", {
+  day: "numeric", month: "short", year: "numeric", hour: "2-digit", minute: "2-digit",
+}).format(new Date(value));
 const initial = { provider_code: "", pickup_timestamp: "", rider_count: "1", rate_class_id: "", origin_loc_id: "", dest_loc_id: "" };
 
-export function DurationPrediction() {
+export function DurationPrediction({ compact = false }) {
   const [form, setForm] = useState(initial);
   const [pending, setPending] = useState(false);
   const [result, setResult] = useState(null);
@@ -41,7 +44,7 @@ export function DurationPrediction() {
     } finally { clearTimeout(timeout); request.current = null; setPending(false); }
   }
   return (
-    <section className="duration-section" aria-label="Trip Duration Prediction">
+    <section className={`duration-section ${compact ? "duration-section--compact" : ""}`} aria-label="Trip Duration Prediction">
       <div className="fare-grid">
         <AnalyticsCard title="Trip Duration Prediction" description="Use trip details known before departure.">
           <form className="fare-form" aria-label="Duration trip details" onSubmit={submit}>
@@ -71,27 +74,20 @@ export function DurationPrediction() {
         <AnalyticsCard title="Estimated Trip Duration">
           <div className="fare-result" aria-live="polite" aria-busy={pending}>
             {pending ? <p role="status">Calculating duration…</p> : error ? <p role="alert" className="fare-error">{error}</p> : result ? <>
-              <strong className="duration-result__value">{result.value.toFixed(1)} min</strong>
+              <p className="result-kicker">Estimated Trip Duration</p>
+              <strong className="duration-result__value">{Math.round(result.value)} min</strong>
               <p className="fare-context">Model estimate before trip start.</p>
               <dl className="duration-result__details">
-                <dt>Pickup zone</dt><dd>{nameOf(result.payload.origin_loc_id)}</dd>
-                <dt>Destination zone</dt><dd>{nameOf(result.payload.dest_loc_id)}</dd>
-                <dt>Pickup date/time</dt><dd>{result.payload.pickup_timestamp.slice(0,16).replace("T", " ")} (local)</dd>
+                <dt>Route</dt><dd>{zoneParts(result.payload.origin_loc_id)[0]} → {zoneParts(result.payload.dest_loc_id)[0]}</dd>
+                <dt>Areas</dt><dd>{zoneParts(result.payload.origin_loc_id)[1]} → {zoneParts(result.payload.dest_loc_id)[1]}</dd>
+                <dt>Pickup</dt><dd>{formatPickup(result.payload.pickup_timestamp)}</dd>
+                <dt>Trip details</dt><dd>Provider {result.payload.provider_code} · Rate class {result.payload.rate_class_id} · {result.payload.rider_count} rider{result.payload.rider_count === 1 ? "" : "s"}</dd>
               </dl>
             </> : <p className="fare-context">Enter trip details to estimate duration before departure.</p>}
           </div>
         </AnalyticsCard>
       </div>
-      <AnalyticsCard title="Duration model information" description={modelInfo.model === "LGBMRegressor" ? "LightGBM Regressor" : "Decision Tree Regressor"}>
-        <div className="fare-model-info">
-          <dl className="model-metrics">
-            <div><dt>Test MAE (min)</dt><dd>{modelInfo.test.mae.toFixed(4)}</dd></div>
-            <div><dt>Test RMSE (min)</dt><dd>{modelInfo.test.rmse.toFixed(4)}</dd></div>
-            <div><dt>Test R²</dt><dd>{modelInfo.test.r2.toFixed(4)}</dd></div>
-          </dl>
-          <p>Evaluated on all {modelInfo.test.rows.toLocaleString("en-US")} held-out March 2026 trips. Selected by validation MAE; trained on {modelInfo.train_rows.toLocaleString("en-US")} training trips{modelInfo.sampled_training ? " sampled with seed 42" : ""}.</p>
-        </div>
-      </AnalyticsCard>
+      {!compact && null}
     </section>
   );
 }

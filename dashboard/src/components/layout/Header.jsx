@@ -1,4 +1,4 @@
-export function Header({ title, onOpenMobileSidebar }) {
+export function Header({ title, onOpenMobileSidebar, onStartTour }) {
   return (
     <header className="header">
       <div className="header__left">
@@ -14,6 +14,18 @@ export function Header({ title, onOpenMobileSidebar }) {
         </span>
       </div>
       <div className="header__right">
+        {onStartTour && (
+          <button
+            type="button"
+            className="tour-start-btn"
+            onClick={onStartTour}
+            aria-label="Start Tour"
+            data-tour="start-tour-button"
+          >
+            <span className="tour-start-btn__icon" aria-hidden="true">✨</span>
+            <span>Start Tour</span>
+          </button>
+        )}
         <details className="profile-menu">
           <summary aria-label="Open profile menu">
             <span className="header__avatar">OT</span>

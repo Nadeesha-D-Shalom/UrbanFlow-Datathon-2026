@@ -2296,6 +2296,58 @@ hr {
 
 }
 
+.demand-summary {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 6px 24px;
+  align-items: baseline;
+  padding: 16px 18px;
+  margin-bottom: 18px;
+  background: #eef4ff;
+  border: 1px solid #dbeafe;
+  border-radius: 10px;
+}
+
+.demand-summary span {
+  color: #64748b;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+}
+
+.demand-summary strong { font-size: 15px; }
+
+.demand-chart-grid,
+.demand-bottom-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin-bottom: 18px;
+}
+
+.demand-ranking {
+  display: grid;
+  gap: 12px;
+  margin: 0;
+  padding-left: 24px;
+}
+
+.demand-ranking li {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 10px 0 10px 4px;
+  border-bottom: 1px solid var(--border);
+}
+
+.demand-insight { color: #475569; line-height: 1.7; }
+
+@media (max-width: 800px) {
+  .demand-summary,
+  .demand-chart-grid,
+  .demand-bottom-grid { grid-template-columns: 1fr; }
+}
+
 .section-header {
 
   display: flex;
@@ -3061,15 +3113,41 @@ hr {
   }
 
   .page-heading h1 {
-
-    font-size: 24px;
-
+    font-size: 22px;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
   }
 
   .page-heading {
-
+    display: flex;
+    flex-direction: column;
     align-items: flex-start;
+    gap: 12px;
+    width: 100%;
+    min-width: 0;
+  }
 
+  .page-heading > div {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .fare-revenue-header-actions,
+  .efficiency-header-actions,
+  .insights-header-actions {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .fare-revenue-header-actions .secondary-button,
+  .efficiency-header-actions .secondary-button,
+  .insights-header-actions .secondary-button {
+    width: 100%;
+    text-align: center;
+    white-space: normal;
   }
 
   .preview-label {
@@ -3467,7 +3545,61 @@ hr {
 /* Fare prediction uses the existing card and responsive workspace foundation. */
 .predictions-page .page-heading h1 { font-size: 26px; font-weight: 600; letter-spacing: -.5px; }
 .fare-api-status, .fare-context { color: var(--text-soft); font-size: 12px; line-height: 1.6; }
-.fare-grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: 18px; }
+.prediction-tools { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; align-items: start; margin-bottom: 22px; }
+.prediction-tools--duration { grid-template-columns: 1fr; }
+.prediction-tools--duration .fare-grid { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(280px, .85fr); gap: 20px; }
+.prediction-tools > .analytics-card { min-width: 0; }
+.prediction-tools .fare-grid { grid-template-columns: 1fr; gap: 16px; }
+.prediction-tools .analytics-card__body { padding: 20px 22px; }
+.prediction-tools .fare-form, .prediction-tools .fare-result { padding: 4px 2px 8px; }
+.prediction-tools .fare-form fieldset { gap: 16px 18px; margin-bottom: 14px; }
+.prediction-tools .fare-form label { gap: 7px; font-size: 13px; font-weight: 550; color: #334155; }
+.prediction-tools .fare-form input, .prediction-tools .fare-form select { height: 42px; padding: 8px 12px; font-size: 13px; border: 1px solid #cbd5e1; border-radius: 8px; background: #ffffff; color: #0f172a; transition: border-color 0.15s ease, box-shadow 0.15s ease; }
+.prediction-tools .fare-form input:focus, .prediction-tools .fare-form select:focus { border-color: #2563eb; box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15); outline: none; }
+.prediction-tools .fare-form .primary-button { margin-top: 14px; height: 42px; padding: 0 22px; font-size: 14px; font-weight: 600; border-radius: 8px; }
+.prediction-tools .fare-result { gap: 14px; }
+.prediction-tools .fare-result__details { gap: 10px; }
+.prediction-metrics { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.prediction-metrics > div { display: grid; gap: 5px; padding: 12px 14px; border-left: 3px solid var(--primary-light); background: #f8fafc; border-radius: 0 8px 8px 0; }
+.prediction-metrics span { color: var(--text-soft); font-size: 12px; }
+.prediction-tabs { display: inline-flex; gap: 6px; padding: 5px; margin-bottom: 22px; background: #f1f5f9; border-radius: 10px; border: 1px solid #e2e8f0; }
+.prediction-tabs button { border: 0; border-radius: 7px; padding: 9px 18px; background: transparent; color: #64748b; font-weight: 600; font-size: 13px; cursor: pointer; transition: all 0.15s ease; }
+.prediction-tabs button.is-active { background: #ffffff; color: #0f172a; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08); }
+.result-kicker { color: var(--text-soft); font-size: 12px; margin: 0; }
+.duration-result__value { font-size: 38px; font-weight: 650; font-variant-numeric: tabular-nums; }
+.duration-result__details { display: grid; gap: 9px; margin: 0; font-size: 12px; }
+.duration-result__details dt { color: var(--text-soft); float: left; width: 82px; }
+.duration-result__details dd { margin: 0 0 0 82px; overflow-wrap: anywhere; line-height: 1.45; }
+.spatial-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; margin-bottom: 18px; }
+.spatial-ranking, .flow-ranking { display: grid; gap: 12px; list-style: none; padding: 0; margin: 0; }
+.spatial-ranking li, .flow-ranking li { display: grid; grid-template-columns: 22px minmax(0, 1fr) auto; gap: 10px; align-items: center; padding: 10px 0; border-bottom: 1px solid var(--border); }
+.spatial-ranking li > div, .flow-ranking li > div { min-width: 0; display: grid; gap: 3px; }
+.spatial-ranking strong, .flow-ranking strong { font-size: 12px; font-weight: 550; overflow-wrap: anywhere; }
+.spatial-ranking small, .flow-ranking small, .spatial-ranking__value small { color: var(--text-soft); font-size: 11px; }
+.spatial-ranking__rank { color: var(--text-soft); font-variant-numeric: tabular-nums; }
+.spatial-ranking__value { display: grid; gap: 3px; text-align: right; font-size: 12px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.spatial-insight { color: #475569; line-height: 1.7; }
+.cluster-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.cluster-summary { padding: 12px; border: 1px solid var(--border); border-radius: var(--radius-sm); }
+.cluster-summary__heading { display: flex; justify-content: space-between; gap: 12px; }
+.cluster-summary__heading span, .cluster-summary p, .cluster-summary small, .spatial-method-note { color: var(--text-soft); font-size: 11px; line-height: 1.5; }
+.cluster-summary p { margin-top: 7px; }
+.cluster-summary small { display: block; margin-top: 8px; }
+.spatial-method-note { margin-top: 14px; }
+.spatial-period-definition { display: block; color: var(--text-soft); margin-top: 8px; }
+.taxi-zone-map { position: relative; overflow: hidden; background: #eef4f5; border: 1px solid var(--border); border-radius: var(--radius-sm); }
+.taxi-zone-map svg { display: block; width: 100%; height: 450px; }
+.taxi-zone-map path { transition: fill-opacity .15s; }
+.taxi-zone-map path:hover { fill-opacity: .95; stroke: #0f172a; stroke-width: 1.4; }
+.taxi-zone-map__legend { display: flex; flex-wrap: wrap; align-items: center; gap: 7px; padding: 10px 12px; background: rgba(255,255,255,.92); border-top: 1px solid var(--border); color: var(--text-soft); font-size: 11px; }
+.taxi-zone-map__legend i { width: 12px; height: 12px; display: inline-block; border-radius: 2px; }
+.map-legend-low { background: #2563eb; opacity: .3; }
+.map-legend-high { background: #113f9e; }
+.flow-bars { display: grid; gap: 16px; }
+.flow-bars__label { display: flex; justify-content: space-between; gap: 12px; font-size: 12px; }
+.flow-bars__label span { overflow-wrap: anywhere; }
+.flow-bars__track { height: 7px; margin-top: 6px; background: #edf1f7; border-radius: 2px; overflow: hidden; }
+.flow-bars__track i { display: block; height: 100%; background: var(--primary); }
 .fare-form, .fare-result, .fare-model-info { padding: 6px 6px 18px; }
 .fare-form fieldset { border: 0; padding: 0; margin: 0 0 16px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px 16px; min-width: 0; }
 .fare-form label { display: grid; gap: 8px; min-width: 0; font-size: 12px; color: var(--text); }
@@ -3483,5 +3615,6 @@ hr {
 .fare-error { color: var(--critical); line-height: 1.6; font-size: 13px; }
 .fare-model-info .model-metrics { max-width: 600px; margin: 0 0 16px; }
 .fare-model-info p { font-size: 12px; color: var(--text-soft); line-height: 1.7; }
-@media (max-width: 1024px) { .fare-grid { grid-template-columns: 1fr; } }
-@media (max-width: 600px) { .fare-form fieldset { grid-template-columns: 1fr; } .predictions-page .page-heading { flex-wrap: wrap; } }
+@media (max-width: 1024px) { .fare-grid, .prediction-tools, .prediction-tools--duration .fare-grid, .spatial-grid, .cluster-grid { grid-template-columns: 1fr; } }
+@media (max-width: 600px) { .fare-form fieldset, .prediction-metrics { grid-template-columns: 1fr; } .predictions-page .page-heading { flex-wrap: wrap; } }
+@media (max-width: 600px) { .taxi-zone-map svg { height: 340px; } }

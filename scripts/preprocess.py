@@ -214,6 +214,51 @@ date_anomalies = taxi_df.select(
     ]
 ).collect()
 
+anomaly_summary = taxi_df.select(
+    [
+        pl.len().alias("total_rows"),
+
+        pl.col("flag_negative_fare")
+        .sum()
+        .alias("negative_fare"),
+
+        pl.col("flag_zero_distance_nonzero_fare")
+        .sum()
+        .alias("zero_distance_nonzero_fare"),
+
+        pl.col("flag_zero_rider_count")
+        .sum()
+        .alias("zero_rider_count"),
+
+        pl.col("flag_dropoff_before_pickup")
+        .sum()
+        .alias("dropoff_before_pickup"),
+
+        pl.col("flag_speed_over_80")
+        .sum()
+        .alias("speed_over_80"),
+    ]
+).collect()
+
+total = anomaly_summary["total_rows"][0]
+
+for column in [
+    "negative_fare",
+    "zero_distance_nonzero_fare",
+    "zero_rider_count",
+    "dropoff_before_pickup",
+    "speed_over_80",
+]:
+    count = anomaly_summary[column][0]
+    percentage = (count / total) * 100
+
+    print(
+        f"{column}: "
+        f"{count:,} rows "
+        f"({percentage:.6f}%)"
+    )
+
+
 cleaned_df = (
     taxi_df
     .filter(~pl.col("remove_row"))

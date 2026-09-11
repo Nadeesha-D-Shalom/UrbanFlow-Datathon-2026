@@ -31,7 +31,7 @@ test("fare form validates, disables pending requests, and handles unavailable se
   await openPredictions(page);
   await expect(page.getByText("API status: Unavailable")).toBeVisible();
   await page.getByRole("button", { name: "Predict fare", exact: true }).click();
-  expect(await page.locator("form").evaluate(form => form.checkValidity())).toBe(false);
+  expect(await page.locator("form.fare-form").first().evaluate(form => form.checkValidity())).toBe(false);
   expect(requests).toBe(0);
   await fillTrip(page, first);
   await page.getByLabel("Rider count").fill("10");
@@ -67,7 +67,10 @@ test("two live UI predictions match the real fare API", async ({ page }) => {
     const data = await response.json();
     if (index === 0) expect(data.predicted_base_fare).toBe(88.08);
     await expect(page.locator(".fare-result__value")).toHaveText(data.predicted_base_fare.toLocaleString("en-US", { style: "currency", currency: "USD" }));
-    await expect(page.locator(".fare-result__details")).toContainText(trip.pickup_timestamp.slice(0,16).replace("T", " "));
+    const formattedPickup = new Intl.DateTimeFormat("en-GB", {
+      day: "numeric", month: "short", year: "numeric", hour: "2-digit", minute: "2-digit",
+    }).format(new Date(trip.pickup_timestamp));
+    await expect(page.locator(".fare-result__details")).toContainText(formattedPickup);
     console.log(JSON.stringify({ live_ui_payload: trip, api_prediction: data.predicted_base_fare, ui_matches: true }));
   }
   await page.screenshot({ path: "test-results/fare-desktop.png", fullPage: true });

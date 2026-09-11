@@ -11,6 +11,7 @@ export function AppShell({
   onToggleSidebar,
   onOpenMobileSidebar,
   onCloseMobileSidebar,
+  onStartTour,
   children,
 }) {
   return (
@@ -35,6 +36,7 @@ export function AppShell({
           title={pageTitle}
           breadcrumb={breadcrumb}
           onOpenMobileSidebar={onOpenMobileSidebar}
+          onStartTour={onStartTour}
         />
 
         <main id="main-content" tabIndex={-1} className="app-shell__main">

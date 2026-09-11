@@ -1,0 +1,724 @@
+{
+  "clock": "2026-09-11T12:00:00.000Z",
+  "api": "http://127.0.0.1:8000",
+  "cases": [
+    {
+      "question": "What areas could be peak tomorrow around 8 AM?",
+      "detectedIntent": "demand_forecast",
+      "extractedParameters": {
+        "timezone": "America/New_York",
+        "period": "Morning",
+        "hour": 8,
+        "minute": 0,
+        "date": "2026-09-12",
+        "future": true,
+        "model": null,
+        "direction": "pickup"
+      },
+      "source": "hotspots.json · top five per period · 2025-04-01 to 2026-03-31 · historical totals · Morning bucket, not exact 8:00 · not a future forecast",
+      "answer": {
+        "heading": "Historical pattern · requested forecast unavailable",
+        "items": [
+          "Upper East Side North: 298,128 pickups",
+          "Upper East Side South: 231,026 pickups",
+          "Penn Station/Madison Sq West: 222,365 pickups",
+          "JFK Airport: 187,150 pickups",
+          "Midtown East: 169,766 pickups"
+        ],
+        "insight": "72h ML forecast window covers April 1–3, 2026. Showing verified historical trends: Consider Upper East Side North for morning positioning based on historical totals.",
+        "status": "ok"
+      },
+      "result": "PASS"
+    },
+    {
+      "question": "Where will demand be high tomorrow morning?",
+      "detectedIntent": "demand_forecast",
+      "extractedParameters": {
+        "timezone": "America/New_York",
+        "period": "Morning",
+        "date": "2026-09-12",
+        "future": true,
+        "model": "demand",
+        "direction": "pickup"
+      },
+      "source": "hotspots.json · top five per period · 2025-04-01 to 2026-03-31 · historical totals · not a future forecast",
+      "answer": {
+        "heading": "Historical pattern · requested forecast unavailable",
+        "items": [
+          "Upper East Side North: 298,128 pickups",
+          "Upper East Side South: 231,026 pickups",
+          "Penn Station/Madison Sq West: 222,365 pickups",
+          "JFK Airport: 187,150 pickups",
+          "Midtown East: 169,766 pickups"
+        ],
+        "insight": "72h ML forecast window covers April 1–3, 2026. Showing verified historical trends: Consider Upper East Side North for morning positioning based on historical totals.",
+        "status": "ok"
+      },
+      "result": "PASS"
+    },
+    {
+      "question": "Best zones for drivers around 8?",
+      "detectedIntent": "demand_forecast",
+      "extractedParameters": {
+        "timezone": "America/New_York",
+        "period": null,
+        "future": false,
+        "model": null,
+        "direction": "pickup"
+      },
+      "source": "Deterministic intent and parameter extraction",
+      "answer": {
+        "heading": "A little more detail",
+        "items": [],
+        "insight": "Does 8 mean AM or PM?",
+        "status": "clarification"
+      },
+      "result": "PASS"
+    },
+    {
+      "question": "Which zones are busiest at night?",
+      "detectedIntent": "historical_hotspots",
+      "extractedParameters": {
+        "timezone": "America/New_York",
+        "period": "Night",
+        "future": false,
+        "model": null,
+        "direction": "pickup"
+      },
+      "source": "hotspots.json · top five per period · 2025-04-01 to 2026-03-31 · historical totals · not a future forecast",
+      "answer": {
+        "heading": "Night · historical hotspots",
+        "items": [
+          "JFK Airport: 689,318 pickups",
+          "East Village: 653,462 pickups",
+          "West Village: 542,626 pickups",
+          "Midtown Center: 527,204 pickups",
+          "Times Sq/Theatre District: 512,176 pickups"
+        ],
+        "insight": "Consider JFK Airport for night positioning based on historical totals.",
+        "status": "ok"
+      },
+      "result": "PASS"
+    },
+    {
+      "question": "Where should drivers position in the morning?",
+      "detectedIntent": "demand_forecast",
+      "extractedParameters": {
+        "timezone": "America/New_York",
+        "period": "Morning",
+        "future": false,
+        "model": null,
+        "direction": "pickup"
+      },
+      "source": "hotspots.json · top five per period · 2025-04-01 to 2026-03-31 · historical totals · not a future forecast",
+      "answer": {
+        "heading": "Driver positioning · historical pattern",
+        "items": [
+          "Upper East Side North: 298,128 pickups",
+          "Upper East Side South: 231,026 pickups",
+          "Penn Station/Madison Sq West: 222,365 pickups",
+          "JFK Airport: 187,150 pickups",
+          "Midtown East: 169,766 pickups"
+        ],
+        "insight": "No future date specified. Consider Upper East Side North for morning positioning based on historical totals.",
+        "status": "ok"
+      },
+      "result": "PASS"
+    },
+    {
+      "question": "What are the strongest evening movements?",
+      "detectedIntent": "od_flows",
+      "extractedParameters": {
+        "timezone": "America/New_York",
+        "period": "Evening",
+        "future": false,
+        "model": null,
+        "direction": "pickup"
+      },
+      "source": "od_flows.json · top ten per period · 2025-04-01 to 2026-03-31",
+      "answer": {
+        "heading": "Evening · historical OD flows",
+        "items": [
+          "Upper East Side South → Upper East Side North: 82,840 trips",
+          "Upper East Side North → Upper East Side South: 71,444 trips",
+          "Upper East Side South → Upper East Side South: 56,921 trips",
+          "Upper East Side North → Upper East Side North: 52,479 trips",
+          "Midtown Center → Upper East Side South: 45,903 trips"
+        ],
+        "insight": "Review vehicle availability at the origins of the strongest recorded corridors.",
+        "status": "ok"
+      },
+      "result": "PASS"
+    },
+    {
+      "question": "Show morning OD corridors from zone 236",
+      "detectedIntent": "od_flows",
+      "extractedParameters": {
+        "timezone": "America/New_York",
+        "period": "Morning",
+        "future": false,
+        "model": null,
+        "direction": "pickup",
+        "origin": 236
+      },
+      "source": "od_flows.json · top ten per period · 2025-04-01 to 2026-03-31",
+      "answer": {
+        "heading": "Morning · historical OD flows",
+        "items": [
+          "Upper East Side North → Midtown Center: 35,193 trips",
+          "Upper East Side North → Upper East Side South: 34,536 trips",
+          "Upper East Side North → Upper East Side North: 26,057 trips",
+          "Upper East Side North → Midtown East: 23,703 trips"
+        ],
+        "insight": "Review vehicle availability at the origins of the strongest recorded corridors.",
+        "status": "ok"
+      },
+      "result": "PASS"
+    },
+    {
+      "question": "Top pickup zones",
+      "detectedIntent": "historical_hotspots",
+      "extractedParameters": {
+        "timezone": "America/New_York",
+        "period": null,
+        "future": false,
+        "model": null,
+        "direction": "pickup"
+      },
+      "source": "zone_activity.json · 2025-04-01 to 2026-03-31 · historical totals · not a future forecast",
+      "answer": {
+        "heading": "All periods · historical hotspots",
+        "items": [
+          "Upper East Side South: 1,985,100 pickups",
+          "JFK Airport: 1,886,989 pickups",
+          "Midtown Center: 1,886,854 pickups",
+          "Upper East Side North: 1,738,665 pickups",
+          "Penn Station/Madison Sq West: 1,412,527 pickups"
+        ],
+        "insight": "Consider Upper East Side South for historical positioning based on historical totals.",
+        "status": "ok"
+      },
+      "result": "PASS"
+    },
+    {
+      "question": "Show similar zone groups",
+      "detectedIntent": "zone_clusters",
+      "extractedParameters": {
+        "timezone": "America/New_York",
+        "period": null,
+        "future": false,
+        "model": null,
+        "direction": "pickup"
+      },
+      "source": "zone_clusters.json + results/zone_cluster_assignments.csv · saved assignments",
+      "answer": {
+        "heading": "Zone activity clusters",
+        "items": [
+          "High-volume midday hubs: 41 zones",
+          "Night-oriented dropoff-heavy zones: 39 zones",
+          "Moderate daytime pickup-leaning zones: 111 zones",
+          "Low-volume dropoff-heavy zones: 70 zones"
+        ],
+        "insight": "Use similar activity profiles to compare positioning strategies.",
+        "status": "ok"
+      },
+      "result": "PASS"
+    },
+    {
+      "question": "Which cluster is JFK Airport in?",
+      "detectedIntent": "zone_clusters",
+      "extractedParameters": {
+        "timezone": "America/New_York",
+        "period": null,
+        "future": false,
+        "model": "cluster",
+        "direction": "pickup",
+        "zone": 132
+      },
+      "source": "zone_clusters.json + results/zone_cluster_assignments.csv · saved assignments",
+      "answer": {
+        "heading": "Zone activity clusters",
+        "items": [
+          "JFK Airport: High-volume midday hubs (cluster 0)"
+        ],
+        "insight": "Use similar activity profiles to compare positioning strategies.",
+        "status": "ok"
+      },
+      "result": "PASS"
+    },
+    {
+      "question": "How much will the fare cost?",
+      "detectedIntent": "fare_prediction",
+      "extractedParameters": {
+        "timezone": "America/New_York",
+        "period": null,
+        "future": true,
+        "model": "fare",
+        "direction": "pickup"
+      },
+      "source": "Deterministic intent and parameter extraction",
+      "answer": {
+        "heading": "A little more detail",
+        "items": [],
+        "insight": "Provide origin zone, destination zone, pickup date, pickup time with AM/PM, provider code. Example: Fare from zone 161 to zone 132 tomorrow at 8 AM provider 1.",
+        "status": "clarification"
+      },
+      "result": "PASS"
+    },
+    {
+      "question": "Fare from zone 161 to zone 132 tomorrow at 8 AM provider 1",
+      "detectedIntent": "fare_prediction",
+      "extractedParameters": {
+        "timezone": "America/New_York",
+        "period": "Morning",
+        "hour": 8,
+        "minute": 0,
+        "date": "2026-09-12",
+        "future": true,
+        "model": "fare",
+        "direction": "pickup",
+        "origin": 161,
+        "destination": 132,
+        "provider": 1
+      },
+      "source": "POST /api/fare/predict · 2026-09-12T08:00:00 NYC local time · omitted rider/rate values use existing service defaults",
+      "answer": {
+        "heading": "Predicted base fare",
+        "items": [
+          "$58.3"
+        ],
+        "insight": "Use this base-fare estimate for planning; tips and tolls are excluded.",
+        "status": "ok"
+      },
+      "result": "PASS"
+    },
+    {
+      "question": "How long will a trip take?",
+      "detectedIntent": "eta_prediction",
+      "extractedParameters": {
+        "timezone": "America/New_York",
+        "period": null,
+        "future": true,
+        "model": null,
+        "direction": "pickup"
+      },
+      "source": "Deterministic intent and parameter extraction",
+      "answer": {
+        "heading": "A little more detail",
+        "items": [],
+        "insight": "Provide origin zone, destination zone, pickup date, pickup time with AM/PM, provider code. Example: ETA from zone 161 to zone 132 tomorrow at 8 AM provider 1.",
+        "status": "clarification"
+      },
+      "result": "PASS"
+    },
+    {
+      "question": "ETA from Midtown Center to JFK Airport tomorrow at 8 AM provider 1",
+      "detectedIntent": "eta_prediction",
+      "extractedParameters": {
+        "timezone": "America/New_York",
+        "period": "Morning",
+        "hour": 8,
+        "minute": 0,
+        "date": "2026-09-12",
+        "future": true,
+        "model": "eta",
+        "direction": "pickup",
+        "origin": 161,
+        "destination": 132,
+        "provider": 1
+      },
+      "source": "POST /api/duration/predict · 2026-09-12T08:00:00 NYC local time · omitted rider/rate values use existing service defaults · service may fall back to the saved duration model",
+      "answer": {
+        "heading": "Predicted trip duration",
+        "items": [
+          "42.99 minutes"
+        ],
+        "insight": "Allow a time buffer; this is a model estimate, not live traffic.",
+        "status": "ok"
+      },
+      "result": "PASS"
+    },
+    {
+      "question": "How accurate is our ETA model?",
+      "detectedIntent": "model_performance",
+      "extractedParameters": {
+        "timezone": "America/New_York",
+        "period": null,
+        "future": false,
+        "model": "eta",
+        "direction": "pickup"
+      },
+      "source": "integration/eta/eta_model_metadata.json · mean rolling validation · bundled ETA model, not runtime fallback",
+      "answer": {
+        "heading": "ETA model performance",
+        "items": [
+          "MAE: 4.53 min",
+          "RMSE: 7.5 min",
+          "R²: 0.74"
+        ],
+        "insight": "Use these evaluation errors as planning context, not a guarantee for an individual prediction.",
+        "status": "ok"
+      },
+      "result": "PASS"
+    },
+    {
+      "question": "Fare model performance",
+      "detectedIntent": "model_performance",
+      "extractedParameters": {
+        "timezone": "America/New_York",
+        "period": null,
+        "future": false,
+        "model": "fare",
+        "direction": "pickup"
+      },
+      "source": "results/fare_results_nadeesha.csv · Decision Tree best run · split not specified",
+      "answer": {
+        "heading": "Fare model performance",
+        "items": [
+          "MAE: 4.56 USD",
+          "RMSE: 9.02 USD",
+          "R²: 0.74"
+        ],
+        "insight": "Use these evaluation errors as planning context, not a guarantee for an individual prediction.",
+        "status": "ok"
+      },
+      "result": "PASS"
+    },
+    {
+      "question": "Show demand RMSE",
+      "detectedIntent": "model_performance",
+      "extractedParameters": {
+        "timezone": "America/New_York",
+        "period": null,
+        "future": false,
+        "model": "demand",
+        "direction": "pickup"
+      },
+      "source": "results/metrics/demand_test_metrics.csv · recursive test evaluation",
+      "answer": {
+        "heading": "Demand model performance",
+        "items": [
+          "MAE: 60.72 pickups",
+          "RMSE: 97.92 pickups",
+          "R²: 0.58"
+        ],
+        "insight": "Use these evaluation errors as planning context, not a guarantee for an individual prediction.",
+        "status": "ok"
+      },
+      "result": "PASS"
+    },
+    {
+      "question": "Data quality summary",
+      "detectedIntent": "data_quality",
+      "extractedParameters": {
+        "timezone": "America/New_York",
+        "period": null,
+        "future": false,
+        "model": null,
+        "direction": "pickup"
+      },
+      "source": "overview_daily.json · computed aggregate integrity checks",
+      "answer": {
+        "heading": "Data quality · export checks",
+        "items": [
+          "Daily records checked: 365",
+          "Invalid count/revenue records: 0",
+          "Duplicate dates: 0"
+        ],
+        "insight": "Raw-trip missingness and duplicate-trip rates are not available in these exports; this is not a raw-data audit.",
+        "status": "ok"
+      },
+      "result": "PASS"
+    },
+    {
+      "question": "Any missing values or duplicates?",
+      "detectedIntent": "data_quality",
+      "extractedParameters": {
+        "timezone": "America/New_York",
+        "period": null,
+        "future": false,
+        "model": null,
+        "direction": "pickup"
+      },
+      "source": "overview_daily.json · computed aggregate integrity checks",
+      "answer": {
+        "heading": "Data quality · export checks",
+        "items": [
+          "Daily records checked: 365",
+          "Invalid count/revenue records: 0",
+          "Duplicate dates: 0"
+        ],
+        "insight": "Raw-trip missingness and duplicate-trip rates are not available in these exports; this is not a raw-data audit.",
+        "status": "ok"
+      },
+      "result": "PASS"
+    },
+    {
+      "question": "Give me a revenue overview",
+      "detectedIntent": "overview",
+      "extractedParameters": {
+        "timezone": "America/New_York",
+        "period": null,
+        "future": false,
+        "model": null,
+        "direction": "pickup"
+      },
+      "source": "overview_daily.json · sum of daily cleaned-data aggregates",
+      "answer": {
+        "heading": "Historical mobility overview",
+        "items": [
+          "Trips: 44,286,676",
+          "Base fare revenue: $918,276,181.99",
+          "Period: 2025-04-01 to 2026-03-31"
+        ],
+        "insight": "Use recorded activity for capacity planning; base fares exclude tips and tolls.",
+        "status": "ok"
+      },
+      "result": "PASS"
+    },
+    {
+      "question": "Total trips on 2025-04-01",
+      "detectedIntent": "overview",
+      "extractedParameters": {
+        "timezone": "America/New_York",
+        "period": null,
+        "date": "2025-04-01",
+        "future": false,
+        "model": null,
+        "direction": "pickup"
+      },
+      "source": "overview_daily.json · sum of daily cleaned-data aggregates",
+      "answer": {
+        "heading": "Historical mobility overview",
+        "items": [
+          "Trips: 120,016",
+          "Base fare revenue: $2,331,400.31",
+          "Period: 2025-04-01 to 2025-04-01"
+        ],
+        "insight": "Use recorded activity for capacity planning; base fares exclude tips and tolls.",
+        "status": "ok"
+      },
+      "result": "PASS"
+    },
+    {
+      "question": "Revenue on 2024-01-01",
+      "detectedIntent": "overview",
+      "extractedParameters": {
+        "timezone": "America/New_York",
+        "period": null,
+        "date": "2024-01-01",
+        "future": false,
+        "model": null,
+        "direction": "pickup"
+      },
+      "source": "overview_daily.json",
+      "answer": {
+        "heading": "No daily records for that date",
+        "items": [],
+        "insight": "Available history: 2025-04-01 to 2026-03-31.",
+        "status": "empty"
+      },
+      "result": "PASS"
+    },
+    {
+      "question": "Tell me a joke",
+      "detectedIntent": "unsupported",
+      "extractedParameters": {
+        "timezone": "America/New_York",
+        "period": null,
+        "future": false,
+        "model": null,
+        "direction": "pickup"
+      },
+      "source": "No matching analytics intent",
+      "answer": {
+        "heading": "Choose an UrbanFlow analytics topic",
+        "items": [],
+        "insight": "Ask about demand, hotspots, OD flows, clusters, fare, ETA, model performance, data quality, or revenue.",
+        "status": "unsupported"
+      },
+      "result": "PASS"
+    },
+    {
+      "question": "Demand next week",
+      "detectedIntent": "demand_forecast",
+      "extractedParameters": {
+        "timezone": "America/New_York",
+        "period": null,
+        "future": false,
+        "model": "demand",
+        "direction": "pickup"
+      },
+      "source": "Deterministic intent and parameter extraction",
+      "answer": {
+        "heading": "A little more detail",
+        "items": [],
+        "insight": "Please specify a calendar date (YYYY-MM-DD); weekday and week/month ranges are not supported yet.",
+        "status": "clarification"
+      },
+      "result": "PASS"
+    },
+    {
+      "question": "Forecast demand on 2026-04-01 at 8 AM",
+      "detectedIntent": "demand_forecast",
+      "extractedParameters": {
+        "timezone": "America/New_York",
+        "period": "Morning",
+        "hour": 8,
+        "minute": 0,
+        "date": "2026-04-01",
+        "future": true,
+        "model": "demand",
+        "direction": "pickup"
+      },
+      "source": "/api/demand/forecast?horizon=72 · saved recursive forecast · 2026-04-01T08:00:00 to 2026-04-01T08:00:00 NYC · selected zones only",
+      "answer": {
+        "heading": "Model forecast · expected pickups",
+        "items": [
+          "Upper East Side North: 307.61 pickups",
+          "Penn Station/Madison Sq West: 248.5 pickups",
+          "Upper East Side South: 235.23 pickups",
+          "Midtown Center: 145.16 pickups",
+          "JFK Airport: 123.92 pickups"
+        ],
+        "insight": "Prioritize availability near Upper East Side North; predicted pickups do not measure unmet demand.",
+        "status": "ok"
+      },
+      "result": "PASS"
+    },
+    {
+      "question": "Fare from zone 9999 to zone 132 tomorrow at 8 AM provider 1",
+      "detectedIntent": "fare_prediction",
+      "extractedParameters": {
+        "timezone": "America/New_York",
+        "period": "Morning",
+        "hour": 8,
+        "minute": 0,
+        "date": "2026-09-12",
+        "future": true,
+        "model": "fare",
+        "direction": "pickup",
+        "destination": 132,
+        "provider": 1
+      },
+      "source": "Deterministic intent and parameter extraction",
+      "answer": {
+        "heading": "A little more detail",
+        "items": [],
+        "insight": "Specify a recognized origin zone name or zone ID.",
+        "status": "clarification"
+      },
+      "result": "PASS"
+    },
+    {
+      "question": "Strongest night flows from zone 12",
+      "detectedIntent": "od_flows",
+      "extractedParameters": {
+        "timezone": "America/New_York",
+        "period": "Night",
+        "future": false,
+        "model": null,
+        "direction": "pickup",
+        "origin": 12
+      },
+      "source": "od_flows.json · top ten per period · 2025-04-01 to 2026-03-31",
+      "answer": {
+        "heading": "Night · historical OD flows",
+        "items": [],
+        "insight": "No matching pair appears in the exported top ten; this does not mean zero trips.",
+        "status": "empty"
+      },
+      "result": "PASS"
+    },
+    {
+      "question": "Forecast next 96 hours",
+      "detectedIntent": "demand_forecast",
+      "extractedParameters": {
+        "timezone": "America/New_York",
+        "period": null,
+        "horizon": 96,
+        "future": true,
+        "model": null,
+        "direction": "pickup"
+      },
+      "source": "zone_activity.json · 2025-04-01 to 2026-03-31 · historical totals · not a future forecast",
+      "answer": {
+        "heading": "Historical pattern · forecast unavailable",
+        "items": [
+          "Upper East Side South: 1,985,100 pickups",
+          "JFK Airport: 1,886,989 pickups",
+          "Midtown Center: 1,886,854 pickups",
+          "Upper East Side North: 1,738,665 pickups",
+          "Penn Station/Madison Sq West: 1,412,527 pickups"
+        ],
+        "insight": "The saved forecast supports at most 72 hours. Consider Upper East Side South for historical positioning based on historical totals.",
+        "status": "ok"
+      },
+      "result": "PASS"
+    },
+    {
+      "question": "Busiest zones at 25:00",
+      "detectedIntent": "historical_hotspots",
+      "extractedParameters": {
+        "timezone": "America/New_York",
+        "period": null,
+        "future": false,
+        "model": null,
+        "direction": "pickup"
+      },
+      "source": "Deterministic intent and parameter extraction",
+      "answer": {
+        "heading": "A little more detail",
+        "items": [],
+        "insight": "Use a valid time, such as 8 AM or 20:00.",
+        "status": "clarification"
+      },
+      "result": "PASS"
+    },
+    {
+      "question": "Fare and ETA prediction",
+      "detectedIntent": "ambiguous",
+      "extractedParameters": {
+        "timezone": "America/New_York",
+        "period": null,
+        "future": false,
+        "model": "eta",
+        "direction": "pickup"
+      },
+      "source": "Deterministic intent and parameter extraction",
+      "answer": {
+        "heading": "A little more detail",
+        "items": [],
+        "insight": "Please ask about one topic: demand, hotspots, OD flows, clusters, fare, ETA, metrics, quality, or overview.",
+        "status": "clarification"
+      },
+      "result": "PASS"
+    }
+  ],
+  "checks": [
+    {
+      "name": "Forecast outage returns explicit historical evidence",
+      "result": "PASS"
+    },
+    {
+      "name": "Prediction outage returns error without invented values",
+      "result": "PASS"
+    },
+    {
+      "name": "Invalid prediction response cannot produce a number",
+      "result": "PASS"
+    },
+    {
+      "name": "Forecast hour aggregation equals saved CSV values",
+      "result": "PASS"
+    },
+    {
+      "name": "NYC midnight date resolution is independent of browser timezone",
+      "result": "PASS"
+    },
+    {
+      "name": "Missing forecast hour never yields partial-window total",
+      "result": "PASS"
+    }
+  ]
+}

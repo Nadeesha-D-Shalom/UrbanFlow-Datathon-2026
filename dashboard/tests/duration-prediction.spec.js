@@ -20,6 +20,7 @@ test("two live UI duration predictions match the real API", async ({ page }) => 
   test.skip(process.env.URBANFLOW_LIVE_API !== "1", "Set URBANFLOW_LIVE_API=1 with the UrbanFlow API running.");
   await page.goto("/");
   await page.getByRole("button", { name: "Predictions", exact: true }).click();
+  await page.getByRole("tab", { name: "Trip Duration", exact: true }).click();
   await expect(page.getByRole("heading", { name: "Trip Duration Prediction", exact: true })).toBeVisible();
 
   for (const trip of trips) {
@@ -31,7 +32,7 @@ test("two live UI duration predictions match the real API", async ({ page }) => 
     expect(response.request().postDataJSON()).toEqual(trip);
     const data = await response.json();
     expect(data.predicted_trip_duration_minutes).toBeGreaterThan(0);
-    await expect(page.locator(".duration-result__value")).toHaveText(`${data.predicted_trip_duration_minutes.toFixed(1)} min`);
+    await expect(page.locator(".duration-result__value")).toHaveText(`${Math.round(data.predicted_trip_duration_minutes)} min`);
     console.log(JSON.stringify({ ui_payload: trip, api_prediction: data.predicted_trip_duration_minutes, ui_matches: true }));
   }
 });

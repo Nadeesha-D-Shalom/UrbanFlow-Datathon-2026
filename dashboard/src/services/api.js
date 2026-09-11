@@ -28,6 +28,7 @@ export const api = {
     method: "POST",
     body: JSON.stringify(payload),
   }),
+  demandForecast: (horizon, options = {}) => fetchJson(`/api/demand/forecast?horizon=${horizon}`, options),
   farePrediction: (payload, options = {}) => fetchJson("/api/fare/predict", {
     ...options,
     method: "POST",

@@ -108,19 +108,23 @@ export function KPICard({
 
       </div>
 
-      {change != null && <div className="kpi-card__meta">
+      {(change != null || compareLabel) && <div className="kpi-card__meta">
 
-        <span
+        {change != null && (
 
-          className={`kpi-card__change ${(lowerIsBetter ? !positive : positive) ? "is-positive" : "is-negative"}`}
+          <span
 
-        >
+            className={`kpi-card__change ${(lowerIsBetter ? !positive : positive) ? "is-positive" : "is-negative"}`}
 
-          <span aria-hidden="true">{positive ? "↗" : "↘"}</span> {changeText}
+          >
 
-        </span>
+            <span aria-hidden="true">{positive ? "↗" : "↘"}</span> {changeText}
 
-        <span className="kpi-card__compare">{compareLabel}</span>
+          </span>
+
+        )}
+
+        {compareLabel && <span className="kpi-card__compare">{compareLabel}</span>}
 
       </div>}
 

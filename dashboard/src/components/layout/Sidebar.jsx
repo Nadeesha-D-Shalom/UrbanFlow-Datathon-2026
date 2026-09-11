@@ -257,13 +257,7 @@ export function Sidebar({
           ))}
         </nav>
 
-        <div className="sidebar__footer">
-          <div className="sidebar__support">
-            <div>
-              <p>SLIIT Codefest Datathon 2026</p>
-            </div>
-          </div>
-        </div>
+
       </aside>
     </>
   );

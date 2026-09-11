@@ -44,15 +44,16 @@ export function Overview() {
         </div>
       </div>
       <GlobalFilterBar disabled periodLabel={periodLabel} />
-      <section className="kpi-grid" aria-label="Verified dataset KPIs">
+      <section className="kpi-grid" data-tour="overview-kpis" aria-label="Verified dataset KPIs">
         {overviewKPIs.map(({ label, value }) => (
           <KPICard key={label} label={label} value={value} />
         ))}
       </section>
       <section className="analytics-grid" aria-label="Historical analytics">
-        <AnalyticsCard
-          title="Trip Demand Trend"
-          description={`${interval} pickup counts`}
+        <div data-tour="overview-demand-chart">
+          <AnalyticsCard
+            title="Trip Demand Trend"
+            description={`${interval} pickup counts`}
           actions={
             <div className="segmented" aria-label="Chart interval">
               {["Daily", "Weekly"].map((value) => (
@@ -83,6 +84,7 @@ export function Overview() {
             summary={`${interval} pickup trip counts from cleaned UrbanFlow historical data. Weekly dates identify Monday week starts.`}
           />
         </AnalyticsCard>
+        </div>
         <AnalyticsCard
           title="Revenue Trend"
           description="Daily base fare revenue"

@@ -1,0 +1,13 @@
+{
+  "input": {
+    "provider_code": "2",
+    "pickup_timestamp": "2026-03-01 00:00:00",
+    "rider_count": 1.0,
+    "rate_class_id": 1.0,
+    "offline_record_flag": "N",
+    "origin_loc_id": "246",
+    "dest_loc_id": "230"
+  },
+  "expected_eta_minutes": 12.33453,
+  "actual_duration_minutes": 9.6
+}

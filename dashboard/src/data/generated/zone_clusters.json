@@ -1,0 +1,156 @@
+{
+  "selected_k": 4,
+  "features": [
+    "pickup_count",
+    "dropoff_count",
+    "pickup_dropoff_balance",
+    "morning_pickup_share",
+    "morning_balance",
+    "midday_pickup_share",
+    "midday_balance",
+    "evening_pickup_share",
+    "evening_balance",
+    "night_pickup_share",
+    "night_balance"
+  ],
+  "metrics": [
+    {
+      "k": 3,
+      "silhouette_score": 0.2549775497056415,
+      "random_state": 42,
+      "features": "pickup_count,dropoff_count,pickup_dropoff_balance,morning_pickup_share,morning_balance,midday_pickup_share,midday_balance,evening_pickup_share,evening_balance,night_pickup_share,night_balance"
+    },
+    {
+      "k": 4,
+      "silhouette_score": 0.26832247393236386,
+      "random_state": 42,
+      "features": "pickup_count,dropoff_count,pickup_dropoff_balance,morning_pickup_share,morning_balance,midday_pickup_share,midday_balance,evening_pickup_share,evening_balance,night_pickup_share,night_balance"
+    },
+    {
+      "k": 5,
+      "silhouette_score": 0.24969506541309205,
+      "random_state": 42,
+      "features": "pickup_count,dropoff_count,pickup_dropoff_balance,morning_pickup_share,morning_balance,midday_pickup_share,midday_balance,evening_pickup_share,evening_balance,night_pickup_share,night_balance"
+    },
+    {
+      "k": 6,
+      "silhouette_score": 0.26322282804705294,
+      "random_state": 42,
+      "features": "pickup_count,dropoff_count,pickup_dropoff_balance,morning_pickup_share,morning_balance,midday_pickup_share,midday_balance,evening_pickup_share,evening_balance,night_pickup_share,night_balance"
+    },
+    {
+      "k": 7,
+      "silhouette_score": 0.22498064066487755,
+      "random_state": 42,
+      "features": "pickup_count,dropoff_count,pickup_dropoff_balance,morning_pickup_share,morning_balance,midday_pickup_share,midday_balance,evening_pickup_share,evening_balance,night_pickup_share,night_balance"
+    },
+    {
+      "k": 8,
+      "silhouette_score": 0.23578591911491692,
+      "random_state": 42,
+      "features": "pickup_count,dropoff_count,pickup_dropoff_balance,morning_pickup_share,morning_balance,midday_pickup_share,midday_balance,evening_pickup_share,evening_balance,night_pickup_share,night_balance"
+    }
+  ],
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "zone_count": 41,
+      "cluster_label": "High-volume midday hubs",
+      "average_pickup_count": 848976.8780487805,
+      "average_dropoff_count": 760731.0,
+      "dominant_period": "Midday",
+      "representative_zones": [
+        "Midtown South",
+        "Garment District",
+        "Gramercy"
+      ],
+      "average_pickup_shares": {
+        "Morning": 0.11038742836123469,
+        "Midday": 0.33522242125578844,
+        "Evening": 0.2681235889378525,
+        "Night": 0.2862665614451243
+      },
+      "average_balances": {
+        "Morning": -0.022116075321837268,
+        "Midday": 0.0790773840419646,
+        "Evening": 0.11875586695816669,
+        "Night": 0.07669424012212914
+      }
+    },
+    {
+      "cluster_id": 1,
+      "zone_count": 39,
+      "cluster_label": "Night-oriented dropoff-heavy zones",
+      "average_pickup_count": 109444.2564102564,
+      "average_dropoff_count": 129185.02564102564,
+      "dominant_period": "Night",
+      "representative_zones": [
+        "Long Island City/Hunters Point",
+        "Elmhurst",
+        "Boerum Hill"
+      ],
+      "average_pickup_shares": {
+        "Morning": 0.11777180682819509,
+        "Midday": 0.21597920596212683,
+        "Evening": 0.18330618080205438,
+        "Night": 0.48294280640762366
+      },
+      "average_balances": {
+        "Morning": -0.1884212581300456,
+        "Midday": -0.2631849482089751,
+        "Evening": -0.24870559323248217,
+        "Night": -0.13189612686272742
+      }
+    },
+    {
+      "cluster_id": 2,
+      "zone_count": 111,
+      "cluster_label": "Moderate daytime pickup-leaning zones",
+      "average_pickup_count": 42445.252252252256,
+      "average_dropoff_count": 59689.576576576575,
+      "dominant_period": "Midday",
+      "representative_zones": [
+        "Crown Heights South",
+        "Flatbush/Ditmas Park",
+        "Mount Hope"
+      ],
+      "average_pickup_shares": {
+        "Morning": 0.29901229901614607,
+        "Midday": 0.3178263237339148,
+        "Evening": 0.14498202364009102,
+        "Night": 0.2381793536098482
+      },
+      "average_balances": {
+        "Morning": 0.12807478212419146,
+        "Midday": -0.1343515065828843,
+        "Evening": -0.3398437499580875,
+        "Night": -0.3955361993003513
+      }
+    },
+    {
+      "cluster_id": 3,
+      "zone_count": 70,
+      "cluster_label": "Low-volume dropoff-heavy zones",
+      "average_pickup_count": 6070.828571428571,
+      "average_dropoff_count": 16542.97142857143,
+      "dominant_period": "Night",
+      "representative_zones": [
+        "East Flushing",
+        "Murray Hill-Queens",
+        "Forest Hills"
+      ],
+      "average_pickup_shares": {
+        "Morning": 0.2561998433583598,
+        "Midday": 0.26066001988747384,
+        "Evening": 0.14159072885542962,
+        "Night": 0.3272636936130226
+      },
+      "average_balances": {
+        "Morning": -0.21677270263357393,
+        "Midday": -0.5137656199938793,
+        "Evening": -0.6165275581834853,
+        "Night": -0.564752159238166
+      }
+    }
+  ]
+}

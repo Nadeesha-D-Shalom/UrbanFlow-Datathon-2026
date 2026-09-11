@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">UrbanFlow implemented architecture</title>
+  <desc id="desc">Data enters through raw taxi and zone data, passes through cleaning, temporal splitting and feature engineering, feeds three models and spatial aggregation, then reaches FastAPI and the React Vite dashboard.</desc>
+  <defs>
+    <style>
+      .box { fill: #ffffff; stroke: #2563eb; stroke-width: 2; rx: 12; }
+      .data { fill: #eff6ff; stroke: #2563eb; }
+      .model { fill: #f0fdf4; stroke: #15803d; }
+      .api { fill: #fff7ed; stroke: #c2410c; }
+      .dash { fill: #f8fafc; stroke: #475569; }
+      .title { font: 700 22px Inter, Arial, sans-serif; fill: #0f172a; }
+      .text { font: 600 16px Inter, Arial, sans-serif; fill: #0f172a; text-anchor: middle; }
+      .small { font: 14px Inter, Arial, sans-serif; fill: #475569; text-anchor: middle; }
+      .arrow { stroke: #64748b; stroke-width: 2.5; fill: none; marker-end: url(#arrowhead); }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#64748b"/></marker>
+  </defs>
+  <rect width="1400" height="900" fill="#f8fafc"/>
+  <text x="700" y="42" class="title" text-anchor="middle">UrbanFlow Implemented Architecture</text>
+
+  <rect x="475" y="75" width="450" height="70" class="box data"/>
+  <text x="700" y="105" class="text">Raw Taxi + Zone Data</text><text x="700" y="128" class="small">CSV taxi history and zone reference</text>
+  <path d="M700 145 V185" class="arrow"/>
+  <rect x="475" y="185" width="450" height="70" class="box"/>
+  <text x="700" y="215" class="text">Data Quality / Cleaning</text><text x="700" y="238" class="small">cleaned trip records and validation</text>
+  <path d="M700 255 V295" class="arrow"/>
+  <rect x="475" y="295" width="450" height="70" class="box"/>
+  <text x="700" y="325" class="text">Temporal Train / Validation / Test Split</text><text x="700" y="348" class="small">chronological, leakage-aware partitions</text>
+  <path d="M700 365 V405" class="arrow"/>
+  <rect x="475" y="405" width="450" height="70" class="box"/>
+  <text x="700" y="435" class="text">Feature Engineering</text><text x="700" y="458" class="small">model-specific pre-trip and time-series features</text>
+
+  <path d="M475 440 H210 V545" class="arrow"/><path d="M625 475 V545" class="arrow"/><path d="M775 475 V545" class="arrow"/><path d="M925 440 H1190 V545" class="arrow"/>
+  <rect x="50" y="545" width="320" height="95" class="box model"/>
+  <text x="210" y="578" class="text">Fare Prediction</text><text x="210" y="601" class="small">Decision Tree</text><text x="210" y="623" class="small">fare_model.pkl</text>
+  <rect x="465" y="545" width="320" height="95" class="box model"/>
+  <text x="625" y="578" class="text">Duration Prediction</text><text x="625" y="601" class="small">LightGBM</text><text x="625" y="623" class="small">duration_model.pkl</text>
+  <rect x="830" y="545" width="320" height="95" class="box model"/>
+  <text x="990" y="578" class="text">Demand Forecasting</text><text x="990" y="601" class="small">LightGBM</text><text x="990" y="623" class="small">demand_model.pkl</text>
+  <rect x="1190" y="545" width="160" height="95" class="box model"/>
+  <text x="1270" y="578" class="text">Hotspot +</text><text x="1270" y="601" class="text">OD</text><text x="1270" y="623" class="small">aggregation</text>
+
+  <path d="M700 675 V715" class="arrow"/><path d="M210 640 V695 H700" class="arrow"/><path d="M625 640 V695" class="arrow"/><path d="M990 640 V695" class="arrow"/><path d="M1270 640 V695 H700" class="arrow"/>
+  <rect x="475" y="715" width="450" height="65" class="box api"/>
+  <text x="700" y="754" class="text">FastAPI Backend</text>
+  <path d="M700 780 V820" class="arrow"/>
+  <rect x="325" y="820" width="750" height="55" class="box dash"/>
+  <text x="700" y="853" class="text">React / Vite UrbanFlow Dashboard · Fare / Duration / Demand / Hotspots / OD / Insights</text>
+</svg>

@@ -5,6 +5,7 @@ import { api } from "../services/api";
 import { DurationPrediction } from "../components/models/DurationPrediction";
 import metadata from "../data/generated/fare_metadata.json";
 import zoneActivity from "../data/generated/zone_activity.json";
+import durationModelInfo from "../data/generated/duration_model_info.json";
 
 const zones = zoneActivity.filter((zone) => zone.reference_matched)
   .map((zone) => ({ id: zone.zone_id, label: `${zone.zone_name} — ${zone.area}` }))
@@ -13,8 +14,12 @@ const zoneLabel = (id) => zones.find((zone) => zone.id === Number(id))?.label;
 const initialForm = { provider_code: "", pickup_timestamp: "", rider_count: "1",
   rate_class_id: "", origin_loc_id: "", dest_loc_id: "" };
 const unavailable = "Fare prediction service is unavailable. Confirm the UrbanFlow API is running on port 8000.";
+const formatPickup = value => new Intl.DateTimeFormat("en-GB", {
+  day: "numeric", month: "short", year: "numeric", hour: "2-digit", minute: "2-digit",
+}).format(new Date(value));
 
 export function Predictions() {
+  const [activeTool, setActiveTool] = useState("fare");
   const [form, setForm] = useState(initialForm);
   const [health, setHealth] = useState("Checking");
   const [pending, setPending] = useState(false);
@@ -74,7 +79,12 @@ export function Predictions() {
         <div><h1>Predictions</h1><p>Estimate a trip’s base fare using the trained fare model.</p></div>
         <span className="fare-api-status" role="status">API status: {health}</span>
       </div>
-      <div className="fare-grid">
+      <div className="prediction-tabs" role="tablist" aria-label="Prediction tool">
+        <button type="button" role="tab" aria-selected={activeTool === "fare"} className={activeTool === "fare" ? "is-active" : ""} onClick={() => setActiveTool("fare")}>Fare Prediction</button>
+        <button type="button" role="tab" aria-selected={activeTool === "duration"} className={activeTool === "duration" ? "is-active" : ""} onClick={() => setActiveTool("duration")}>Trip Duration</button>
+      </div>
+      <div data-tour="prediction-form" className={`prediction-tools prediction-tools--${activeTool}`}>
+        {activeTool === "fare" ? <>
         <AnalyticsCard title="Fare Prediction" description="Enter trip details. All fields are required.">
           <form className="fare-form" onSubmit={predict}>
             <fieldset disabled={pending}>
@@ -124,7 +134,7 @@ export function Predictions() {
               <dl className="fare-result__details">
                 <div><dt>Pickup zone</dt><dd>{zoneLabel(result.payload.origin_loc_id)}</dd></div>
                 <div><dt>Destination zone</dt><dd>{zoneLabel(result.payload.dest_loc_id)}</dd></div>
-                <div><dt>Pickup date/time</dt><dd>{result.payload.pickup_timestamp.slice(0, 16).replace("T", " ")} (local)</dd></div>
+                <div><dt>Pickup</dt><dd>{formatPickup(result.payload.pickup_timestamp)}</dd></div>
                 <div><dt>Rider count</dt><dd>{result.payload.rider_count}</dd></div>
                 <div><dt>Rate class</dt><dd>{result.payload.rate_class_id}</dd></div>
                 <div><dt>Provider</dt><dd>{result.payload.provider_code}</dd></div>
@@ -133,18 +143,13 @@ export function Predictions() {
             </> : <p className="fare-context">Enter trip details and select Predict fare to request a model estimate.</p>}
           </div>
         </AnalyticsCard>
+        </> : <DurationPrediction compact />}
       </div>
-      <AnalyticsCard title="Model information" description="Decision Tree Regressor">
-        <div className="fare-model-info">
-          <dl className="model-metrics">
-            <div><dt>Test MAE</dt><dd>4.3861</dd></div>
-            <div><dt>Test RMSE</dt><dd>8.7595</dd></div>
-            <div><dt>Test R²</dt><dd>0.7579</dd></div>
-          </dl>
-          <p>On the held-out March 2026 test set, the model achieved an MAE of 4.39 fare units and explained approximately 75.8% of fare variation.</p>
+      <AnalyticsCard title={`${activeTool === "fare" ? "Fare" : "Duration"} model performance`} description="Compact held-out test metrics.">
+        <div className="prediction-metrics">
+          {activeTool === "fare" ? <div><strong>Decision Tree</strong><span>MAE 4.3861 · RMSE 8.7595 · R² 0.7579</span></div> : <div><strong>{durationModelInfo.model === "LGBMRegressor" ? "LightGBM" : "Decision Tree"}</strong><span>MAE {durationModelInfo.test.mae.toFixed(4)} min · RMSE {durationModelInfo.test.rmse.toFixed(4)} · R² {durationModelInfo.test.r2.toFixed(4)}</span></div>}
         </div>
       </AnalyticsCard>
-      <DurationPrediction />
     </PageContainer>
   );
 }

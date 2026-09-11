@@ -1,0 +1,220 @@
+/* Header Start Tour Button */
+.tour-start-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  border-radius: var(--radius-sm, 6px);
+  color: #1d4ed8;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.tour-start-btn:hover {
+  background: #dbeafe;
+  border-color: #93c5fd;
+  color: #1e40af;
+  transform: translateY(-1px);
+  box-shadow: 0 3px 6px rgba(37, 99, 235, 0.12);
+}
+
+.tour-start-btn:active {
+  transform: translateY(0);
+}
+
+.tour-start-btn__icon {
+  font-size: 14px;
+  line-height: 1;
+}
+
+/* Custom Joyride Tooltip Styling - Modern Floating Form */
+.urbanflow-tour-tooltip {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 24px 48px -12px rgba(15, 23, 42, 0.22), 0 8px 20px -4px rgba(15, 23, 42, 0.08);
+  border: 1px solid rgba(226, 232, 240, 0.95);
+  padding: 22px 24px;
+  max-width: 440px;
+  box-sizing: border-box;
+  font-family: inherit;
+  color: #0f172a;
+}
+
+.tour-tooltip__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 14px;
+  margin-bottom: 12px;
+}
+
+.tour-tooltip__header-main {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.tour-tooltip__badge {
+  display: inline-flex;
+  align-items: center;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #1d4ed8;
+  background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+  border: 1px solid #bfdbfe;
+  padding: 3px 10px;
+  border-radius: 9999px;
+  width: fit-content;
+}
+
+.tour-tooltip__title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: #0f172a;
+  line-height: 1.35;
+  letter-spacing: -0.01em;
+}
+
+.tour-tooltip__close-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  color: #64748b;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  line-height: 1;
+  transition: all 0.15s ease;
+  flex-shrink: 0;
+}
+
+.tour-tooltip__close-btn:hover {
+  background: #f1f5f9;
+  border-color: #cbd5e1;
+  color: #0f172a;
+}
+
+.tour-tooltip__body {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #475569;
+  margin-bottom: 20px;
+}
+
+.tour-tooltip__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding-top: 16px;
+  border-top: 1px solid #f1f5f9;
+}
+
+.tour-tooltip__footer-left {
+  display: flex;
+  align-items: center;
+}
+
+.tour-tooltip__footer-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tour-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  font-family: inherit;
+}
+
+.tour-btn--primary {
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+  border: 1px solid #1e40af;
+  color: #ffffff;
+  box-shadow: 0 2px 4px rgba(37, 99, 235, 0.2);
+}
+
+.tour-btn--primary:hover {
+  background: linear-gradient(135deg, #1d4ed8 0%, #1e40af 100%);
+  box-shadow: 0 4px 8px rgba(37, 99, 235, 0.3);
+  transform: translateY(-1px);
+}
+
+.tour-btn--primary:active {
+  transform: translateY(0);
+}
+
+.tour-btn--back {
+  background: #f8fafc;
+  border: 1px solid #cbd5e1;
+  color: #334155;
+}
+
+.tour-btn--back:hover {
+  background: #f1f5f9;
+  border-color: #94a3b8;
+  color: #0f172a;
+}
+
+.tour-btn--skip {
+  background: transparent;
+  border: none;
+  color: #64748b;
+  font-weight: 550;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+.tour-btn--skip:hover {
+  color: #0f172a;
+  background: #f8fafc;
+}
+
+/* Mobile responsive sizing */
+@media (max-width: 768px) {
+  .tour-start-btn span:last-child {
+    display: none;
+  }
+  .tour-start-btn {
+    padding: 6px 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .urbanflow-tour-tooltip {
+    max-width: calc(100vw - 32px) !important;
+    padding: 16px 18px !important;
+    border-radius: 14px !important;
+  }
+  .tour-btn {
+    padding: 7px 12px;
+    font-size: 12px;
+  }
+  .tour-tooltip__title {
+    font-size: 15px;
+  }
+  .tour-tooltip__body {
+    font-size: 13px;
+    margin-bottom: 14px;
+  }
+}

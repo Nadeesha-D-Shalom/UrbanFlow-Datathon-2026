@@ -1,0 +1,7 @@
+{
+  "global_mean_duration": 17.78947300768459,
+  "global_median_duration": 13.983333333333333,
+  "od_smoothing_alpha": 20,
+  "od_hour_smoothing_alpha": 30,
+  "rare_od_hour_threshold": 5
+}
