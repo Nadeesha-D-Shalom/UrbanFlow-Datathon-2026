@@ -1,3 +1,5 @@
+// KPI values: verified full-dataset aggregates from data/processed/trips_clean.parquet.
+// Revenue sums base_fare only. Changes and sparklines remain mock data.
 export const overviewKPIs = [
   {
     label: "Total Trips",
@@ -8,21 +10,21 @@ export const overviewKPIs = [
   },
   {
     label: "Total Revenue",
-    value: "$948.0M",
+    value: "$918.3M",
     change: 6.2,
     compareLabel: "vs previous period",
     sparkline: [26, 27, 28, 30, 32, 33, 34, 37, 38, 40, 41, 44],
   },
   {
     label: "Average Fare",
-    value: "$21.40",
+    value: "$20.73",
     change: 1.7,
     compareLabel: "vs previous period",
     sparkline: [18, 18, 17, 19, 20, 20, 21, 21, 22, 21, 22, 23],
   },
   {
     label: "Average Trip Duration",
-    value: "18.6 min",
+    value: "18.1 min",
     lowerIsBetter: true,
     change: -2.1,
     compareLabel: "vs previous period",

@@ -1,0 +1,267 @@
+[
+  {
+    "week_start": "2025-03-31",
+    "trip_count": 758048,
+    "base_fare_revenue": 14491115.050000038
+  },
+  {
+    "week_start": "2025-04-07",
+    "trip_count": 874441,
+    "base_fare_revenue": 16452255.390000118
+  },
+  {
+    "week_start": "2025-04-14",
+    "trip_count": 801915,
+    "base_fare_revenue": 15378249.460000059
+  },
+  {
+    "week_start": "2025-04-21",
+    "trip_count": 890072,
+    "base_fare_revenue": 17591581.050000083
+  },
+  {
+    "week_start": "2025-04-28",
+    "trip_count": 904883,
+    "base_fare_revenue": 18156334.3500001
+  },
+  {
+    "week_start": "2025-05-05",
+    "trip_count": 962854,
+    "base_fare_revenue": 19602882.87000008
+  },
+  {
+    "week_start": "2025-05-12",
+    "trip_count": 986834,
+    "base_fare_revenue": 21226509.759999964
+  },
+  {
+    "week_start": "2025-05-19",
+    "trip_count": 839326,
+    "base_fare_revenue": 16055982.210000074
+  },
+  {
+    "week_start": "2025-05-26",
+    "trip_count": 867695,
+    "base_fare_revenue": 17980024.320000082
+  },
+  {
+    "week_start": "2025-06-02",
+    "trip_count": 946252,
+    "base_fare_revenue": 20045964.76000008
+  },
+  {
+    "week_start": "2025-06-09",
+    "trip_count": 905407,
+    "base_fare_revenue": 18710635.830000024
+  },
+  {
+    "week_start": "2025-06-16",
+    "trip_count": 886379,
+    "base_fare_revenue": 18145209.590000078
+  },
+  {
+    "week_start": "2025-06-23",
+    "trip_count": 910355,
+    "base_fare_revenue": 19121537.280000065
+  },
+  {
+    "week_start": "2025-06-30",
+    "trip_count": 665278,
+    "base_fare_revenue": 13520245.13000004
+  },
+  {
+    "week_start": "2025-07-07",
+    "trip_count": 794023,
+    "base_fare_revenue": 16173198.26000008
+  },
+  {
+    "week_start": "2025-07-14",
+    "trip_count": 850627,
+    "base_fare_revenue": 17390994.300000086
+  },
+  {
+    "week_start": "2025-07-21",
+    "trip_count": 804064,
+    "base_fare_revenue": 16482503.000000028
+  },
+  {
+    "week_start": "2025-07-28",
+    "trip_count": 808423,
+    "base_fare_revenue": 16515992.790000062
+  },
+  {
+    "week_start": "2025-08-04",
+    "trip_count": 725884,
+    "base_fare_revenue": 14693404.79000007
+  },
+  {
+    "week_start": "2025-08-11",
+    "trip_count": 744471,
+    "base_fare_revenue": 15051613.370000154
+  },
+  {
+    "week_start": "2025-08-18",
+    "trip_count": 685587,
+    "base_fare_revenue": 12967697.600000113
+  },
+  {
+    "week_start": "2025-08-25",
+    "trip_count": 699635,
+    "base_fare_revenue": 14947471.980000004
+  },
+  {
+    "week_start": "2025-09-01",
+    "trip_count": 834694,
+    "base_fare_revenue": 17770966.440000057
+  },
+  {
+    "week_start": "2025-09-08",
+    "trip_count": 941593,
+    "base_fare_revenue": 19578169.83000002
+  },
+  {
+    "week_start": "2025-09-15",
+    "trip_count": 936805,
+    "base_fare_revenue": 19604928.420000043
+  },
+  {
+    "week_start": "2025-09-22",
+    "trip_count": 886380,
+    "base_fare_revenue": 18701254.860000018
+  },
+  {
+    "week_start": "2025-09-29",
+    "trip_count": 860502,
+    "base_fare_revenue": 17546324.160000067
+  },
+  {
+    "week_start": "2025-10-06",
+    "trip_count": 913461,
+    "base_fare_revenue": 18931125.950000025
+  },
+  {
+    "week_start": "2025-10-13",
+    "trip_count": 910954,
+    "base_fare_revenue": 19091097.69000005
+  },
+  {
+    "week_start": "2025-10-20",
+    "trip_count": 866819,
+    "base_fare_revenue": 16980152.45000003
+  },
+  {
+    "week_start": "2025-10-27",
+    "trip_count": 912363,
+    "base_fare_revenue": 17864656.280000076
+  },
+  {
+    "week_start": "2025-11-03",
+    "trip_count": 872528,
+    "base_fare_revenue": 16809461.389999993
+  },
+  {
+    "week_start": "2025-11-10",
+    "trip_count": 878837,
+    "base_fare_revenue": 16878605.309999987
+  },
+  {
+    "week_start": "2025-11-17",
+    "trip_count": 930258,
+    "base_fare_revenue": 18983588.070000045
+  },
+  {
+    "week_start": "2025-11-24",
+    "trip_count": 683493,
+    "base_fare_revenue": 13149598.42000007
+  },
+  {
+    "week_start": "2025-12-01",
+    "trip_count": 1016637,
+    "base_fare_revenue": 22944307.40999996
+  },
+  {
+    "week_start": "2025-12-08",
+    "trip_count": 1106573,
+    "base_fare_revenue": 25533556.11000013
+  },
+  {
+    "week_start": "2025-12-15",
+    "trip_count": 1019937,
+    "base_fare_revenue": 23108115.479999464
+  },
+  {
+    "week_start": "2025-12-22",
+    "trip_count": 614828,
+    "base_fare_revenue": 13249266.209999643
+  },
+  {
+    "week_start": "2025-12-29",
+    "trip_count": 688154,
+    "base_fare_revenue": 15050647.71999994
+  },
+  {
+    "week_start": "2026-01-05",
+    "trip_count": 781886,
+    "base_fare_revenue": 15878697.029999891
+  },
+  {
+    "week_start": "2026-01-12",
+    "trip_count": 842422,
+    "base_fare_revenue": 16794007.919999845
+  },
+  {
+    "week_start": "2026-01-19",
+    "trip_count": 784644,
+    "base_fare_revenue": 15794083.829998441
+  },
+  {
+    "week_start": "2026-01-26",
+    "trip_count": 833289,
+    "base_fare_revenue": 19547826.329998925
+  },
+  {
+    "week_start": "2026-02-02",
+    "trip_count": 876522,
+    "base_fare_revenue": 19500622.85999782
+  },
+  {
+    "week_start": "2026-02-09",
+    "trip_count": 845309,
+    "base_fare_revenue": 18690767.97999955
+  },
+  {
+    "week_start": "2026-02-16",
+    "trip_count": 749799,
+    "base_fare_revenue": 15691056.309999347
+  },
+  {
+    "week_start": "2026-02-23",
+    "trip_count": 729930,
+    "base_fare_revenue": 15984908.659999525
+  },
+  {
+    "week_start": "2026-03-02",
+    "trip_count": 857957,
+    "base_fare_revenue": 18108320.709999744
+  },
+  {
+    "week_start": "2026-03-09",
+    "trip_count": 893555,
+    "base_fare_revenue": 19128073.359998997
+  },
+  {
+    "week_start": "2026-03-16",
+    "trip_count": 884779,
+    "base_fare_revenue": 19235932.479999397
+  },
+  {
+    "week_start": "2026-03-23",
+    "trip_count": 812973,
+    "base_fare_revenue": 17139119.93999948
+  },
+  {
+    "week_start": "2026-03-30",
+    "trip_count": 206342,
+    "base_fare_revenue": 4305539.239999581
+  }
+]

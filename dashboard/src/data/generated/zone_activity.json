@@ -1,0 +1,2652 @@
+[
+  {
+    "zone_id": 237,
+    "zone_name": "Upper East Side South",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 1985100,
+    "share_of_total_pickups": 0.04482386530883465,
+    "rank": 1,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 132,
+    "zone_name": "JFK Airport",
+    "area": "Queens",
+    "service_area": "Airports",
+    "pickup_count": 1886989,
+    "share_of_total_pickups": 0.042608503740492965,
+    "rank": 2,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 161,
+    "zone_name": "Midtown Center",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 1886854,
+    "share_of_total_pickups": 0.04260545541959392,
+    "rank": 3,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 236,
+    "zone_name": "Upper East Side North",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 1738665,
+    "share_of_total_pickups": 0.03925932485879049,
+    "rank": 4,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 186,
+    "zone_name": "Penn Station/Madison Sq West",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 1412527,
+    "share_of_total_pickups": 0.03189507833010542,
+    "rank": 5,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 162,
+    "zone_name": "Midtown East",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 1384639,
+    "share_of_total_pickups": 0.03126536297282732,
+    "rank": 6,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 230,
+    "zone_name": "Times Sq/Theatre District",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 1337824,
+    "share_of_total_pickups": 0.0302082730255032,
+    "rank": 7,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 142,
+    "zone_name": "Lincoln Square East",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 1273103,
+    "share_of_total_pickups": 0.028746862826191787,
+    "rank": 8,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 138,
+    "zone_name": "LaGuardia Airport",
+    "area": "Queens",
+    "service_area": "Airports",
+    "pickup_count": 1200326,
+    "share_of_total_pickups": 0.02710354689974926,
+    "rank": 9,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 170,
+    "zone_name": "Murray Hill",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 1170853,
+    "share_of_total_pickups": 0.02643804199710089,
+    "rank": 10,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 234,
+    "zone_name": "Union Sq",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 1168180,
+    "share_of_total_pickups": 0.026377685243299816,
+    "rank": 11,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 68,
+    "zone_name": "East Chelsea",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 1129244,
+    "share_of_total_pickups": 0.025498504335705847,
+    "rank": 12,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 163,
+    "zone_name": "Midtown North",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 1122628,
+    "share_of_total_pickups": 0.025349114031497873,
+    "rank": 13,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 79,
+    "zone_name": "East Village",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 1115629,
+    "share_of_total_pickups": 0.025191075527998534,
+    "rank": 14,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 239,
+    "zone_name": "Upper West Side South",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 1109180,
+    "share_of_total_pickups": 0.02504545610964345,
+    "rank": 15,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 48,
+    "zone_name": "Clinton East",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 1028224,
+    "share_of_total_pickups": 0.023217457097028462,
+    "rank": 16,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 249,
+    "zone_name": "West Village",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 960435,
+    "share_of_total_pickups": 0.021686770982766918,
+    "rank": 17,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 141,
+    "zone_name": "Lenox Hill West",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 953446,
+    "share_of_total_pickups": 0.021528958280815656,
+    "rank": 18,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 164,
+    "zone_name": "Midtown South",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 918470,
+    "share_of_total_pickups": 0.02073919478626032,
+    "rank": 19,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 140,
+    "zone_name": "Lenox Hill East",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 842828,
+    "share_of_total_pickups": 0.019031186716293634,
+    "rank": 20,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 107,
+    "zone_name": "Gramercy",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 836022,
+    "share_of_total_pickups": 0.01887750618267219,
+    "rank": 21,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 238,
+    "zone_name": "Upper West Side North",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 791687,
+    "share_of_total_pickups": 0.017876415019271258,
+    "rank": 22,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 246,
+    "zone_name": "West Chelsea/Hudson Yards",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 791112,
+    "share_of_total_pickups": 0.017863431430256812,
+    "rank": 23,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 263,
+    "zone_name": "Yorkville West",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 790694,
+    "share_of_total_pickups": 0.01785399292554718,
+    "rank": 24,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 229,
+    "zone_name": "Sutton Place/Turtle Bay North",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 696472,
+    "share_of_total_pickups": 0.015726445579252776,
+    "rank": 25,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 90,
+    "zone_name": "Flatiron",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 667946,
+    "share_of_total_pickups": 0.01508232408320733,
+    "rank": 26,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 114,
+    "zone_name": "Greenwich Village South",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 635525,
+    "share_of_total_pickups": 0.014350252884185755,
+    "rank": 27,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 113,
+    "zone_name": "Greenwich Village North",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 613904,
+    "share_of_total_pickups": 0.013862047357087718,
+    "rank": 28,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 231,
+    "zone_name": "TriBeCa/Civic Center",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 608224,
+    "share_of_total_pickups": 0.013733792077779782,
+    "rank": 29,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 100,
+    "zone_name": "Garment District",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 602070,
+    "share_of_total_pickups": 0.01359483380509298,
+    "rank": 30,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 262,
+    "zone_name": "Yorkville East",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 586908,
+    "share_of_total_pickups": 0.013252473497898104,
+    "rank": 31,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 43,
+    "zone_name": "Central Park",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 580207,
+    "share_of_total_pickups": 0.013101163880531471,
+    "rank": 32,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 148,
+    "zone_name": "Lower East Side",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 550572,
+    "share_of_total_pickups": 0.012432000992804247,
+    "rank": 33,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 143,
+    "zone_name": "Lincoln Square West",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 492595,
+    "share_of_total_pickups": 0.011122871357516198,
+    "rank": 34,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 137,
+    "zone_name": "Kips Bay",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 491636,
+    "share_of_total_pickups": 0.01110121698905558,
+    "rank": 35,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 144,
+    "zone_name": "Little Italy/NoLiTa",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 486461,
+    "share_of_total_pickups": 0.010984364687925552,
+    "rank": 36,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 233,
+    "zone_name": "UN/Turtle Bay South",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 467026,
+    "share_of_total_pickups": 0.010545519379237223,
+    "rank": 37,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 158,
+    "zone_name": "Meatpacking/West Village West",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 439419,
+    "share_of_total_pickups": 0.009922149045460084,
+    "rank": 38,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 211,
+    "zone_name": "SoHo",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 367911,
+    "share_of_total_pickups": 0.008307487335468574,
+    "rank": 39,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 151,
+    "zone_name": "Manhattan Valley",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 341826,
+    "share_of_total_pickups": 0.007718483997308807,
+    "rank": 40,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 75,
+    "zone_name": "East Harlem South",
+    "area": "Manhattan",
+    "service_area": "Boro Zone",
+    "pickup_count": 330103,
+    "share_of_total_pickups": 0.00745377684249773,
+    "rank": 41,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 87,
+    "zone_name": "Financial District North",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 308965,
+    "share_of_total_pickups": 0.006976477530171829,
+    "rank": 42,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 50,
+    "zone_name": "Clinton West",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 297799,
+    "share_of_total_pickups": 0.006724347521588661,
+    "rank": 43,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 13,
+    "zone_name": "Battery Park City",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 275712,
+    "share_of_total_pickups": 0.006225619642350219,
+    "rank": 44,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 166,
+    "zone_name": "Morningside Heights",
+    "area": "Manhattan",
+    "service_area": "Boro Zone",
+    "pickup_count": 250221,
+    "share_of_total_pickups": 0.005650028916146247,
+    "rank": 45,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 261,
+    "zone_name": "World Trade Center",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 217300,
+    "share_of_total_pickups": 0.004906667639720805,
+    "rank": 46,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 125,
+    "zone_name": "Hudson Sq",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 216235,
+    "share_of_total_pickups": 0.004882619774850567,
+    "rank": 47,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 41,
+    "zone_name": "Central Harlem",
+    "area": "Manhattan",
+    "service_area": "Boro Zone",
+    "pickup_count": 192502,
+    "share_of_total_pickups": 0.004346724960798593,
+    "rank": 48,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 74,
+    "zone_name": "East Harlem North",
+    "area": "Manhattan",
+    "service_area": "Boro Zone",
+    "pickup_count": 173734,
+    "share_of_total_pickups": 0.003922940615367024,
+    "rank": 49,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 88,
+    "zone_name": "Financial District South",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 155237,
+    "share_of_total_pickups": 0.0035052754918883503,
+    "rank": 50,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 4,
+    "zone_name": "Alphabet City",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 147019,
+    "share_of_total_pickups": 0.0033197117796783847,
+    "rank": 51,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 42,
+    "zone_name": "Central Harlem North",
+    "area": "Manhattan",
+    "service_area": "Boro Zone",
+    "pickup_count": 139222,
+    "share_of_total_pickups": 0.0031436543126424753,
+    "rank": 52,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 24,
+    "zone_name": "Bloomingdale",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 122636,
+    "share_of_total_pickups": 0.0027691398650013833,
+    "rank": 53,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 232,
+    "zone_name": "Two Bridges/Seward Park",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 119384,
+    "share_of_total_pickups": 0.0026957092015666294,
+    "rank": 54,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 70,
+    "zone_name": "East Elmhurst",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 118403,
+    "share_of_total_pickups": 0.002673558069700241,
+    "rank": 55,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 209,
+    "zone_name": "Seaport",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 99215,
+    "share_of_total_pickups": 0.002240290059249423,
+    "rank": 56,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 244,
+    "zone_name": "Washington Heights South",
+    "area": "Manhattan",
+    "service_area": "Boro Zone",
+    "pickup_count": 96101,
+    "share_of_total_pickups": 0.0021699754571781363,
+    "rank": 57,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 255,
+    "zone_name": "Williamsburg (North Side)",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 95677,
+    "share_of_total_pickups": 0.002160401471539657,
+    "rank": 58,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 45,
+    "zone_name": "Chinatown",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 95441,
+    "share_of_total_pickups": 0.0021550725550050316,
+    "rank": 59,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 224,
+    "zone_name": "Stuy Town/Peter Cooper Village",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 93049,
+    "share_of_total_pickups": 0.0021010608247049294,
+    "rank": 60,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 7,
+    "zone_name": "Astoria",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 89893,
+    "share_of_total_pickups": 0.002029797856131718,
+    "rank": 61,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 116,
+    "zone_name": "Hamilton Heights",
+    "area": "Manhattan",
+    "service_area": "Boro Zone",
+    "pickup_count": 85737,
+    "share_of_total_pickups": 0.0019359547327507714,
+    "rank": 62,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 145,
+    "zone_name": "Long Island City/Hunters Point",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 83648,
+    "share_of_total_pickups": 0.001888784789357413,
+    "rank": 63,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 61,
+    "zone_name": "Crown Heights North",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 79925,
+    "share_of_total_pickups": 0.001804718873008216,
+    "rank": 64,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 226,
+    "zone_name": "Sunnyside",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 76863,
+    "share_of_total_pickups": 0.0017355784389869314,
+    "rank": 65,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 256,
+    "zone_name": "Williamsburg (South Side)",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 71155,
+    "share_of_total_pickups": 0.0016066909153443804,
+    "rank": 66,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 37,
+    "zone_name": "Bushwick South",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 68346,
+    "share_of_total_pickups": 0.001543263260489453,
+    "rank": 67,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 264,
+    "zone_name": "N/A",
+    "area": "Unknown",
+    "service_area": "N/A",
+    "pickup_count": 64841,
+    "share_of_total_pickups": 0.001464119817888342,
+    "rank": 68,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 112,
+    "zone_name": "Greenpoint",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 62865,
+    "share_of_total_pickups": 0.0014195014319882575,
+    "rank": 69,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 80,
+    "zone_name": "East Williamsburg",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 59900,
+    "share_of_total_pickups": 0.0013525512729833235,
+    "rank": 70,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 97,
+    "zone_name": "Fort Greene",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 59212,
+    "share_of_total_pickups": 0.0013370161264756018,
+    "rank": 71,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 76,
+    "zone_name": "East New York",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 58587,
+    "share_of_total_pickups": 0.0013229035297207675,
+    "rank": 72,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 33,
+    "zone_name": "Brooklyn Heights",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 55905,
+    "share_of_total_pickups": 0.0012623435545264224,
+    "rank": 73,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 65,
+    "zone_name": "Downtown Brooklyn/MetroTech",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 55498,
+    "share_of_total_pickups": 0.0012531534315196743,
+    "rank": 74,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 152,
+    "zone_name": "Manhattanville",
+    "area": "Manhattan",
+    "service_area": "Boro Zone",
+    "pickup_count": 54518,
+    "share_of_total_pickups": 0.001231024879808094,
+    "rank": 75,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 66,
+    "zone_name": "DUMBO/Vinegar Hill",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 54223,
+    "share_of_total_pickups": 0.001224363734139812,
+    "rank": 76,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 129,
+    "zone_name": "Jackson Heights",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 50909,
+    "share_of_total_pickups": 0.0011495331011069786,
+    "rank": 77,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 225,
+    "zone_name": "Stuyvesant Heights",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 50748,
+    "share_of_total_pickups": 0.0011458976961829332,
+    "rank": 78,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 25,
+    "zone_name": "Boerum Hill",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 50556,
+    "share_of_total_pickups": 0.0011415623064598482,
+    "rank": 79,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 181,
+    "zone_name": "Park Slope",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 50385,
+    "share_of_total_pickups": 0.0011377010999877254,
+    "rank": 80,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 188,
+    "zone_name": "Prospect-Lefferts Gardens",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 48192,
+    "share_of_total_pickups": 0.0010881828204943628,
+    "rank": 81,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 130,
+    "zone_name": "Jamaica",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 47864,
+    "share_of_total_pickups": 0.0010807765297174256,
+    "rank": 82,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 89,
+    "zone_name": "Flatbush/Ditmas Park",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 45876,
+    "share_of_total_pickups": 0.0010358871819596486,
+    "rank": 83,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 17,
+    "zone_name": "Bedford",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 45366,
+    "share_of_total_pickups": 0.0010243713030077038,
+    "rank": 84,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 243,
+    "zone_name": "Washington Heights North",
+    "area": "Manhattan",
+    "service_area": "Boro Zone",
+    "pickup_count": 42479,
+    "share_of_total_pickups": 0.000959182396077773,
+    "rank": 85,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 36,
+    "zone_name": "Bushwick North",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 41811,
+    "share_of_total_pickups": 0.000944098852666206,
+    "rank": 86,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 146,
+    "zone_name": "Long Island City/Queens Plaza",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 41800,
+    "share_of_total_pickups": 0.000943850470963321,
+    "rank": 87,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 49,
+    "zone_name": "Clinton Hill",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 39664,
+    "share_of_total_pickups": 0.0008956192602939991,
+    "rank": 88,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 39,
+    "zone_name": "Canarsie",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 38444,
+    "share_of_total_pickups": 0.0008680714714285624,
+    "rank": 89,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 216,
+    "zone_name": "South Ozone Park",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 37110,
+    "share_of_total_pickups": 0.000837949544915044,
+    "rank": 90,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 179,
+    "zone_name": "Old Astoria",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 33431,
+    "share_of_total_pickups": 0.0007548771553773871,
+    "rank": 91,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 35,
+    "zone_name": "Brownsville",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 32078,
+    "share_of_total_pickups": 0.0007243262059225217,
+    "rank": 92,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 168,
+    "zone_name": "Mott Haven/Port Morris",
+    "area": "Bronx",
+    "service_area": "Boro Zone",
+    "pickup_count": 31446,
+    "share_of_total_pickups": 0.0007100555480840333,
+    "rank": 93,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 260,
+    "zone_name": "Woodside",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 31109,
+    "share_of_total_pickups": 0.0007024460359138266,
+    "rank": 94,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 82,
+    "zone_name": "Elmhurst",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 31020,
+    "share_of_total_pickups": 0.0007004364021359382,
+    "rank": 95,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 177,
+    "zone_name": "Ocean Hill",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 30542,
+    "share_of_total_pickups": 0.0006896430881378409,
+    "rank": 96,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 72,
+    "zone_name": "East Flatbush/Remsen Village",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 29944,
+    "share_of_total_pickups": 0.0006761401555628153,
+    "rank": 97,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 197,
+    "zone_name": "Richmond Hill",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 29930,
+    "share_of_total_pickups": 0.0006758240333955071,
+    "rank": 98,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 223,
+    "zone_name": "Steinway",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 29840,
+    "share_of_total_pickups": 0.000673791819462811,
+    "rank": 99,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 95,
+    "zone_name": "Forest Hills",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 27238,
+    "share_of_total_pickups": 0.0006150382566530846,
+    "rank": 100,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 91,
+    "zone_name": "Flatlands",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 26988,
+    "share_of_total_pickups": 0.0006093932179511508,
+    "rank": 101,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 71,
+    "zone_name": "East Flatbush/Farragut",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 26737,
+    "share_of_total_pickups": 0.0006037255990944093,
+    "rank": 102,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 93,
+    "zone_name": "Flushing Meadows-Corona Park",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 24076,
+    "share_of_total_pickups": 0.0005436398071510266,
+    "rank": 103,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 193,
+    "zone_name": "Queensbridge/Ravenswood",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 23446,
+    "share_of_total_pickups": 0.0005294143096221536,
+    "rank": 104,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 62,
+    "zone_name": "Crown Heights South",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 23123,
+    "share_of_total_pickups": 0.0005221209196192553,
+    "rank": 105,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 10,
+    "zone_name": "Baisley Park",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 22572,
+    "share_of_total_pickups": 0.0005096792543201933,
+    "rank": 106,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 228,
+    "zone_name": "Sunset Park West",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 22298,
+    "share_of_total_pickups": 0.000503492291902874,
+    "rank": 107,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 198,
+    "zone_name": "Ridgewood",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 22132,
+    "share_of_total_pickups": 0.0004997439862047899,
+    "rank": 108,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 189,
+    "zone_name": "Prospect Heights",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 20215,
+    "share_of_total_pickups": 0.000456457829438362,
+    "rank": 109,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 14,
+    "zone_name": "Bay Ridge",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 19938,
+    "share_of_total_pickups": 0.00045020312655661944,
+    "rank": 110,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 157,
+    "zone_name": "Maspeth",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 19681,
+    "share_of_total_pickups": 0.00044440002677103153,
+    "rank": 111,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 247,
+    "zone_name": "West Concourse",
+    "area": "Bronx",
+    "service_area": "Boro Zone",
+    "pickup_count": 19656,
+    "share_of_total_pickups": 0.0004438355229008382,
+    "rank": 112,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 127,
+    "zone_name": "Inwood",
+    "area": "Manhattan",
+    "service_area": "Boro Zone",
+    "pickup_count": 19626,
+    "share_of_total_pickups": 0.00044315811825660614,
+    "rank": 113,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 85,
+    "zone_name": "Erasmus",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 19007,
+    "share_of_total_pickups": 0.0004291810024306182,
+    "rank": 114,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 69,
+    "zone_name": "East Concourse/Concourse Village",
+    "area": "Bronx",
+    "service_area": "Boro Zone",
+    "pickup_count": 18493,
+    "share_of_total_pickups": 0.00041757480285944243,
+    "rank": 115,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 215,
+    "zone_name": "South Jamaica",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 17592,
+    "share_of_total_pickups": 0.00039723008337767324,
+    "rank": 116,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 195,
+    "zone_name": "Red Hook",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 17261,
+    "share_of_total_pickups": 0.00038975605213631295,
+    "rank": 117,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 159,
+    "zone_name": "Melrose South",
+    "area": "Bronx",
+    "service_area": "Boro Zone",
+    "pickup_count": 16735,
+    "share_of_total_pickups": 0.0003778788907074444,
+    "rank": 118,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 213,
+    "zone_name": "Soundview/Castle Hill",
+    "area": "Bronx",
+    "service_area": "Boro Zone",
+    "pickup_count": 16419,
+    "share_of_total_pickups": 0.00037074356178820015,
+    "rank": 119,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 63,
+    "zone_name": "Cypress Hills",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 15978,
+    "share_of_total_pickups": 0.000360785713517989,
+    "rank": 120,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 55,
+    "zone_name": "Coney Island",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 15954,
+    "share_of_total_pickups": 0.0003602437898026034,
+    "rank": 121,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 40,
+    "zone_name": "Carroll Gardens",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 15852,
+    "share_of_total_pickups": 0.00035794061401221445,
+    "rank": 122,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 205,
+    "zone_name": "Saint Albans",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 15851,
+    "share_of_total_pickups": 0.0003579180338574067,
+    "rank": 123,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 52,
+    "zone_name": "Cobble Hill",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 15578,
+    "share_of_total_pickups": 0.00035175365159489507,
+    "rank": 124,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 77,
+    "zone_name": "East New York/Pennsylvania Avenue",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 15404,
+    "share_of_total_pickups": 0.0003478247046583492,
+    "rank": 125,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 51,
+    "zone_name": "Co-Op City",
+    "area": "Bronx",
+    "service_area": "Boro Zone",
+    "pickup_count": 15111,
+    "share_of_total_pickups": 0.0003412087192996828,
+    "rank": 126,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 254,
+    "zone_name": "Williamsbridge/Olinville",
+    "area": "Bronx",
+    "service_area": "Boro Zone",
+    "pickup_count": 14689,
+    "share_of_total_pickups": 0.0003316798939708187,
+    "rank": 127,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 92,
+    "zone_name": "Flushing",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 14651,
+    "share_of_total_pickups": 0.00033082184808812476,
+    "rank": 128,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 12,
+    "zone_name": "Battery Park",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 14421,
+    "share_of_total_pickups": 0.0003256284124823457,
+    "rank": 129,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 258,
+    "zone_name": "Woodhaven",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 13698,
+    "share_of_total_pickups": 0.00030930296055635333,
+    "rank": 130,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 235,
+    "zone_name": "University Heights/Morris Heights",
+    "area": "Bronx",
+    "service_area": "Boro Zone",
+    "pickup_count": 13415,
+    "share_of_total_pickups": 0.00030291277674576435,
+    "rank": 131,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 182,
+    "zone_name": "Parkchester",
+    "area": "Bronx",
+    "service_area": "Boro Zone",
+    "pickup_count": 13370,
+    "share_of_total_pickups": 0.0003018966697794163,
+    "rank": 132,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 28,
+    "zone_name": "Briarwood/Jamaica Hills",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 13151,
+    "share_of_total_pickups": 0.0002969516158765223,
+    "rank": 133,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 56,
+    "zone_name": "Corona",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 13050,
+    "share_of_total_pickups": 0.0002946710202409411,
+    "rank": 134,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 167,
+    "zone_name": "Morrisania/Melrose",
+    "area": "Bronx",
+    "service_area": "Boro Zone",
+    "pickup_count": 12989,
+    "share_of_total_pickups": 0.0002932936307976693,
+    "rank": 135,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 196,
+    "zone_name": "Rego Park",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 12240,
+    "share_of_total_pickups": 0.0002763810948466758,
+    "rank": 136,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 106,
+    "zone_name": "Gowanus",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 12206,
+    "share_of_total_pickups": 0.0002756133695832128,
+    "rank": 137,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 26,
+    "zone_name": "Borough Park",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 12091,
+    "share_of_total_pickups": 0.0002730166517803233,
+    "rank": 138,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 169,
+    "zone_name": "Mount Hope",
+    "area": "Bronx",
+    "service_area": "Boro Zone",
+    "pickup_count": 12071,
+    "share_of_total_pickups": 0.00027256504868416857,
+    "rank": 139,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 78,
+    "zone_name": "East Tremont",
+    "area": "Bronx",
+    "service_area": "Boro Zone",
+    "pickup_count": 11886,
+    "share_of_total_pickups": 0.0002683877200447376,
+    "rank": 140,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 83,
+    "zone_name": "Elmhurst/Maspeth",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 11751,
+    "share_of_total_pickups": 0.0002653393991456934,
+    "rank": 141,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 134,
+    "zone_name": "Kew Gardens",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 11593,
+    "share_of_total_pickups": 0.00026177173468607126,
+    "rank": 142,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 191,
+    "zone_name": "Queens Village",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 11577,
+    "share_of_total_pickups": 0.0002614104522091475,
+    "rank": 143,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 165,
+    "zone_name": "Midwood",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 11572,
+    "share_of_total_pickups": 0.00026129755143510885,
+    "rank": 144,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 155,
+    "zone_name": "Marine Park/Mill Basin",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 11456,
+    "share_of_total_pickups": 0.00025867825347741157,
+    "rank": 145,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 222,
+    "zone_name": "Starrett City",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 11451,
+    "share_of_total_pickups": 0.0002585653527033729,
+    "rank": 146,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 219,
+    "zone_name": "Springfield Gardens South",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 11290,
+    "share_of_total_pickups": 0.0002549299477793276,
+    "rank": 147,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 218,
+    "zone_name": "Springfield Gardens North",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 11115,
+    "share_of_total_pickups": 0.000250978420687974,
+    "rank": 148,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 119,
+    "zone_name": "Highbridge",
+    "area": "Bronx",
+    "service_area": "Boro Zone",
+    "pickup_count": 10776,
+    "share_of_total_pickups": 0.00024332374820815184,
+    "rank": 149,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 18,
+    "zone_name": "Bedford Park",
+    "area": "Bronx",
+    "service_area": "Boro Zone",
+    "pickup_count": 10675,
+    "share_of_total_pickups": 0.0002410431525725706,
+    "rank": 150,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 86,
+    "zone_name": "Far Rockaway",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 10670,
+    "share_of_total_pickups": 0.0002409302517985319,
+    "rank": 151,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 210,
+    "zone_name": "Sheepshead Bay",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 10641,
+    "share_of_total_pickups": 0.0002402754273091076,
+    "rank": 152,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 133,
+    "zone_name": "Kensington",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 10607,
+    "share_of_total_pickups": 0.00023950770204564462,
+    "rank": 153,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 117,
+    "zone_name": "Hammels/Arverne",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 10304,
+    "share_of_total_pickups": 0.00023266591513890092,
+    "rank": 154,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 212,
+    "zone_name": "Soundview/Bruckner",
+    "area": "Bronx",
+    "service_area": "Boro Zone",
+    "pickup_count": 9391,
+    "share_of_total_pickups": 0.0002120502337994389,
+    "rank": 155,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 241,
+    "zone_name": "Van Cortlandt Village",
+    "area": "Bronx",
+    "service_area": "Boro Zone",
+    "pickup_count": 9298,
+    "share_of_total_pickups": 0.00020995027940231957,
+    "rank": 156,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 265,
+    "zone_name": "Outside of NYC",
+    "area": "N/A",
+    "service_area": "N/A",
+    "pickup_count": 9076,
+    "share_of_total_pickups": 0.0002049374850350024,
+    "rank": 157,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 47,
+    "zone_name": "Claremont/Bathgate",
+    "area": "Bronx",
+    "service_area": "Boro Zone",
+    "pickup_count": 9019,
+    "share_of_total_pickups": 0.00020365041621096152,
+    "rank": 158,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 248,
+    "zone_name": "West Farms/Bronx River",
+    "area": "Bronx",
+    "service_area": "Boro Zone",
+    "pickup_count": 8815,
+    "share_of_total_pickups": 0.00019904406463018358,
+    "rank": 159,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 22,
+    "zone_name": "Bensonhurst West",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 8793,
+    "share_of_total_pickups": 0.00019854730122441342,
+    "rank": 160,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 250,
+    "zone_name": "Westchester Village/Unionport",
+    "area": "Bronx",
+    "service_area": "Boro Zone",
+    "pickup_count": 8763,
+    "share_of_total_pickups": 0.00019786989658018137,
+    "rank": 161,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 220,
+    "zone_name": "Spuyten Duyvil/Kingsbridge",
+    "area": "Bronx",
+    "service_area": "Boro Zone",
+    "pickup_count": 8737,
+    "share_of_total_pickups": 0.00019728281255518027,
+    "rank": 162,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 174,
+    "zone_name": "Norwood",
+    "area": "Bronx",
+    "service_area": "Boro Zone",
+    "pickup_count": 8617,
+    "share_of_total_pickups": 0.00019457319397825208,
+    "rank": 163,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 242,
+    "zone_name": "Van Nest/Morris Park",
+    "area": "Bronx",
+    "service_area": "Boro Zone",
+    "pickup_count": 8524,
+    "share_of_total_pickups": 0.0001924732395811327,
+    "rank": 164,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 123,
+    "zone_name": "Homecrest",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 8421,
+    "share_of_total_pickups": 0.000190147483635936,
+    "rank": 165,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 227,
+    "zone_name": "Sunset Park East",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 8359,
+    "share_of_total_pickups": 0.00018874751403785646,
+    "rank": 166,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 160,
+    "zone_name": "Middle Village",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 8296,
+    "share_of_total_pickups": 0.00018732496428496915,
+    "rank": 167,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 126,
+    "zone_name": "Hunts Point",
+    "area": "Bronx",
+    "service_area": "Boro Zone",
+    "pickup_count": 8240,
+    "share_of_total_pickups": 0.000186060475615736,
+    "rank": 168,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 217,
+    "zone_name": "South Williamsburg",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 8234,
+    "share_of_total_pickups": 0.00018592499468688957,
+    "rank": 169,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 259,
+    "zone_name": "Woodlawn/Wakefield",
+    "area": "Bronx",
+    "service_area": "Boro Zone",
+    "pickup_count": 8129,
+    "share_of_total_pickups": 0.0001835540784320774,
+    "rank": 170,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 121,
+    "zone_name": "Hillcrest/Pomonok",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 8091,
+    "share_of_total_pickups": 0.00018269603254938348,
+    "rank": 171,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 81,
+    "zone_name": "Eastchester",
+    "area": "Bronx",
+    "service_area": "Boro Zone",
+    "pickup_count": 7970,
+    "share_of_total_pickups": 0.00017996383381764755,
+    "rank": 172,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 131,
+    "zone_name": "Jamaica Estates",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 7833,
+    "share_of_total_pickups": 0.00017687035260898786,
+    "rank": 173,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 173,
+    "zone_name": "North Corona",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 7672,
+    "share_of_total_pickups": 0.00017323494768494254,
+    "rank": 174,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 34,
+    "zone_name": "Brooklyn Navy Yard",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 7662,
+    "share_of_total_pickups": 0.00017300914613686518,
+    "rank": 175,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 208,
+    "zone_name": "Schuylerville/Edgewater Park",
+    "area": "Bronx",
+    "service_area": "Boro Zone",
+    "pickup_count": 7359,
+    "share_of_total_pickups": 0.0001661673592301215,
+    "rank": 176,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 102,
+    "zone_name": "Glendale",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 7349,
+    "share_of_total_pickups": 0.00016594155768204414,
+    "rank": 177,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 60,
+    "zone_name": "Crotona Park East",
+    "area": "Bronx",
+    "service_area": "Boro Zone",
+    "pickup_count": 7308,
+    "share_of_total_pickups": 0.00016501577133492702,
+    "rank": 178,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 136,
+    "zone_name": "Kingsbridge Heights",
+    "area": "Bronx",
+    "service_area": "Boro Zone",
+    "pickup_count": 7139,
+    "share_of_total_pickups": 0.0001611997251724198,
+    "rank": 179,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 29,
+    "zone_name": "Brighton Beach",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 6787,
+    "share_of_total_pickups": 0.00015325151068009711,
+    "rank": 180,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 32,
+    "zone_name": "Bronxdale",
+    "area": "Bronx",
+    "service_area": "Boro Zone",
+    "pickup_count": 6769,
+    "share_of_total_pickups": 0.00015284506789355789,
+    "rank": 181,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 147,
+    "zone_name": "Longwood",
+    "area": "Bronx",
+    "service_area": "Boro Zone",
+    "pickup_count": 6626,
+    "share_of_total_pickups": 0.00014961610575605177,
+    "rank": 182,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 257,
+    "zone_name": "Windsor Terrace",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 6395,
+    "share_of_total_pickups": 0.000144400089995465,
+    "rank": 183,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 21,
+    "zone_name": "Bensonhurst East",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 6354,
+    "share_of_total_pickups": 0.00014347430364834788,
+    "rank": 184,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 124,
+    "zone_name": "Howard Beach",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 6330,
+    "share_of_total_pickups": 0.00014293237993296223,
+    "rank": 185,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 202,
+    "zone_name": "Roosevelt Island",
+    "area": "Manhattan",
+    "service_area": "Boro Zone",
+    "pickup_count": 6237,
+    "share_of_total_pickups": 0.0001408324255358429,
+    "rank": 186,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 149,
+    "zone_name": "Madison",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 6204,
+    "share_of_total_pickups": 0.00014008728042718763,
+    "rank": 187,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 135,
+    "zone_name": "Kew Gardens Hills",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 6175,
+    "share_of_total_pickups": 0.0001394324559377633,
+    "rank": 188,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 180,
+    "zone_name": "Ozone Park",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 6104,
+    "share_of_total_pickups": 0.00013782926494641413,
+    "rank": 189,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 185,
+    "zone_name": "Pelham Parkway",
+    "area": "Bronx",
+    "service_area": "Boro Zone",
+    "pickup_count": 6089,
+    "share_of_total_pickups": 0.0001374905626242981,
+    "rank": 190,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 139,
+    "zone_name": "Laurelton",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 6004,
+    "share_of_total_pickups": 0.00013557124946564063,
+    "rank": 191,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 20,
+    "zone_name": "Belmont",
+    "area": "Bronx",
+    "service_area": "Boro Zone",
+    "pickup_count": 5608,
+    "share_of_total_pickups": 0.0001266295081617776,
+    "rank": 192,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 108,
+    "zone_name": "Gravesend",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 5532,
+    "share_of_total_pickups": 0.00012491341639638974,
+    "rank": 193,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 122,
+    "zone_name": "Hollis",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 5501,
+    "share_of_total_pickups": 0.00012421343159734995,
+    "rank": 194,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 203,
+    "zone_name": "Rosedale",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 5416,
+    "share_of_total_pickups": 0.00012229411843869248,
+    "rank": 195,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 94,
+    "zone_name": "Fordham South",
+    "area": "Bronx",
+    "service_area": "Boro Zone",
+    "pickup_count": 5227,
+    "share_of_total_pickups": 0.00011802646918003059,
+    "rank": 196,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 67,
+    "zone_name": "Dyker Heights",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 5128,
+    "share_of_total_pickups": 0.00011579103385406482,
+    "rank": 197,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 200,
+    "zone_name": "Riverdale/North Riverdale/Fieldston",
+    "area": "Bronx",
+    "service_area": "Boro Zone",
+    "pickup_count": 5084,
+    "share_of_total_pickups": 0.00011479750704252448,
+    "rank": 198,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 3,
+    "zone_name": "Allerton/Pelham Gardens",
+    "area": "Bronx",
+    "service_area": "Boro Zone",
+    "pickup_count": 4894,
+    "share_of_total_pickups": 0.00011050727762905484,
+    "rank": 199,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 38,
+    "zone_name": "Cambria Heights",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 4715,
+    "share_of_total_pickups": 0.0001064654299184703,
+    "rank": 200,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 19,
+    "zone_name": "Bellerose",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 4456,
+    "share_of_total_pickups": 0.00010061716982326694,
+    "rank": 201,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 54,
+    "zone_name": "Columbia Street",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 4316,
+    "share_of_total_pickups": 9.745594815018404e-05,
+    "rank": 202,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 53,
+    "zone_name": "College Point",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 3933,
+    "share_of_total_pickups": 8.880774885882156e-05,
+    "rank": 203,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 190,
+    "zone_name": "Prospect Park",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 3861,
+    "share_of_total_pickups": 8.718197771266464e-05,
+    "rank": 204,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 150,
+    "zone_name": "Manhattan Beach",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 3772,
+    "share_of_total_pickups": 8.517234393477624e-05,
+    "rank": 205,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 171,
+    "zone_name": "Murray Hill-Queens",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 3727,
+    "share_of_total_pickups": 8.415623696842815e-05,
+    "rank": 206,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 16,
+    "zone_name": "Bayside",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 3456,
+    "share_of_total_pickups": 7.803701501553199e-05,
+    "rank": 207,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 11,
+    "zone_name": "Bath Beach",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 3350,
+    "share_of_total_pickups": 7.564351860591209e-05,
+    "rank": 208,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 252,
+    "zone_name": "Whitestone",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 3249,
+    "share_of_total_pickups": 7.336292297033085e-05,
+    "rank": 209,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 192,
+    "zone_name": "Queensboro Hill",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 3244,
+    "share_of_total_pickups": 7.325002219629217e-05,
+    "rank": 210,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 183,
+    "zone_name": "Pelham Bay",
+    "area": "Bronx",
+    "service_area": "Boro Zone",
+    "pickup_count": 3056,
+    "share_of_total_pickups": 6.900495309243801e-05,
+    "rank": 211,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 201,
+    "zone_name": "Rockaway Park",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 3015,
+    "share_of_total_pickups": 6.807916674532088e-05,
+    "rank": 212,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 178,
+    "zone_name": "Ocean Parkway South",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 2980,
+    "share_of_total_pickups": 6.728886132705015e-05,
+    "rank": 213,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 101,
+    "zone_name": "Glen Oaks",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 2879,
+    "share_of_total_pickups": 6.500826569146892e-05,
+    "rank": 214,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 98,
+    "zone_name": "Fresh Meadows",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 2740,
+    "share_of_total_pickups": 6.186962417319376e-05,
+    "rank": 215,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 153,
+    "zone_name": "Marble Hill",
+    "area": "Manhattan",
+    "service_area": "Boro Zone",
+    "pickup_count": 2341,
+    "share_of_total_pickups": 5.286014240490752e-05,
+    "rank": 216,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 175,
+    "zone_name": "Oakland Gardens",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 2297,
+    "share_of_total_pickups": 5.186661559336718e-05,
+    "rank": 217,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 194,
+    "zone_name": "Randalls Island",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 2042,
+    "share_of_total_pickups": 4.610867611739477e-05,
+    "rank": 218,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 207,
+    "zone_name": "Saint Michaels Cemetery/Woodside",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 1915,
+    "share_of_total_pickups": 4.324099645681243e-05,
+    "rank": 219,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 9,
+    "zone_name": "Auburndale",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 1867,
+    "share_of_total_pickups": 4.215714902604115e-05,
+    "rank": 220,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 73,
+    "zone_name": "East Flushing",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 1788,
+    "share_of_total_pickups": 4.037331679623009e-05,
+    "rank": 221,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 15,
+    "zone_name": "Bay Terrace/Fort Totten",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 1730,
+    "share_of_total_pickups": 3.906366781738146e-05,
+    "rank": 222,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 64,
+    "zone_name": "Douglaston",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 1669,
+    "share_of_total_pickups": 3.768627837410963e-05,
+    "rank": 223,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 128,
+    "zone_name": "Inwood Hill Park",
+    "area": "Manhattan",
+    "service_area": "Boro Zone",
+    "pickup_count": 1651,
+    "share_of_total_pickups": 3.72798355875704e-05,
+    "rank": 224,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 240,
+    "zone_name": "Van Cortlandt Park",
+    "area": "Bronx",
+    "service_area": "Boro Zone",
+    "pickup_count": 1476,
+    "share_of_total_pickups": 3.332830849621679e-05,
+    "rank": 225,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 1,
+    "zone_name": "Newark Airport",
+    "area": "EWR",
+    "service_area": "EWR",
+    "pickup_count": 1376,
+    "share_of_total_pickups": 3.107029301544329e-05,
+    "rank": 226,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 31,
+    "zone_name": "Bronx Park",
+    "area": "Bronx",
+    "service_area": "Boro Zone",
+    "pickup_count": 1169,
+    "share_of_total_pickups": 2.6396200970242156e-05,
+    "rank": 227,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 6,
+    "zone_name": "Arrochar/Fort Wadsworth",
+    "area": "Staten Island",
+    "service_area": "Boro Zone",
+    "pickup_count": 1013,
+    "share_of_total_pickups": 2.2873696820235505e-05,
+    "rank": 228,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 57,
+    "zone_name": "Corona",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 963,
+    "share_of_total_pickups": 2.1744689079848758e-05,
+    "rank": 229,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 120,
+    "zone_name": "Highbridge Park",
+    "area": "Manhattan",
+    "service_area": "Boro Zone",
+    "pickup_count": 945,
+    "share_of_total_pickups": 2.1338246293309526e-05,
+    "rank": 230,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 96,
+    "zone_name": "Forest Park/Highland Park",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 920,
+    "share_of_total_pickups": 2.0773742423116155e-05,
+    "rank": 231,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 46,
+    "zone_name": "City Island",
+    "area": "Bronx",
+    "service_area": "Boro Zone",
+    "pickup_count": 814,
+    "share_of_total_pickups": 1.838024601349625e-05,
+    "rank": 232,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 154,
+    "zone_name": "Marine Park/Floyd Bennett Field",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 705,
+    "share_of_total_pickups": 1.591900913945314e-05,
+    "rank": 233,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 221,
+    "zone_name": "Stapleton",
+    "area": "Staten Island",
+    "service_area": "Boro Zone",
+    "pickup_count": 684,
+    "share_of_total_pickups": 1.5444825888490707e-05,
+    "rank": 234,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 58,
+    "zone_name": "Country Club",
+    "area": "Bronx",
+    "service_area": "Boro Zone",
+    "pickup_count": 683,
+    "share_of_total_pickups": 1.542224573368297e-05,
+    "rank": 235,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 184,
+    "zone_name": "Pelham Bay Park",
+    "area": "Bronx",
+    "service_area": "Boro Zone",
+    "pickup_count": 580,
+    "share_of_total_pickups": 1.3096489788486271e-05,
+    "rank": 236,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 8,
+    "zone_name": "Astoria Park",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 489,
+    "share_of_total_pickups": 1.1041695700982391e-05,
+    "rank": 237,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 214,
+    "zone_name": "South Beach/Dongan Hills",
+    "area": "Staten Island",
+    "service_area": "Boro Zone",
+    "pickup_count": 437,
+    "share_of_total_pickups": 9.867527650980174e-06,
+    "rank": 238,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 253,
+    "zone_name": "Willets Point",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 373,
+    "share_of_total_pickups": 8.422397743285136e-06,
+    "rank": 239,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 115,
+    "zone_name": "Grymes Hill/Clifton",
+    "area": "Staten Island",
+    "service_area": "Boro Zone",
+    "pickup_count": 352,
+    "share_of_total_pickups": 7.948214492322703e-06,
+    "rank": 240,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 23,
+    "zone_name": "Bloomfield/Emerson Hill",
+    "area": "Staten Island",
+    "service_area": "Boro Zone",
+    "pickup_count": 325,
+    "share_of_total_pickups": 7.338550312513859e-06,
+    "rank": 241,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 27,
+    "zone_name": "Breezy Point/Fort Tilden/Riis Beach",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 304,
+    "share_of_total_pickups": 6.864367061551425e-06,
+    "rank": 242,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 59,
+    "zone_name": "Crotona Park",
+    "area": "Bronx",
+    "service_area": "Boro Zone",
+    "pickup_count": 304,
+    "share_of_total_pickups": 6.864367061551425e-06,
+    "rank": 243,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 118,
+    "zone_name": "Heartland Village/Todt Hill",
+    "area": "Staten Island",
+    "service_area": "Boro Zone",
+    "pickup_count": 236,
+    "share_of_total_pickups": 5.328916534625448e-06,
+    "rank": 244,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 172,
+    "zone_name": "New Dorp/Midland Beach",
+    "area": "Staten Island",
+    "service_area": "Boro Zone",
+    "pickup_count": 216,
+    "share_of_total_pickups": 4.877313438470749e-06,
+    "rank": 245,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 30,
+    "zone_name": "Broad Channel",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 196,
+    "share_of_total_pickups": 4.42571034231605e-06,
+    "rank": 246,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 251,
+    "zone_name": "Westerleigh",
+    "area": "Staten Island",
+    "service_area": "Boro Zone",
+    "pickup_count": 188,
+    "share_of_total_pickups": 4.2450691038541705e-06,
+    "rank": 247,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 206,
+    "zone_name": "Saint George/New Brighton",
+    "area": "Staten Island",
+    "service_area": "Boro Zone",
+    "pickup_count": 159,
+    "share_of_total_pickups": 3.590244614429857e-06,
+    "rank": 248,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 156,
+    "zone_name": "Mariners Harbor",
+    "area": "Staten Island",
+    "service_area": "Boro Zone",
+    "pickup_count": 138,
+    "share_of_total_pickups": 3.116061363467423e-06,
+    "rank": 249,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 111,
+    "zone_name": "Green-Wood Cemetery",
+    "area": "Brooklyn",
+    "service_area": "Boro Zone",
+    "pickup_count": 137,
+    "share_of_total_pickups": 3.093481208659688e-06,
+    "rank": 250,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 245,
+    "zone_name": "West Brighton",
+    "area": "Staten Island",
+    "service_area": "Boro Zone",
+    "pickup_count": 112,
+    "share_of_total_pickups": 2.5289773384663145e-06,
+    "rank": 251,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 176,
+    "zone_name": "Oakwood",
+    "area": "Staten Island",
+    "service_area": "Boro Zone",
+    "pickup_count": 111,
+    "share_of_total_pickups": 2.5063971836585794e-06,
+    "rank": 252,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 109,
+    "zone_name": "Great Kills",
+    "area": "Staten Island",
+    "service_area": "Boro Zone",
+    "pickup_count": 80,
+    "share_of_total_pickups": 1.806412384618796e-06,
+    "rank": 253,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 2,
+    "zone_name": "Jamaica Bay",
+    "area": "Queens",
+    "service_area": "Boro Zone",
+    "pickup_count": 74,
+    "share_of_total_pickups": 1.6709314557723863e-06,
+    "rank": 254,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 187,
+    "zone_name": "Port Richmond",
+    "area": "Staten Island",
+    "service_area": "Boro Zone",
+    "pickup_count": 64,
+    "share_of_total_pickups": 1.4451299076950368e-06,
+    "rank": 255,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 44,
+    "zone_name": "Charleston/Tottenville",
+    "area": "Staten Island",
+    "service_area": "Boro Zone",
+    "pickup_count": 21,
+    "share_of_total_pickups": 4.7418325096243395e-07,
+    "rank": 256,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 84,
+    "zone_name": "Eltingville/Annadale/Prince's Bay",
+    "area": "Staten Island",
+    "service_area": "Boro Zone",
+    "pickup_count": 20,
+    "share_of_total_pickups": 4.51603096154699e-07,
+    "rank": 257,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 199,
+    "zone_name": "Rikers Island",
+    "area": "Bronx",
+    "service_area": "Boro Zone",
+    "pickup_count": 16,
+    "share_of_total_pickups": 3.612824769237592e-07,
+    "rank": 258,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 204,
+    "zone_name": "Rossville/Woodrow",
+    "area": "Staten Island",
+    "service_area": "Boro Zone",
+    "pickup_count": 16,
+    "share_of_total_pickups": 3.612824769237592e-07,
+    "rank": 259,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 5,
+    "zone_name": "Arden Heights",
+    "area": "Staten Island",
+    "service_area": "Boro Zone",
+    "pickup_count": 12,
+    "share_of_total_pickups": 2.7096185769281943e-07,
+    "rank": 260,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 105,
+    "zone_name": "Governor's Island/Ellis Island/Liberty Island",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 9,
+    "share_of_total_pickups": 2.0322139326961454e-07,
+    "rank": 261,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 99,
+    "zone_name": "Freshkills Park",
+    "area": "Staten Island",
+    "service_area": "Boro Zone",
+    "pickup_count": 8,
+    "share_of_total_pickups": 1.806412384618796e-07,
+    "rank": 262,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 103,
+    "zone_name": "Governor's Island/Ellis Island/Liberty Island",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 0,
+    "share_of_total_pickups": 0.0,
+    "rank": 263,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 104,
+    "zone_name": "Governor's Island/Ellis Island/Liberty Island",
+    "area": "Manhattan",
+    "service_area": "Yellow Zone",
+    "pickup_count": 0,
+    "share_of_total_pickups": 0.0,
+    "rank": 264,
+    "reference_matched": true
+  },
+  {
+    "zone_id": 110,
+    "zone_name": "Great Kills Park",
+    "area": "Staten Island",
+    "service_area": "Boro Zone",
+    "pickup_count": 0,
+    "share_of_total_pickups": 0.0,
+    "rank": 265,
+    "reference_matched": true
+  }
+]

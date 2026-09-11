@@ -5,95 +5,54 @@ import { AnalyticsCard } from "../components/cards/AnalyticsCard";
 import { InsightCard } from "../components/cards/InsightCard";
 import { GlobalFilterBar } from "../components/filters/GlobalFilterBar";
 import { ChartContainer } from "../components/charts/ChartContainer";
-import { MapContainer } from "../components/maps/MapContainer";
-import { overviewInsight, overviewKPIs } from "../data/mockDashboard";
-const values = [
-  1.08, 1.18, 1.12, 1.04, 1.36, 1.49, 1.21, 1.18, 1.32, 1.28, 1.43, 1.57, 1.62,
-  1.3, 1.34, 1.49, 1.39, 1.56, 1.72, 1.81, 1.51, 1.44, 1.53, 1.49, 1.67, 1.78,
-  1.93, 1.67, 1.61, 1.74,
-];
-const daily = values.map((value, i) => ({
-  label: `Jan ${String(i + 1).padStart(2, "0")}`,
-  value,
+import { TopPickupZones } from "../components/charts/TopPickupZones";
+import { overviewKPIs } from "../data/mockDashboard";
+import dailyMetrics from "../data/generated/overview_daily.json";
+import weeklyMetrics from "../data/generated/overview_weekly.json";
+import zoneActivity from "../data/generated/zone_activity.json";
+const daily = dailyMetrics.map((day) => ({
+  label: day.date,
+  value: day.trip_count,
 }));
-const weekly = [1.21, 1.39, 1.52, 1.67].map((value, i) => ({
-  label: `Jan ${i * 7 + 1}`,
-  value,
+const weekly = weeklyMetrics.map((week) => ({
+  label: week.week_start,
+  value: week.trip_count,
 }));
-const icons = [
-  "M5 17h14M7 14V9m5 5V5m5 9v-7",
-  "M12 3v18m5-15H9a3 3 0 0 0 0 6h6a3 3 0 0 1 0 6H6",
-  "M4 7h16v12H4zM4 7l3-3h10l3 3M15 12h5",
-  "M12 8v5l3 2M9 2h6M12 5a8 8 0 1 0 0 16 8 8 0 0 0 0-16",
-];
-export function Overview({
-  filters,
-  activeFilterCount,
-  onFilterChange,
-  onResetFilters,
-}) {
+const revenue = dailyMetrics.map((day) => ({
+  label: day.date,
+  value: day.base_fare_revenue,
+}));
+const formatTrips = (value) => value.toLocaleString("en-US");
+const formatRevenue = (value) => value.toLocaleString("en-US", {
+  style: "currency", currency: "USD",
+});
+const provenance = "Cleaned UrbanFlow historical data";
+const topZones = zoneActivity.slice(0, 5);
+const leadingZone = topZones[0];
+const topShare = topZones.reduce((sum, zone) => sum + zone.share_of_total_pickups, 0);
+const periodFormatter = new Intl.DateTimeFormat("en-US", { month: "short", year: "numeric", timeZone: "UTC" });
+const periodLabel = `${periodFormatter.format(new Date(dailyMetrics[0].date))} – ${periodFormatter.format(new Date(dailyMetrics.at(-1).date))}`;
+export function Overview() {
   const [interval, setInterval] = useState("Daily");
   const series = interval === "Daily" ? daily : weekly;
   return (
-    <PageContainer>
+    <PageContainer className="overview-page">
       <div className="page-heading">
         <div>
-          <div className="eyebrow">
-            <span className="blue-rule" /> MOBILITY INTELLIGENCE
-          </div>
           <h1>Executive Overview</h1>
-          <p>Your city's movement. A clearer picture of performance.</p>
+          <p>Historical analytics · Cleaned trip data · {periodLabel}</p>
         </div>
-        <span className="preview-label">
-          <span /> Design preview <b>v0.1</b>
-        </span>
       </div>
-      <GlobalFilterBar
-        {...{ filters, activeFilterCount, onFilterChange, onResetFilters }}
-      />
-      <div className="sample-banner" role="status">
-        <span className="sample-icon">i</span>
-        <span>
-          <strong>Sample data workspace.</strong> Illustrative values for design
-          evaluation.
-          {activeFilterCount > 0
-            ? " Filter selections are saved; preview values remain unchanged."
-            : " Live analytics are not connected."}
-        </span>
-        <span className="sample-period">JAN 01 – JAN 30, 2026</span>
-      </div>
-      <section
-        className="kpi-grid"
-        aria-label="Sample key performance indicators"
-      >
-        {overviewKPIs.map((kpi, i) => (
-          <KPICard
-            key={kpi.label}
-            {...kpi}
-            icon={
-              <svg
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="1.6"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                aria-hidden="true"
-              >
-                <path d={icons[i]} />
-              </svg>
-            }
-          />
+      <GlobalFilterBar disabled periodLabel={periodLabel} />
+      <section className="kpi-grid" aria-label="Verified dataset KPIs">
+        {overviewKPIs.map(({ label, value }) => (
+          <KPICard key={label} label={label} value={value} />
         ))}
       </section>
-      <div className="section-line">
-        <h2>Performance at a glance</h2>
-        <span>Trends, geography & operational signals</span>
-      </div>
-      <section className="analytics-grid" aria-label="Sample analytics">
+      <section className="analytics-grid" aria-label="Historical analytics">
         <AnalyticsCard
           title="Trip Demand Trend"
-          description="Daily pickup volume across the city"
+          description={`${interval} pickup counts`}
           actions={
             <div className="segmented" aria-label="Chart interval">
               {["Daily", "Weekly"].map((value) => (
@@ -109,73 +68,60 @@ export function Overview({
           }
           footer={
             <span className="card-footnote">
-              <span className="tiny-dot" /> Sample series ·{" "}
               {interval === "Daily"
-                ? "Daily volume"
-                : "Average daily volume by week"}{" "}
-              <span>Hover or focus to explore</span>
+                ? "Each point represents one calendar day"
+                : "Mon–Sun totals; boundary weeks partial"}
             </span>
           }
         >
           <ChartContainer
             data={series}
-            comparison={series.map((d, i) => ({
-              ...d,
-              value: d.value * 0.86 + (i % 3) * 0.025,
-            }))}
-            max={2}
             label="Trips"
+            displayDivisor={1_000_000}
+            valueFormatter={formatTrips}
+            provenance={provenance}
+            summary={`${interval} pickup trip counts from cleaned UrbanFlow historical data. Weekly dates identify Monday week starts.`}
           />
         </AnalyticsCard>
         <AnalyticsCard
           title="Revenue Trend"
-          description="Fare revenue across the sample period"
-          actions={<span className="card-tag">USD</span>}
+          description="Daily base fare revenue"
           footer={
             <span className="card-footnote">
-              <span className="tiny-dot" /> Sample series · Daily revenue{" "}
-              <span>Excludes tips & tolls</span>
+              Excludes tips & tolls
             </span>
           }
         >
           <ChartContainer
-            data={daily.map((d) => ({ ...d, value: d.value * 21.4 }))}
+            data={revenue}
             type="bar"
-            max={48}
             unit="M"
             label="Revenue ($)"
+            displayDivisor={1_000_000}
+            valueFormatter={formatRevenue}
+            provenance={provenance}
+            summary="Daily base fare revenue from cleaned UrbanFlow historical data; excludes tips and tolls."
           />
         </AnalyticsCard>
         <AnalyticsCard
-          title="Zone Activity Map"
-          description="Where the city moves · illustrative pickup hotspots"
-          actions={<span className="card-tag">5 zones</span>}
-          compact
-          footer={
-            <span className="card-footnote">
-              Schematic preview · Not geographic boundaries{" "}
-              <span>Drag to pan · Select a zone</span>
-            </span>
-          }
+          title="Top Pickup Zones"
+          description="Highest pickup volumes across the cleaned trip dataset"
+          footer={<span className="card-footnote">Bars relative to the leading zone; shares use all pickups.</span>}
         >
-          <MapContainer />
+          <TopPickupZones zones={topZones} />
         </AnalyticsCard>
         <div className="insight-wrapper">
           <div className="insight-heading">
-            <span>✧</span>
             <h2>Business Insight</h2>
-            <span className="card-tag">SAMPLE</span>
           </div>
-          <InsightCard {...overviewInsight} />
+          <InsightCard
+            title="Pickup Demand Concentration"
+            showBadge={false}
+            evidence={`${leadingZone.zone_name} recorded ${formatTrips(leadingZone.pickup_count)} pickups, representing ${(leadingZone.share_of_total_pickups * 100).toFixed(2)}% of all cleaned trips. The top five zones together account for ${(topShare * 100).toFixed(2)}% of pickups.`}
+            interpretation="These rankings identify where recorded pickup activity is highest and can inform location-level capacity reviews. Pickup volumes alone do not establish unmet demand or vehicle availability."
+          />
         </div>
       </section>
-      <footer className="page-footer">
-        <span>
-          <strong>UrbanFlow</strong> Analytics <span> / </span> From movement to
-          management.
-        </span>
-        <span>SLIIT Codefest Datathon 2026</span>
-      </footer>
     </PageContainer>
   );
 }

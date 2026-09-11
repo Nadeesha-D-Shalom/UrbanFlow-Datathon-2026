@@ -10,24 +10,30 @@ export function InsightCard({
   evidence,
   impact,
   action,
+  interpretation,
+  showBadge = true,
 }) {
   return (
-    <article className={`insight-card insight-card--${variant}`}>
-      <div className="insight-card__badge">
+    <article className={`insight-card insight-card--${variant} ${interpretation ? "insight-card--historical" : ""}`}>
+      {showBadge && <div className="insight-card__badge">
         {variantLabels[variant] ?? variantLabels.information}
-      </div>
+      </div>}
       <h3 className="insight-card__title">{title}</h3>
       <p className="insight-card__evidence">{evidence}</p>
 
-      <div className="insight-card__section">
+      {impact && <div className="insight-card__section">
         <span>Impact</span>
         <p>{impact}</p>
-      </div>
+      </div>}
 
-      <div className="insight-card__section">
+      {action && <div className="insight-card__section">
         <span>Recommended action</span>
         <p>{action}</p>
-      </div>
+      </div>}
+      {interpretation && <div className="insight-card__section">
+        <span>Operational interpretation</span>
+        <p>{interpretation}</p>
+      </div>}
     </article>
   );
 }

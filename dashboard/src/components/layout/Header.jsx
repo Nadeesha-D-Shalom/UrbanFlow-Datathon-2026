@@ -1,4 +1,3 @@
-import { StatusBadge } from "../common/StatusBadge";
 export function Header({ title, onOpenMobileSidebar }) {
   return (
     <header className="header">
@@ -15,8 +14,6 @@ export function Header({ title, onOpenMobileSidebar }) {
         </span>
       </div>
       <div className="header__right">
-        <span className="header__meta">Static sample · Jan 2026</span>
-        <StatusBadge variant="info" label="Preview mode" />
         <details className="profile-menu">
           <summary aria-label="Open profile menu">
             <span className="header__avatar">OT</span>
@@ -25,11 +22,10 @@ export function Header({ title, onOpenMobileSidebar }) {
           </summary>
           <div className="profile-panel">
             <strong>Operations Team</strong>
-            <p>Demo workspace · Executive view</p>
+            <p>Executive view</p>
             <hr />
             <p>
-              Sample data only. Account management will be available when the
-              platform is connected.
+              Account management is not enabled in this workspace.
             </p>
           </div>
         </details>
