@@ -1,0 +1,13 @@
+{
+  "model": "LGBMRegressor",
+  "test": {
+    "model": "LGBMRegressor",
+    "rows": 3764245,
+    "mae": 4.6061663871866365,
+    "rmse": 21.321528645060255,
+    "r2": 0.26138359071418626
+  },
+  "test_period": "March 2026",
+  "train_rows": 5000000,
+  "sampled_training": true
+}

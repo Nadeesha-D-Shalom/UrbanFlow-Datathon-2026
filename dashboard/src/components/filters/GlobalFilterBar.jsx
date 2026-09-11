@@ -26,7 +26,38 @@ export function GlobalFilterBar({
   onFilterChange,
   onResetFilters,
   activeFilterCount,
+  disabled = false,
+  periodLabel = "Full dataset period",
 }) {
+  if (disabled) {
+    return (
+      <section className="global-filters global-filters--disabled" aria-label="Global filters">
+        <div className="global-filters__header">
+          <h2 className="global-filters__title">Global filters</h2>
+          <p className="filter-scope-note" id="overview-filter-scope">
+            Not applied to Executive Overview. Showing the full dataset.
+          </p>
+        </div>
+        <div className="global-filters__grid">
+          {[
+            ["Date Range", periodLabel],
+            ["Pickup Zone", "All pickup zones"],
+            ["Drop-off Zone", "All drop-off zones"],
+            ["Provider", "All providers"],
+            ["Rate Class", "All rate classes"],
+          ].map(([label, value]) => (
+            <div className="filter-dropdown" key={label}>
+              <span className="filter-dropdown__label">{label}</span>
+              <button className="filter-dropdown__button" disabled
+                aria-label={`${label} ${value}`} aria-describedby="overview-filter-scope">
+                {value}
+              </button>
+            </div>
+          ))}
+        </div>
+      </section>
+    );
+  }
   return (
     <section
       className={`global-filters ${activeFilterCount > 0 ? "is-active" : ""}`}

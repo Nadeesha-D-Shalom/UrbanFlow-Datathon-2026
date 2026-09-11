@@ -3404,3 +3404,84 @@ hr {
 
 }
 
+
+/* Restrained Overview presentation; existing grids and breakpoints are retained. */
+.sidebar__group-title {
+  font-size: 11px;
+  letter-spacing: 0.3px;
+  text-transform: none;
+}
+.sidebar__brand-text span { letter-spacing: 1.3px; }
+.overview-page .page-heading h1 {
+  font-size: 26px;
+  letter-spacing: -0.5px;
+  font-weight: 600;
+  margin-top: 0;
+}
+.overview-page .page-heading p { font-size: 12px; line-height: 1.6; }
+.overview-page .analytics-card,
+.overview-page .kpi-card,
+.overview-page .global-filters,
+.overview-page .insight-wrapper { border-radius: var(--radius-md); }
+.kpi-card--plain { gap: 12px; padding: 20px; }
+.kpi-card--plain .kpi-card__label { position: static; font-size: 12px; }
+.kpi-card--plain .kpi-card__value-row { padding: 0; }
+.kpi-card--plain .kpi-card__value { font-size: 28px; letter-spacing: -0.5px; font-weight: 600; }
+.overview-page .analytics-card__title,
+.overview-page .insight-heading h2,
+.overview-page .insight-card__title { font-size: 14px; font-weight: 600; letter-spacing: 0; }
+.overview-page .analytics-card__description,
+.overview-page .card-footnote,
+.overview-page .segmented button,
+.overview-page .chart-legend,
+.overview-page .chart-legend .chart-unit { font-size: 11px; }
+.overview-page .chart-legend .chart-unit { display: flex; }
+.overview-page .analytics-card__header { padding-bottom: 4px; }
+.overview-page .global-filters__header { flex-wrap: wrap; gap: 8px 16px; }
+.overview-page .global-filters__title { font-size: 12px; }
+.filter-scope-note { color: var(--text-soft); font-size: 12px; line-height: 1.5; }
+.global-filters--disabled .filter-dropdown__button {
+  background: #f8fafc;
+  color: var(--text-soft);
+  opacity: 1;
+  text-align: left;
+  font-size: 11px;
+}
+.zone-ranking { list-style: none; padding: 6px 6px 12px; margin: 0; display: grid; gap: 18px; }
+.zone-ranking li { display: flex; gap: 12px; align-items: flex-start; }
+.zone-ranking__rank { color: var(--text-soft); width: 16px; padding-top: 1px; font-variant-numeric: tabular-nums; }
+.zone-ranking__detail { flex: 1; min-width: 0; }
+.zone-ranking__row { display: flex; justify-content: space-between; gap: 12px; font-size: 12px; line-height: 1.5; }
+.zone-ranking__row strong { font-weight: 500; overflow-wrap: anywhere; }
+.zone-ranking__count { font-variant-numeric: tabular-nums; white-space: nowrap; }
+.zone-ranking__context { color: var(--text-soft); font-size: 11px; margin-top: 2px; }
+.zone-ranking__context > span:last-child { white-space: nowrap; font-variant-numeric: tabular-nums; }
+.zone-ranking__track { height: 5px; background: #edf1f7; margin-top: 8px; border-radius: 2px; overflow: hidden; }
+.zone-ranking__track > div { height: 100%; background: var(--primary); }
+.insight-card--historical { border-left: 0; gap: 18px; }
+.insight-card--historical .insight-card__evidence,
+.insight-card--historical .insight-card__section p { font-size: 13px; line-height: 1.75; }
+.insight-card--historical .insight-card__section:last-child { background: none; border-top: 1px solid var(--border); padding: 18px 0 0; border-radius: 0; }
+.insight-card--historical .insight-card__section > span { color: var(--text); font-size: 12px; }
+
+/* Fare prediction uses the existing card and responsive workspace foundation. */
+.predictions-page .page-heading h1 { font-size: 26px; font-weight: 600; letter-spacing: -.5px; }
+.fare-api-status, .fare-context { color: var(--text-soft); font-size: 12px; line-height: 1.6; }
+.fare-grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: 18px; }
+.fare-form, .fare-result, .fare-model-info { padding: 6px 6px 18px; }
+.fare-form fieldset { border: 0; padding: 0; margin: 0 0 16px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px 16px; min-width: 0; }
+.fare-form label { display: grid; gap: 8px; min-width: 0; font-size: 12px; color: var(--text); }
+.fare-form input, .fare-form select { width: 100%; min-width: 0; height: 40px; padding: 8px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-sm); color: var(--text); font-size: 12px; }
+.fare-form :disabled { background: #f8fafc; color: var(--text-soft); }
+.fare-form .primary-button { margin-top: 16px; }
+.fare-result { display: grid; gap: 16px; align-content: start; }
+.fare-result__value { font-size: 32px; font-weight: 600; font-variant-numeric: tabular-nums; }
+.fare-result__details { display: grid; gap: 12px; margin: 0; font-size: 12px; }
+.fare-result__details > div { display: grid; grid-template-columns: 110px minmax(0,1fr); gap: 12px; line-height: 1.5; }
+.fare-result dt { color: var(--text-soft); }
+.fare-result dd { margin: 0; overflow-wrap: anywhere; }
+.fare-error { color: var(--critical); line-height: 1.6; font-size: 13px; }
+.fare-model-info .model-metrics { max-width: 600px; margin: 0 0 16px; }
+.fare-model-info p { font-size: 12px; color: var(--text-soft); line-height: 1.7; }
+@media (max-width: 1024px) { .fare-grid { grid-template-columns: 1fr; } }
+@media (max-width: 600px) { .fare-form fieldset { grid-template-columns: 1fr; } .predictions-page .page-heading { flex-wrap: wrap; } }

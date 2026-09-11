@@ -1,0 +1,19 @@
+{
+  "provider_codes": [
+    1,
+    2,
+    6
+  ],
+  "rate_class_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    99
+  ],
+  "rider_count_min": 1,
+  "rider_count_max": 9,
+  "source": "data/processed/trips_clean.parquet"
+}

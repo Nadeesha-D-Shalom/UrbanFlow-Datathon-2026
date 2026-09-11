@@ -1,0 +1,1827 @@
+[
+  {
+    "date": "2025-04-01",
+    "trip_count": 120016,
+    "base_fare_revenue": 2331400.3100000024
+  },
+  {
+    "date": "2025-04-02",
+    "trip_count": 127434,
+    "base_fare_revenue": 2367594.910000006
+  },
+  {
+    "date": "2025-04-03",
+    "trip_count": 128567,
+    "base_fare_revenue": 2500972.690000013
+  },
+  {
+    "date": "2025-04-04",
+    "trip_count": 125138,
+    "base_fare_revenue": 2398701.500000005
+  },
+  {
+    "date": "2025-04-05",
+    "trip_count": 142568,
+    "base_fare_revenue": 2596695.670000016
+  },
+  {
+    "date": "2025-04-06",
+    "trip_count": 114325,
+    "base_fare_revenue": 2295749.969999994
+  },
+  {
+    "date": "2025-04-07",
+    "trip_count": 108052,
+    "base_fare_revenue": 2133964.9100000067
+  },
+  {
+    "date": "2025-04-08",
+    "trip_count": 122282,
+    "base_fare_revenue": 2253207.6499999994
+  },
+  {
+    "date": "2025-04-09",
+    "trip_count": 127892,
+    "base_fare_revenue": 2419910.980000012
+  },
+  {
+    "date": "2025-04-10",
+    "trip_count": 135812,
+    "base_fare_revenue": 2584365.160000027
+  },
+  {
+    "date": "2025-04-11",
+    "trip_count": 140281,
+    "base_fare_revenue": 2608589.0100000054
+  },
+  {
+    "date": "2025-04-12",
+    "trip_count": 138075,
+    "base_fare_revenue": 2458143.6200000336
+  },
+  {
+    "date": "2025-04-13",
+    "trip_count": 102047,
+    "base_fare_revenue": 1994074.0600000345
+  },
+  {
+    "date": "2025-04-14",
+    "trip_count": 92619,
+    "base_fare_revenue": 1809060.459999999
+  },
+  {
+    "date": "2025-04-15",
+    "trip_count": 113498,
+    "base_fare_revenue": 2153199.9200000153
+  },
+  {
+    "date": "2025-04-16",
+    "trip_count": 124562,
+    "base_fare_revenue": 2330762.2500000037
+  },
+  {
+    "date": "2025-04-17",
+    "trip_count": 124897,
+    "base_fare_revenue": 2442329.5900000036
+  },
+  {
+    "date": "2025-04-18",
+    "trip_count": 115418,
+    "base_fare_revenue": 2181047.369999992
+  },
+  {
+    "date": "2025-04-19",
+    "trip_count": 124233,
+    "base_fare_revenue": 2310264.2600000305
+  },
+  {
+    "date": "2025-04-20",
+    "trip_count": 106688,
+    "base_fare_revenue": 2151585.610000016
+  },
+  {
+    "date": "2025-04-21",
+    "trip_count": 100098,
+    "base_fare_revenue": 2039209.490000024
+  },
+  {
+    "date": "2025-04-22",
+    "trip_count": 115900,
+    "base_fare_revenue": 2293610.9200000204
+  },
+  {
+    "date": "2025-04-23",
+    "trip_count": 125832,
+    "base_fare_revenue": 2440322.3899999983
+  },
+  {
+    "date": "2025-04-24",
+    "trip_count": 136489,
+    "base_fare_revenue": 2741592.6999999955
+  },
+  {
+    "date": "2025-04-25",
+    "trip_count": 134802,
+    "base_fare_revenue": 2636470.7600000305
+  },
+  {
+    "date": "2025-04-26",
+    "trip_count": 147027,
+    "base_fare_revenue": 2774513.89
+  },
+  {
+    "date": "2025-04-27",
+    "trip_count": 129924,
+    "base_fare_revenue": 2665860.9000000134
+  },
+  {
+    "date": "2025-04-28",
+    "trip_count": 101899,
+    "base_fare_revenue": 2111025.6099999943
+  },
+  {
+    "date": "2025-04-29",
+    "trip_count": 117244,
+    "base_fare_revenue": 2309891.909999986
+  },
+  {
+    "date": "2025-04-30",
+    "trip_count": 128912,
+    "base_fare_revenue": 2574369.920000015
+  },
+  {
+    "date": "2025-05-01",
+    "trip_count": 142964,
+    "base_fare_revenue": 2920184.620000016
+  },
+  {
+    "date": "2025-05-02",
+    "trip_count": 133346,
+    "base_fare_revenue": 2627232.3700000173
+  },
+  {
+    "date": "2025-05-03",
+    "trip_count": 150378,
+    "base_fare_revenue": 2856813.3300000336
+  },
+  {
+    "date": "2025-05-04",
+    "trip_count": 130140,
+    "base_fare_revenue": 2756816.590000036
+  },
+  {
+    "date": "2025-05-05",
+    "trip_count": 121951,
+    "base_fare_revenue": 2529808.7199999955
+  },
+  {
+    "date": "2025-05-06",
+    "trip_count": 131008,
+    "base_fare_revenue": 2629574.889999999
+  },
+  {
+    "date": "2025-05-07",
+    "trip_count": 135460,
+    "base_fare_revenue": 2755972.7799999984
+  },
+  {
+    "date": "2025-05-08",
+    "trip_count": 149159,
+    "base_fare_revenue": 3061535.430000024
+  },
+  {
+    "date": "2025-05-09",
+    "trip_count": 144909,
+    "base_fare_revenue": 2957787.790000027
+  },
+  {
+    "date": "2025-05-10",
+    "trip_count": 145856,
+    "base_fare_revenue": 2840783.0400000094
+  },
+  {
+    "date": "2025-05-11",
+    "trip_count": 134511,
+    "base_fare_revenue": 2827420.220000023
+  },
+  {
+    "date": "2025-05-12",
+    "trip_count": 116740,
+    "base_fare_revenue": 2466735.669999989
+  },
+  {
+    "date": "2025-05-13",
+    "trip_count": 137074,
+    "base_fare_revenue": 2775827.2800000026
+  },
+  {
+    "date": "2025-05-14",
+    "trip_count": 144689,
+    "base_fare_revenue": 3135589.9700000025
+  },
+  {
+    "date": "2025-05-15",
+    "trip_count": 150686,
+    "base_fare_revenue": 3198050.0599999777
+  },
+  {
+    "date": "2025-05-16",
+    "trip_count": 145349,
+    "base_fare_revenue": 3190313.1499999547
+  },
+  {
+    "date": "2025-05-17",
+    "trip_count": 162083,
+    "base_fare_revenue": 3441172.2400000244
+  },
+  {
+    "date": "2025-05-18",
+    "trip_count": 130213,
+    "base_fare_revenue": 3018821.3900000122
+  },
+  {
+    "date": "2025-05-19",
+    "trip_count": 116288,
+    "base_fare_revenue": 2268693.3800000236
+  },
+  {
+    "date": "2025-05-20",
+    "trip_count": 130770,
+    "base_fare_revenue": 2448912.8700000145
+  },
+  {
+    "date": "2025-05-21",
+    "trip_count": 142002,
+    "base_fare_revenue": 2670958.3200000357
+  },
+  {
+    "date": "2025-05-22",
+    "trip_count": 136931,
+    "base_fare_revenue": 2704494.580000001
+  },
+  {
+    "date": "2025-05-23",
+    "trip_count": 114621,
+    "base_fare_revenue": 2192658.0900000073
+  },
+  {
+    "date": "2025-05-24",
+    "trip_count": 97864,
+    "base_fare_revenue": 1700378.3299999982
+  },
+  {
+    "date": "2025-05-25",
+    "trip_count": 100850,
+    "base_fare_revenue": 2069886.6399999936
+  },
+  {
+    "date": "2025-05-26",
+    "trip_count": 87572,
+    "base_fare_revenue": 1950892.9100000123
+  },
+  {
+    "date": "2025-05-27",
+    "trip_count": 113334,
+    "base_fare_revenue": 2360625.33000003
+  },
+  {
+    "date": "2025-05-28",
+    "trip_count": 139433,
+    "base_fare_revenue": 2868446.1100000003
+  },
+  {
+    "date": "2025-05-29",
+    "trip_count": 134901,
+    "base_fare_revenue": 2782631.4499999983
+  },
+  {
+    "date": "2025-05-30",
+    "trip_count": 132186,
+    "base_fare_revenue": 2655663.349999995
+  },
+  {
+    "date": "2025-05-31",
+    "trip_count": 140140,
+    "base_fare_revenue": 2754339.0400000364
+  },
+  {
+    "date": "2025-06-01",
+    "trip_count": 120129,
+    "base_fare_revenue": 2607426.130000009
+  },
+  {
+    "date": "2025-06-02",
+    "trip_count": 103624,
+    "base_fare_revenue": 2143543.0300000063
+  },
+  {
+    "date": "2025-06-03",
+    "trip_count": 127670,
+    "base_fare_revenue": 2520174.3599999784
+  },
+  {
+    "date": "2025-06-04",
+    "trip_count": 141829,
+    "base_fare_revenue": 2891330.000000009
+  },
+  {
+    "date": "2025-06-05",
+    "trip_count": 156465,
+    "base_fare_revenue": 3275970.120000042
+  },
+  {
+    "date": "2025-06-06",
+    "trip_count": 142206,
+    "base_fare_revenue": 3090790.4399999967
+  },
+  {
+    "date": "2025-06-07",
+    "trip_count": 147943,
+    "base_fare_revenue": 3177475.260000024
+  },
+  {
+    "date": "2025-06-08",
+    "trip_count": 126515,
+    "base_fare_revenue": 2946681.5500000245
+  },
+  {
+    "date": "2025-06-09",
+    "trip_count": 116074,
+    "base_fare_revenue": 2405478.370000009
+  },
+  {
+    "date": "2025-06-10",
+    "trip_count": 127847,
+    "base_fare_revenue": 2608627.8399999947
+  },
+  {
+    "date": "2025-06-11",
+    "trip_count": 136467,
+    "base_fare_revenue": 3081402.9400000093
+  },
+  {
+    "date": "2025-06-12",
+    "trip_count": 148667,
+    "base_fare_revenue": 3079278.429999993
+  },
+  {
+    "date": "2025-06-13",
+    "trip_count": 130294,
+    "base_fare_revenue": 2616888.839999994
+  },
+  {
+    "date": "2025-06-14",
+    "trip_count": 132609,
+    "base_fare_revenue": 2579946.7800000096
+  },
+  {
+    "date": "2025-06-15",
+    "trip_count": 113449,
+    "base_fare_revenue": 2339012.6300000153
+  },
+  {
+    "date": "2025-06-16",
+    "trip_count": 108663,
+    "base_fare_revenue": 2231017.5300000086
+  },
+  {
+    "date": "2025-06-17",
+    "trip_count": 122831,
+    "base_fare_revenue": 2426362.200000009
+  },
+  {
+    "date": "2025-06-18",
+    "trip_count": 139915,
+    "base_fare_revenue": 2808130.3400000106
+  },
+  {
+    "date": "2025-06-19",
+    "trip_count": 127685,
+    "base_fare_revenue": 2517069.0299999975
+  },
+  {
+    "date": "2025-06-20",
+    "trip_count": 124206,
+    "base_fare_revenue": 2578389.4500000114
+  },
+  {
+    "date": "2025-06-21",
+    "trip_count": 140816,
+    "base_fare_revenue": 2893568.1000000047
+  },
+  {
+    "date": "2025-06-22",
+    "trip_count": 122263,
+    "base_fare_revenue": 2690672.9400000335
+  },
+  {
+    "date": "2025-06-23",
+    "trip_count": 124521,
+    "base_fare_revenue": 2654025.369999994
+  },
+  {
+    "date": "2025-06-24",
+    "trip_count": 138015,
+    "base_fare_revenue": 2800054.7600000324
+  },
+  {
+    "date": "2025-06-25",
+    "trip_count": 140168,
+    "base_fare_revenue": 2861895.879999979
+  },
+  {
+    "date": "2025-06-26",
+    "trip_count": 136629,
+    "base_fare_revenue": 2929837.200000006
+  },
+  {
+    "date": "2025-06-27",
+    "trip_count": 123851,
+    "base_fare_revenue": 2581411.1400000285
+  },
+  {
+    "date": "2025-06-28",
+    "trip_count": 129699,
+    "base_fare_revenue": 2672527.4200000283
+  },
+  {
+    "date": "2025-06-29",
+    "trip_count": 117472,
+    "base_fare_revenue": 2621785.5099999974
+  },
+  {
+    "date": "2025-06-30",
+    "trip_count": 101506,
+    "base_fare_revenue": 2006631.0800000315
+  },
+  {
+    "date": "2025-07-01",
+    "trip_count": 117278,
+    "base_fare_revenue": 2235022.2600000026
+  },
+  {
+    "date": "2025-07-02",
+    "trip_count": 101336,
+    "base_fare_revenue": 2009382.7699999912
+  },
+  {
+    "date": "2025-07-03",
+    "trip_count": 93416,
+    "base_fare_revenue": 1863196.7000000102
+  },
+  {
+    "date": "2025-07-04",
+    "trip_count": 78550,
+    "base_fare_revenue": 1652596.8200000045
+  },
+  {
+    "date": "2025-07-05",
+    "trip_count": 85587,
+    "base_fare_revenue": 1800690.2900000028
+  },
+  {
+    "date": "2025-07-06",
+    "trip_count": 87605,
+    "base_fare_revenue": 1952725.2099999972
+  },
+  {
+    "date": "2025-07-07",
+    "trip_count": 93102,
+    "base_fare_revenue": 1945602.1300000404
+  },
+  {
+    "date": "2025-07-08",
+    "trip_count": 118896,
+    "base_fare_revenue": 2347635.3800000385
+  },
+  {
+    "date": "2025-07-09",
+    "trip_count": 122889,
+    "base_fare_revenue": 2461502.530000009
+  },
+  {
+    "date": "2025-07-10",
+    "trip_count": 116607,
+    "base_fare_revenue": 2385372.4400000037
+  },
+  {
+    "date": "2025-07-11",
+    "trip_count": 111082,
+    "base_fare_revenue": 2218982.2599999807
+  },
+  {
+    "date": "2025-07-12",
+    "trip_count": 123560,
+    "base_fare_revenue": 2495347.1300000055
+  },
+  {
+    "date": "2025-07-13",
+    "trip_count": 107887,
+    "base_fare_revenue": 2318756.3899999997
+  },
+  {
+    "date": "2025-07-14",
+    "trip_count": 118954,
+    "base_fare_revenue": 2493139.100000007
+  },
+  {
+    "date": "2025-07-15",
+    "trip_count": 120360,
+    "base_fare_revenue": 2484748.060000014
+  },
+  {
+    "date": "2025-07-16",
+    "trip_count": 129542,
+    "base_fare_revenue": 2574935.460000028
+  },
+  {
+    "date": "2025-07-17",
+    "trip_count": 131673,
+    "base_fare_revenue": 2676070.540000003
+  },
+  {
+    "date": "2025-07-18",
+    "trip_count": 113984,
+    "base_fare_revenue": 2324419.870000006
+  },
+  {
+    "date": "2025-07-19",
+    "trip_count": 123953,
+    "base_fare_revenue": 2479791.5100000175
+  },
+  {
+    "date": "2025-07-20",
+    "trip_count": 112161,
+    "base_fare_revenue": 2357889.7600000086
+  },
+  {
+    "date": "2025-07-21",
+    "trip_count": 100322,
+    "base_fare_revenue": 2111070.6500000204
+  },
+  {
+    "date": "2025-07-22",
+    "trip_count": 111177,
+    "base_fare_revenue": 2239301.0900000036
+  },
+  {
+    "date": "2025-07-23",
+    "trip_count": 117507,
+    "base_fare_revenue": 2345559.429999988
+  },
+  {
+    "date": "2025-07-24",
+    "trip_count": 120667,
+    "base_fare_revenue": 2486668.980000019
+  },
+  {
+    "date": "2025-07-25",
+    "trip_count": 120386,
+    "base_fare_revenue": 2428172.4999999967
+  },
+  {
+    "date": "2025-07-26",
+    "trip_count": 126387,
+    "base_fare_revenue": 2605580.4400000013
+  },
+  {
+    "date": "2025-07-27",
+    "trip_count": 107618,
+    "base_fare_revenue": 2266149.9099999983
+  },
+  {
+    "date": "2025-07-28",
+    "trip_count": 108532,
+    "base_fare_revenue": 2248044.970000008
+  },
+  {
+    "date": "2025-07-29",
+    "trip_count": 123637,
+    "base_fare_revenue": 2442194.3700000066
+  },
+  {
+    "date": "2025-07-30",
+    "trip_count": 126537,
+    "base_fare_revenue": 2468087.4900000114
+  },
+  {
+    "date": "2025-07-31",
+    "trip_count": 124022,
+    "base_fare_revenue": 2641667.550000026
+  },
+  {
+    "date": "2025-08-01",
+    "trip_count": 109055,
+    "base_fare_revenue": 2250040.1299999924
+  },
+  {
+    "date": "2025-08-02",
+    "trip_count": 115938,
+    "base_fare_revenue": 2365957.4600000093
+  },
+  {
+    "date": "2025-08-03",
+    "trip_count": 100702,
+    "base_fare_revenue": 2100000.8200000115
+  },
+  {
+    "date": "2025-08-04",
+    "trip_count": 94341,
+    "base_fare_revenue": 1924219.4000000176
+  },
+  {
+    "date": "2025-08-05",
+    "trip_count": 106109,
+    "base_fare_revenue": 2059719.3100000084
+  },
+  {
+    "date": "2025-08-06",
+    "trip_count": 114645,
+    "base_fare_revenue": 2250678.450000028
+  },
+  {
+    "date": "2025-08-07",
+    "trip_count": 109884,
+    "base_fare_revenue": 2221301.3099999917
+  },
+  {
+    "date": "2025-08-08",
+    "trip_count": 103230,
+    "base_fare_revenue": 2082290.1600000048
+  },
+  {
+    "date": "2025-08-09",
+    "trip_count": 104282,
+    "base_fare_revenue": 2088482.4300000144
+  },
+  {
+    "date": "2025-08-10",
+    "trip_count": 93393,
+    "base_fare_revenue": 2066713.730000005
+  },
+  {
+    "date": "2025-08-11",
+    "trip_count": 90296,
+    "base_fare_revenue": 1868488.4000000092
+  },
+  {
+    "date": "2025-08-12",
+    "trip_count": 103821,
+    "base_fare_revenue": 2010687.1500000227
+  },
+  {
+    "date": "2025-08-13",
+    "trip_count": 119438,
+    "base_fare_revenue": 2317056.520000046
+  },
+  {
+    "date": "2025-08-14",
+    "trip_count": 111124,
+    "base_fare_revenue": 2263820.2800000133
+  },
+  {
+    "date": "2025-08-15",
+    "trip_count": 105202,
+    "base_fare_revenue": 2145271.36000002
+  },
+  {
+    "date": "2025-08-16",
+    "trip_count": 110198,
+    "base_fare_revenue": 2215799.490000024
+  },
+  {
+    "date": "2025-08-17",
+    "trip_count": 104392,
+    "base_fare_revenue": 2230490.1700000195
+  },
+  {
+    "date": "2025-08-18",
+    "trip_count": 82207,
+    "base_fare_revenue": 1637794.4999999937
+  },
+  {
+    "date": "2025-08-19",
+    "trip_count": 94233,
+    "base_fare_revenue": 1727511.8900000148
+  },
+  {
+    "date": "2025-08-20",
+    "trip_count": 113612,
+    "base_fare_revenue": 2029454.7200000298
+  },
+  {
+    "date": "2025-08-21",
+    "trip_count": 99665,
+    "base_fare_revenue": 1904841.480000038
+  },
+  {
+    "date": "2025-08-22",
+    "trip_count": 94881,
+    "base_fare_revenue": 1813898.6599999985
+  },
+  {
+    "date": "2025-08-23",
+    "trip_count": 102286,
+    "base_fare_revenue": 1776157.420000013
+  },
+  {
+    "date": "2025-08-24",
+    "trip_count": 98703,
+    "base_fare_revenue": 2078038.9300000253
+  },
+  {
+    "date": "2025-08-25",
+    "trip_count": 88887,
+    "base_fare_revenue": 1936409.1899999916
+  },
+  {
+    "date": "2025-08-26",
+    "trip_count": 97418,
+    "base_fare_revenue": 2027762.449999995
+  },
+  {
+    "date": "2025-08-27",
+    "trip_count": 102236,
+    "base_fare_revenue": 2163300.9299999983
+  },
+  {
+    "date": "2025-08-28",
+    "trip_count": 104229,
+    "base_fare_revenue": 2248981.3500000113
+  },
+  {
+    "date": "2025-08-29",
+    "trip_count": 100852,
+    "base_fare_revenue": 2195971.2899999986
+  },
+  {
+    "date": "2025-08-30",
+    "trip_count": 105848,
+    "base_fare_revenue": 2190401.130000011
+  },
+  {
+    "date": "2025-08-31",
+    "trip_count": 100165,
+    "base_fare_revenue": 2184645.639999997
+  },
+  {
+    "date": "2025-09-01",
+    "trip_count": 88473,
+    "base_fare_revenue": 2045852.2400000012
+  },
+  {
+    "date": "2025-09-02",
+    "trip_count": 107486,
+    "base_fare_revenue": 2625352.020000015
+  },
+  {
+    "date": "2025-09-03",
+    "trip_count": 119817,
+    "base_fare_revenue": 2422305.060000011
+  },
+  {
+    "date": "2025-09-04",
+    "trip_count": 135690,
+    "base_fare_revenue": 2765725.6200000243
+  },
+  {
+    "date": "2025-09-05",
+    "trip_count": 131361,
+    "base_fare_revenue": 2686193.369999999
+  },
+  {
+    "date": "2025-09-06",
+    "trip_count": 134717,
+    "base_fare_revenue": 2723608.589999995
+  },
+  {
+    "date": "2025-09-07",
+    "trip_count": 117150,
+    "base_fare_revenue": 2501929.5400000103
+  },
+  {
+    "date": "2025-09-08",
+    "trip_count": 112577,
+    "base_fare_revenue": 2368757.9000000213
+  },
+  {
+    "date": "2025-09-09",
+    "trip_count": 127173,
+    "base_fare_revenue": 2582366.390000018
+  },
+  {
+    "date": "2025-09-10",
+    "trip_count": 136848,
+    "base_fare_revenue": 2917169.0200000075
+  },
+  {
+    "date": "2025-09-11",
+    "trip_count": 139294,
+    "base_fare_revenue": 2910786.679999995
+  },
+  {
+    "date": "2025-09-12",
+    "trip_count": 142425,
+    "base_fare_revenue": 3011847.2399999993
+  },
+  {
+    "date": "2025-09-13",
+    "trip_count": 151458,
+    "base_fare_revenue": 3009227.9599999934
+  },
+  {
+    "date": "2025-09-14",
+    "trip_count": 131818,
+    "base_fare_revenue": 2778014.6399999848
+  },
+  {
+    "date": "2025-09-15",
+    "trip_count": 116756,
+    "base_fare_revenue": 2456204.339999992
+  },
+  {
+    "date": "2025-09-16",
+    "trip_count": 129918,
+    "base_fare_revenue": 2618749.3199999793
+  },
+  {
+    "date": "2025-09-17",
+    "trip_count": 136234,
+    "base_fare_revenue": 2797162.870000012
+  },
+  {
+    "date": "2025-09-18",
+    "trip_count": 144837,
+    "base_fare_revenue": 3082297.0400000345
+  },
+  {
+    "date": "2025-09-19",
+    "trip_count": 138581,
+    "base_fare_revenue": 2887664.980000006
+  },
+  {
+    "date": "2025-09-20",
+    "trip_count": 144517,
+    "base_fare_revenue": 2971900.900000016
+  },
+  {
+    "date": "2025-09-21",
+    "trip_count": 125962,
+    "base_fare_revenue": 2790948.9700000016
+  },
+  {
+    "date": "2025-09-22",
+    "trip_count": 107963,
+    "base_fare_revenue": 2349978.939999991
+  },
+  {
+    "date": "2025-09-23",
+    "trip_count": 105356,
+    "base_fare_revenue": 2201300.1699999883
+  },
+  {
+    "date": "2025-09-24",
+    "trip_count": 122775,
+    "base_fare_revenue": 2559264.0599999856
+  },
+  {
+    "date": "2025-09-25",
+    "trip_count": 137402,
+    "base_fare_revenue": 3021293.770000004
+  },
+  {
+    "date": "2025-09-26",
+    "trip_count": 138395,
+    "base_fare_revenue": 2952189.9700000137
+  },
+  {
+    "date": "2025-09-27",
+    "trip_count": 149244,
+    "base_fare_revenue": 2968060.3500000183
+  },
+  {
+    "date": "2025-09-28",
+    "trip_count": 125245,
+    "base_fare_revenue": 2649167.6000000173
+  },
+  {
+    "date": "2025-09-29",
+    "trip_count": 112598,
+    "base_fare_revenue": 2428256.6699999906
+  },
+  {
+    "date": "2025-09-30",
+    "trip_count": 126843,
+    "base_fare_revenue": 2543927.4000000046
+  },
+  {
+    "date": "2025-10-01",
+    "trip_count": 122593,
+    "base_fare_revenue": 2446971.1600000183
+  },
+  {
+    "date": "2025-10-02",
+    "trip_count": 119869,
+    "base_fare_revenue": 2285897.430000003
+  },
+  {
+    "date": "2025-10-03",
+    "trip_count": 127986,
+    "base_fare_revenue": 2597587.27000001
+  },
+  {
+    "date": "2025-10-04",
+    "trip_count": 134774,
+    "base_fare_revenue": 2662675.5900000413
+  },
+  {
+    "date": "2025-10-05",
+    "trip_count": 115839,
+    "base_fare_revenue": 2581008.6400000006
+  },
+  {
+    "date": "2025-10-06",
+    "trip_count": 109451,
+    "base_fare_revenue": 2282025.680000006
+  },
+  {
+    "date": "2025-10-07",
+    "trip_count": 122399,
+    "base_fare_revenue": 2387462.619999986
+  },
+  {
+    "date": "2025-10-08",
+    "trip_count": 135315,
+    "base_fare_revenue": 2763665.6599999936
+  },
+  {
+    "date": "2025-10-09",
+    "trip_count": 146433,
+    "base_fare_revenue": 3187358.2200000016
+  },
+  {
+    "date": "2025-10-10",
+    "trip_count": 140012,
+    "base_fare_revenue": 2986206.9900000095
+  },
+  {
+    "date": "2025-10-11",
+    "trip_count": 141275,
+    "base_fare_revenue": 2833393.5899999943
+  },
+  {
+    "date": "2025-10-12",
+    "trip_count": 118576,
+    "base_fare_revenue": 2491013.190000032
+  },
+  {
+    "date": "2025-10-13",
+    "trip_count": 102803,
+    "base_fare_revenue": 2083668.6500000115
+  },
+  {
+    "date": "2025-10-14",
+    "trip_count": 126590,
+    "base_fare_revenue": 2654203.5900000245
+  },
+  {
+    "date": "2025-10-15",
+    "trip_count": 133415,
+    "base_fare_revenue": 2740683.530000014
+  },
+  {
+    "date": "2025-10-16",
+    "trip_count": 145445,
+    "base_fare_revenue": 3154562.4899999714
+  },
+  {
+    "date": "2025-10-17",
+    "trip_count": 137381,
+    "base_fare_revenue": 2903219.930000018
+  },
+  {
+    "date": "2025-10-18",
+    "trip_count": 139166,
+    "base_fare_revenue": 2802810.469999998
+  },
+  {
+    "date": "2025-10-19",
+    "trip_count": 126154,
+    "base_fare_revenue": 2751949.0300000114
+  },
+  {
+    "date": "2025-10-20",
+    "trip_count": 106249,
+    "base_fare_revenue": 2165325.090000004
+  },
+  {
+    "date": "2025-10-21",
+    "trip_count": 119441,
+    "base_fare_revenue": 2350189.3200000157
+  },
+  {
+    "date": "2025-10-22",
+    "trip_count": 130350,
+    "base_fare_revenue": 2538405.8700000243
+  },
+  {
+    "date": "2025-10-23",
+    "trip_count": 139591,
+    "base_fare_revenue": 2772240.9299999797
+  },
+  {
+    "date": "2025-10-24",
+    "trip_count": 129570,
+    "base_fare_revenue": 2506878.140000004
+  },
+  {
+    "date": "2025-10-25",
+    "trip_count": 128086,
+    "base_fare_revenue": 2289608.4600000056
+  },
+  {
+    "date": "2025-10-26",
+    "trip_count": 113532,
+    "base_fare_revenue": 2357504.639999996
+  },
+  {
+    "date": "2025-10-27",
+    "trip_count": 107835,
+    "base_fare_revenue": 2162482.1300000157
+  },
+  {
+    "date": "2025-10-28",
+    "trip_count": 120373,
+    "base_fare_revenue": 2360852.640000006
+  },
+  {
+    "date": "2025-10-29",
+    "trip_count": 127579,
+    "base_fare_revenue": 2487289.62000003
+  },
+  {
+    "date": "2025-10-30",
+    "trip_count": 132787,
+    "base_fare_revenue": 2648545.2400000175
+  },
+  {
+    "date": "2025-10-31",
+    "trip_count": 143906,
+    "base_fare_revenue": 2759581.5800000015
+  },
+  {
+    "date": "2025-11-01",
+    "trip_count": 147419,
+    "base_fare_revenue": 2627702.090000008
+  },
+  {
+    "date": "2025-11-02",
+    "trip_count": 132464,
+    "base_fare_revenue": 2818202.9799999967
+  },
+  {
+    "date": "2025-11-03",
+    "trip_count": 113464,
+    "base_fare_revenue": 2241255.8300000187
+  },
+  {
+    "date": "2025-11-04",
+    "trip_count": 118801,
+    "base_fare_revenue": 2202188.1800000025
+  },
+  {
+    "date": "2025-11-05",
+    "trip_count": 126837,
+    "base_fare_revenue": 2454564.129999988
+  },
+  {
+    "date": "2025-11-06",
+    "trip_count": 136789,
+    "base_fare_revenue": 2729155.310000008
+  },
+  {
+    "date": "2025-11-07",
+    "trip_count": 127692,
+    "base_fare_revenue": 2488200.189999989
+  },
+  {
+    "date": "2025-11-08",
+    "trip_count": 130219,
+    "base_fare_revenue": 2309718.5099999886
+  },
+  {
+    "date": "2025-11-09",
+    "trip_count": 118726,
+    "base_fare_revenue": 2384379.2399999984
+  },
+  {
+    "date": "2025-11-10",
+    "trip_count": 113726,
+    "base_fare_revenue": 2264560.2700000214
+  },
+  {
+    "date": "2025-11-11",
+    "trip_count": 115269,
+    "base_fare_revenue": 2232474.660000005
+  },
+  {
+    "date": "2025-11-12",
+    "trip_count": 125255,
+    "base_fare_revenue": 2481542.2099999674
+  },
+  {
+    "date": "2025-11-13",
+    "trip_count": 134583,
+    "base_fare_revenue": 2639217.2499999963
+  },
+  {
+    "date": "2025-11-14",
+    "trip_count": 131138,
+    "base_fare_revenue": 2466628.9900000063
+  },
+  {
+    "date": "2025-11-15",
+    "trip_count": 134908,
+    "base_fare_revenue": 2283493.9899999937
+  },
+  {
+    "date": "2025-11-16",
+    "trip_count": 123958,
+    "base_fare_revenue": 2510687.9399999995
+  },
+  {
+    "date": "2025-11-17",
+    "trip_count": 118503,
+    "base_fare_revenue": 2451855.4700000063
+  },
+  {
+    "date": "2025-11-18",
+    "trip_count": 130494,
+    "base_fare_revenue": 2661047.689999996
+  },
+  {
+    "date": "2025-11-19",
+    "trip_count": 139136,
+    "base_fare_revenue": 2916847.0600000205
+  },
+  {
+    "date": "2025-11-20",
+    "trip_count": 145265,
+    "base_fare_revenue": 3033136.649999985
+  },
+  {
+    "date": "2025-11-21",
+    "trip_count": 138631,
+    "base_fare_revenue": 2855688.6400000025
+  },
+  {
+    "date": "2025-11-22",
+    "trip_count": 142018,
+    "base_fare_revenue": 2744105.8600000152
+  },
+  {
+    "date": "2025-11-23",
+    "trip_count": 116211,
+    "base_fare_revenue": 2320906.7000000197
+  },
+  {
+    "date": "2025-11-24",
+    "trip_count": 103047,
+    "base_fare_revenue": 1970707.770000028
+  },
+  {
+    "date": "2025-11-25",
+    "trip_count": 121009,
+    "base_fare_revenue": 2322280.9800000153
+  },
+  {
+    "date": "2025-11-26",
+    "trip_count": 104500,
+    "base_fare_revenue": 1981144.9700000023
+  },
+  {
+    "date": "2025-11-27",
+    "trip_count": 76762,
+    "base_fare_revenue": 1291962.7299999942
+  },
+  {
+    "date": "2025-11-28",
+    "trip_count": 84136,
+    "base_fare_revenue": 1512101.1100000062
+  },
+  {
+    "date": "2025-11-29",
+    "trip_count": 94616,
+    "base_fare_revenue": 1897554.5100000182
+  },
+  {
+    "date": "2025-11-30",
+    "trip_count": 99423,
+    "base_fare_revenue": 2173846.3500000066
+  },
+  {
+    "date": "2025-12-01",
+    "trip_count": 118074,
+    "base_fare_revenue": 2706561.330000009
+  },
+  {
+    "date": "2025-12-02",
+    "trip_count": 137645,
+    "base_fare_revenue": 3126690.3899999806
+  },
+  {
+    "date": "2025-12-03",
+    "trip_count": 142077,
+    "base_fare_revenue": 3283240.220000118
+  },
+  {
+    "date": "2025-12-04",
+    "trip_count": 161087,
+    "base_fare_revenue": 3810475.450000054
+  },
+  {
+    "date": "2025-12-05",
+    "trip_count": 159223,
+    "base_fare_revenue": 3547745.239999903
+  },
+  {
+    "date": "2025-12-06",
+    "trip_count": 162648,
+    "base_fare_revenue": 3475654.6999999858
+  },
+  {
+    "date": "2025-12-07",
+    "trip_count": 135883,
+    "base_fare_revenue": 2993940.0799999107
+  },
+  {
+    "date": "2025-12-08",
+    "trip_count": 135076,
+    "base_fare_revenue": 2972389.8900000323
+  },
+  {
+    "date": "2025-12-09",
+    "trip_count": 149434,
+    "base_fare_revenue": 3442190.609999967
+  },
+  {
+    "date": "2025-12-10",
+    "trip_count": 154019,
+    "base_fare_revenue": 3733774.4599999473
+  },
+  {
+    "date": "2025-12-11",
+    "trip_count": 169878,
+    "base_fare_revenue": 4105834.4599999096
+  },
+  {
+    "date": "2025-12-12",
+    "trip_count": 169399,
+    "base_fare_revenue": 3930692.7000002563
+  },
+  {
+    "date": "2025-12-13",
+    "trip_count": 174454,
+    "base_fare_revenue": 3869845.9500001725
+  },
+  {
+    "date": "2025-12-14",
+    "trip_count": 154313,
+    "base_fare_revenue": 3478828.0399998464
+  },
+  {
+    "date": "2025-12-15",
+    "trip_count": 139491,
+    "base_fare_revenue": 3291350.0299999383
+  },
+  {
+    "date": "2025-12-16",
+    "trip_count": 147429,
+    "base_fare_revenue": 3368405.5299999416
+  },
+  {
+    "date": "2025-12-17",
+    "trip_count": 149021,
+    "base_fare_revenue": 3409482.509999942
+  },
+  {
+    "date": "2025-12-18",
+    "trip_count": 154881,
+    "base_fare_revenue": 3645061.349999948
+  },
+  {
+    "date": "2025-12-19",
+    "trip_count": 158396,
+    "base_fare_revenue": 3569697.329999861
+  },
+  {
+    "date": "2025-12-20",
+    "trip_count": 151146,
+    "base_fare_revenue": 3265645.6999998917
+  },
+  {
+    "date": "2025-12-21",
+    "trip_count": 119573,
+    "base_fare_revenue": 2558473.0299999407
+  },
+  {
+    "date": "2025-12-22",
+    "trip_count": 105818,
+    "base_fare_revenue": 2309950.560000007
+  },
+  {
+    "date": "2025-12-23",
+    "trip_count": 104380,
+    "base_fare_revenue": 2231273.9400000023
+  },
+  {
+    "date": "2025-12-24",
+    "trip_count": 91718,
+    "base_fare_revenue": 1777718.3099998645
+  },
+  {
+    "date": "2025-12-25",
+    "trip_count": 65323,
+    "base_fare_revenue": 1432094.0399999865
+  },
+  {
+    "date": "2025-12-26",
+    "trip_count": 78231,
+    "base_fare_revenue": 1620001.0399998806
+  },
+  {
+    "date": "2025-12-27",
+    "trip_count": 82212,
+    "base_fare_revenue": 1835209.3299998904
+  },
+  {
+    "date": "2025-12-28",
+    "trip_count": 87146,
+    "base_fare_revenue": 2043018.9900000137
+  },
+  {
+    "date": "2025-12-29",
+    "trip_count": 91057,
+    "base_fare_revenue": 2020291.2800000191
+  },
+  {
+    "date": "2025-12-30",
+    "trip_count": 99078,
+    "base_fare_revenue": 2150464.010000008
+  },
+  {
+    "date": "2025-12-31",
+    "trip_count": 103062,
+    "base_fare_revenue": 2149503.6099999705
+  },
+  {
+    "date": "2026-01-01",
+    "trip_count": 107028,
+    "base_fare_revenue": 2566819.569999921
+  },
+  {
+    "date": "2026-01-02",
+    "trip_count": 93442,
+    "base_fare_revenue": 1991295.7300000119
+  },
+  {
+    "date": "2026-01-03",
+    "trip_count": 104548,
+    "base_fare_revenue": 2189216.2399999765
+  },
+  {
+    "date": "2026-01-04",
+    "trip_count": 89939,
+    "base_fare_revenue": 1983057.2800000338
+  },
+  {
+    "date": "2026-01-05",
+    "trip_count": 91591,
+    "base_fare_revenue": 1987364.0400000105
+  },
+  {
+    "date": "2026-01-06",
+    "trip_count": 101757,
+    "base_fare_revenue": 2072693.2400000244
+  },
+  {
+    "date": "2026-01-07",
+    "trip_count": 106667,
+    "base_fare_revenue": 2141962.6700000325
+  },
+  {
+    "date": "2026-01-08",
+    "trip_count": 112832,
+    "base_fare_revenue": 2302920.4800000195
+  },
+  {
+    "date": "2026-01-09",
+    "trip_count": 116363,
+    "base_fare_revenue": 2336727.34999992
+  },
+  {
+    "date": "2026-01-10",
+    "trip_count": 140760,
+    "base_fare_revenue": 2769037.710000013
+  },
+  {
+    "date": "2026-01-11",
+    "trip_count": 111916,
+    "base_fare_revenue": 2267991.5399998706
+  },
+  {
+    "date": "2026-01-12",
+    "trip_count": 106259,
+    "base_fare_revenue": 2155139.9900000226
+  },
+  {
+    "date": "2026-01-13",
+    "trip_count": 116071,
+    "base_fare_revenue": 2344405.059999992
+  },
+  {
+    "date": "2026-01-14",
+    "trip_count": 122360,
+    "base_fare_revenue": 2458620.7800000086
+  },
+  {
+    "date": "2026-01-15",
+    "trip_count": 132662,
+    "base_fare_revenue": 2655249.4599999734
+  },
+  {
+    "date": "2026-01-16",
+    "trip_count": 125608,
+    "base_fare_revenue": 2542567.7799999435
+  },
+  {
+    "date": "2026-01-17",
+    "trip_count": 124036,
+    "base_fare_revenue": 2367613.700000037
+  },
+  {
+    "date": "2026-01-18",
+    "trip_count": 115426,
+    "base_fare_revenue": 2270411.149999868
+  },
+  {
+    "date": "2026-01-19",
+    "trip_count": 93518,
+    "base_fare_revenue": 1976955.4600000116
+  },
+  {
+    "date": "2026-01-20",
+    "trip_count": 122148,
+    "base_fare_revenue": 2510961.8799999775
+  },
+  {
+    "date": "2026-01-21",
+    "trip_count": 122200,
+    "base_fare_revenue": 2439377.1299996846
+  },
+  {
+    "date": "2026-01-22",
+    "trip_count": 128051,
+    "base_fare_revenue": 2574267.7999994894
+  },
+  {
+    "date": "2026-01-23",
+    "trip_count": 134291,
+    "base_fare_revenue": 2640435.9499995057
+  },
+  {
+    "date": "2026-01-24",
+    "trip_count": 140855,
+    "base_fare_revenue": 2678525.619999793
+  },
+  {
+    "date": "2026-01-25",
+    "trip_count": 43581,
+    "base_fare_revenue": 973559.9899999814
+  },
+  {
+    "date": "2026-01-26",
+    "trip_count": 62991,
+    "base_fare_revenue": 1372411.0900000012
+  },
+  {
+    "date": "2026-01-27",
+    "trip_count": 113052,
+    "base_fare_revenue": 2928407.059999918
+  },
+  {
+    "date": "2026-01-28",
+    "trip_count": 122995,
+    "base_fare_revenue": 3051988.6699998137
+  },
+  {
+    "date": "2026-01-29",
+    "trip_count": 134068,
+    "base_fare_revenue": 3321931.859999874
+  },
+  {
+    "date": "2026-01-30",
+    "trip_count": 140898,
+    "base_fare_revenue": 3319711.2599996496
+  },
+  {
+    "date": "2026-01-31",
+    "trip_count": 140258,
+    "base_fare_revenue": 2958232.9699998703
+  },
+  {
+    "date": "2026-02-01",
+    "trip_count": 119027,
+    "base_fare_revenue": 2595143.4199998016
+  },
+  {
+    "date": "2026-02-02",
+    "trip_count": 105933,
+    "base_fare_revenue": 2424052.5999999125
+  },
+  {
+    "date": "2026-02-03",
+    "trip_count": 117336,
+    "base_fare_revenue": 2678781.219999901
+  },
+  {
+    "date": "2026-02-04",
+    "trip_count": 122910,
+    "base_fare_revenue": 2757313.6299999473
+  },
+  {
+    "date": "2026-02-05",
+    "trip_count": 127617,
+    "base_fare_revenue": 2887435.4199996125
+  },
+  {
+    "date": "2026-02-06",
+    "trip_count": 126328,
+    "base_fare_revenue": 2712662.019999358
+  },
+  {
+    "date": "2026-02-07",
+    "trip_count": 150043,
+    "base_fare_revenue": 3172649.6399996034
+  },
+  {
+    "date": "2026-02-08",
+    "trip_count": 126355,
+    "base_fare_revenue": 2867728.3299994846
+  },
+  {
+    "date": "2026-02-09",
+    "trip_count": 105204,
+    "base_fare_revenue": 2405202.6499999897
+  },
+  {
+    "date": "2026-02-10",
+    "trip_count": 112009,
+    "base_fare_revenue": 2407676.89000001
+  },
+  {
+    "date": "2026-02-11",
+    "trip_count": 122114,
+    "base_fare_revenue": 2624691.969999953
+  },
+  {
+    "date": "2026-02-12",
+    "trip_count": 134584,
+    "base_fare_revenue": 2980078.589999905
+  },
+  {
+    "date": "2026-02-13",
+    "trip_count": 131599,
+    "base_fare_revenue": 2972939.129999957
+  },
+  {
+    "date": "2026-02-14",
+    "trip_count": 129506,
+    "base_fare_revenue": 2879449.899999758
+  },
+  {
+    "date": "2026-02-15",
+    "trip_count": 110293,
+    "base_fare_revenue": 2420728.8499999773
+  },
+  {
+    "date": "2026-02-16",
+    "trip_count": 80984,
+    "base_fare_revenue": 1767057.530000028
+  },
+  {
+    "date": "2026-02-17",
+    "trip_count": 100388,
+    "base_fare_revenue": 2200117.000000024
+  },
+  {
+    "date": "2026-02-18",
+    "trip_count": 113794,
+    "base_fare_revenue": 2377738.589999977
+  },
+  {
+    "date": "2026-02-19",
+    "trip_count": 118437,
+    "base_fare_revenue": 2413407.4699998763
+  },
+  {
+    "date": "2026-02-20",
+    "trip_count": 120759,
+    "base_fare_revenue": 2427917.129999662
+  },
+  {
+    "date": "2026-02-21",
+    "trip_count": 132339,
+    "base_fare_revenue": 2741835.2299998384
+  },
+  {
+    "date": "2026-02-22",
+    "trip_count": 83098,
+    "base_fare_revenue": 1762983.3599999421
+  },
+  {
+    "date": "2026-02-23",
+    "trip_count": 22872,
+    "base_fare_revenue": 481814.7500000083
+  },
+  {
+    "date": "2026-02-24",
+    "trip_count": 96185,
+    "base_fare_revenue": 1968339.7700000044
+  },
+  {
+    "date": "2026-02-25",
+    "trip_count": 114428,
+    "base_fare_revenue": 2652696.6099999854
+  },
+  {
+    "date": "2026-02-26",
+    "trip_count": 124723,
+    "base_fare_revenue": 2770977.399999952
+  },
+  {
+    "date": "2026-02-27",
+    "trip_count": 128988,
+    "base_fare_revenue": 2764816.049999913
+  },
+  {
+    "date": "2026-02-28",
+    "trip_count": 134095,
+    "base_fare_revenue": 2892061.0099997027
+  },
+  {
+    "date": "2026-03-01",
+    "trip_count": 108639,
+    "base_fare_revenue": 2454203.0699999575
+  },
+  {
+    "date": "2026-03-02",
+    "trip_count": 106701,
+    "base_fare_revenue": 2257198.630000011
+  },
+  {
+    "date": "2026-03-03",
+    "trip_count": 125812,
+    "base_fare_revenue": 2615876.09999997
+  },
+  {
+    "date": "2026-03-04",
+    "trip_count": 118622,
+    "base_fare_revenue": 2472427.9099997818
+  },
+  {
+    "date": "2026-03-05",
+    "trip_count": 142038,
+    "base_fare_revenue": 3183273.3000000985
+  },
+  {
+    "date": "2026-03-06",
+    "trip_count": 125379,
+    "base_fare_revenue": 2600794.159999934
+  },
+  {
+    "date": "2026-03-07",
+    "trip_count": 127995,
+    "base_fare_revenue": 2562655.5899999877
+  },
+  {
+    "date": "2026-03-08",
+    "trip_count": 111410,
+    "base_fare_revenue": 2416095.0199999637
+  },
+  {
+    "date": "2026-03-09",
+    "trip_count": 102872,
+    "base_fare_revenue": 2274258.2700000135
+  },
+  {
+    "date": "2026-03-10",
+    "trip_count": 121993,
+    "base_fare_revenue": 2643846.77999998
+  },
+  {
+    "date": "2026-03-11",
+    "trip_count": 125693,
+    "base_fare_revenue": 2652489.4199999766
+  },
+  {
+    "date": "2026-03-12",
+    "trip_count": 150123,
+    "base_fare_revenue": 3299018.159999948
+  },
+  {
+    "date": "2026-03-13",
+    "trip_count": 137577,
+    "base_fare_revenue": 2911622.9799997457
+  },
+  {
+    "date": "2026-03-14",
+    "trip_count": 139552,
+    "base_fare_revenue": 2827663.5499996217
+  },
+  {
+    "date": "2026-03-15",
+    "trip_count": 115745,
+    "base_fare_revenue": 2519174.1999997133
+  },
+  {
+    "date": "2026-03-16",
+    "trip_count": 106643,
+    "base_fare_revenue": 2259121.2099999045
+  },
+  {
+    "date": "2026-03-17",
+    "trip_count": 121437,
+    "base_fare_revenue": 2706810.189999991
+  },
+  {
+    "date": "2026-03-18",
+    "trip_count": 137529,
+    "base_fare_revenue": 2940924.5599999498
+  },
+  {
+    "date": "2026-03-19",
+    "trip_count": 141515,
+    "base_fare_revenue": 3085916.300000006
+  },
+  {
+    "date": "2026-03-20",
+    "trip_count": 132472,
+    "base_fare_revenue": 2881072.0299998615
+  },
+  {
+    "date": "2026-03-21",
+    "trip_count": 132282,
+    "base_fare_revenue": 2809662.9999998948
+  },
+  {
+    "date": "2026-03-22",
+    "trip_count": 112901,
+    "base_fare_revenue": 2552425.18999979
+  },
+  {
+    "date": "2026-03-23",
+    "trip_count": 101833,
+    "base_fare_revenue": 2165025.920000014
+  },
+  {
+    "date": "2026-03-24",
+    "trip_count": 113662,
+    "base_fare_revenue": 2406772.4999997616
+  },
+  {
+    "date": "2026-03-25",
+    "trip_count": 116611,
+    "base_fare_revenue": 2464060.669999881
+  },
+  {
+    "date": "2026-03-26",
+    "trip_count": 123069,
+    "base_fare_revenue": 2642173.319999987
+  },
+  {
+    "date": "2026-03-27",
+    "trip_count": 120699,
+    "base_fare_revenue": 2540832.7399999937
+  },
+  {
+    "date": "2026-03-28",
+    "trip_count": 130659,
+    "base_fare_revenue": 2635228.309999981
+  },
+  {
+    "date": "2026-03-29",
+    "trip_count": 106440,
+    "base_fare_revenue": 2285026.479999862
+  },
+  {
+    "date": "2026-03-30",
+    "trip_count": 97063,
+    "base_fare_revenue": 2046889.969999765
+  },
+  {
+    "date": "2026-03-31",
+    "trip_count": 109279,
+    "base_fare_revenue": 2258649.2699998165
+  }
+]

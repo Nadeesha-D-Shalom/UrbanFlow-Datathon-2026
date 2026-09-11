@@ -2,7 +2,10 @@
 numpy
 pandas
 pyarrow
+polars==1.44.2
 scikit-learn
+lightgbm==4.7.0
+joblib
 matplotlib
 seaborn
 jupyterlab

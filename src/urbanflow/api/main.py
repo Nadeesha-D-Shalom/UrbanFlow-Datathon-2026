@@ -6,6 +6,7 @@ import numpy as np
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
+from src.urbanflow.api.routes.duration import router as duration_router
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[3]
@@ -25,6 +26,8 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+app.include_router(duration_router)
 
 
 class FarePredictionRequest(BaseModel):

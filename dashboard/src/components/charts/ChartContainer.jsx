@@ -7,7 +7,10 @@ export function ChartContainer({
   type = "line",
   label = "Trips",
   unit = "M",
-  max = 2,
+  max: suppliedMax,
+  displayDivisor = 1,
+  valueFormatter,
+  provenance = "Illustrative sample",
   forecastStart,
   uncertainty = [],
   summary,
@@ -15,6 +18,11 @@ export function ChartContainer({
   const [hover, setHover] = useState(null),
     id = useId().replaceAll(":", "");
   if (!data.length) return <EmptyState />;
+  const max = suppliedMax ?? Math.max(
+    1,
+    [...data, ...comparison].reduce((largest, point) => Math.max(largest, point.value), 0),
+    uncertainty.reduce((largest, point) => Math.max(largest, point.upper), 0),
+  ) * 1.1;
   if (!Number.isFinite(max) || max <= 0 || data.some((point) => !Number.isFinite(point.value) || point.value < 0 || point.value > max)) {
     return <ErrorState description="Chart values are outside the supported range." />;
   }
@@ -24,6 +32,9 @@ export function ChartContainer({
     right = 584,
     top = 18,
     bottom = 180;
+  const pointWidth = Math.min(18, (right - left) / Math.max(data.length - 1, 1));
+  const barWidth = Math.min(16, pointWidth * 0.8);
+  const formatValue = valueFormatter || ((value) => `${value.toFixed(2)}${unit}`);
   const x = (i) => left + (i * (right - left)) / Math.max(data.length - 1, 1),
     y = (value) => bottom - (value / max) * (bottom - top);
   const path = (values) =>
@@ -52,7 +63,7 @@ export function ChartContainer({
         viewBox={`0 0 ${width} ${height}`}
         aria-label={
           summary ||
-          `${label}, illustrative sample. Focus each point for values.`
+          `${label}, ${provenance}. Focus each point for values.`
         }
         onMouseLeave={() => setHover(null)}
       >
@@ -73,7 +84,7 @@ export function ChartContainer({
               strokeDasharray="3 4"
             />
             <text x={left - 10} y={y((max * i) / 4) + 4} textAnchor="end">
-              {((max * i) / 4).toFixed(1)}
+              {((max * i) / 4 / displayDivisor).toFixed(displayDivisor === 1 ? 1 : 2)}
             </text>
           </g>
         ))}
@@ -137,9 +148,9 @@ export function ChartContainer({
           <g key={d.label}>
             {type === "bar" && (
               <rect
-                x={x(i) - 8}
+                x={x(i) - barWidth / 2}
                 y={y(d.value)}
-                width="16"
+                width={barWidth}
                 height={bottom - y(d.value)}
                 rx="3"
                 fill={hover === i ? "#1d4ed8" : "#2563eb"}
@@ -160,14 +171,14 @@ export function ChartContainer({
             />
             <rect
               className="chart-hit"
-              x={x(i) - 9}
+              x={x(i) - pointWidth / 2}
               y={top}
-              width="18"
+              width={pointWidth}
               height={bottom - top}
               fill="transparent"
               tabIndex="0"
               role="img"
-              aria-label={`${d.label}: ${d.value.toFixed(2)} ${unit} ${label}`}
+              aria-label={`${d.label}: ${formatValue(d.value)} ${label}`}
               onFocus={() => setHover(i)}
               onBlur={() => setHover(null)}
               onMouseEnter={() => setHover(i)}
@@ -187,20 +198,18 @@ export function ChartContainer({
           <span>
             {label}{" "}
             <b>
-              {selected.value.toFixed(2)}
-              {unit}
+              {formatValue(selected.value)}
             </b>
           </span>
           {comparison[hover] && (
             <span>
               Previous{" "}
               <b>
-                {comparison[hover].value.toFixed(2)}
-                {unit}
+                {formatValue(comparison[hover].value)}
               </b>
             </span>
           )}
-          <small>Illustrative sample</small>
+          <small>{provenance}</small>
         </div>
       )}
     </div>

@@ -259,9 +259,7 @@ export function Sidebar({
 
         <div className="sidebar__footer">
           <div className="sidebar__support">
-            <span className="status-dot status-dot--info" />
             <div>
-              <strong>Design preview</strong>
               <p>SLIIT Codefest Datathon 2026</p>
             </div>
           </div>
